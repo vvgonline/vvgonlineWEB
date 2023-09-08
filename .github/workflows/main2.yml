@@ -27,8 +27,7 @@ jobs:
 
       # Publishes Blazor project to the release-folder
       - name: Publish .NET Core Project
-        run: dotnet publish vvgonlineWEB.csproj -c:Release -p:GHPages=true -o --nologo
-
+        run: dotnet publish vvgonlineWEB.csproj -c Release -o release --nologo
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
