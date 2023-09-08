@@ -1,0 +1,9 @@
+#The first line that needs to be added is the 'name' property
+name: Deploy to GitHub Pages
+
+#Next, one needs to specify what will trigger the workflow
+# Run workflow on every push to the master branch
+#These lines instruct GitHub Actions to run the workflow on every Git push to the master branch.
+on:
+  push:
+    branches: [ master ]
