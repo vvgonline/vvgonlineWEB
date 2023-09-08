@@ -12,9 +12,9 @@ jobs:
     steps:
       # Checkout the code
       - uses: actions/checkout@v2
-        with:
-          lfs: true
-          token: ${{ secrets.ACCESS_TOKEN }}
+        #with:
+        #  lfs: true
+        #  token: ${{ secrets.ACCESS_TOKEN }}
 
       # Install .NET Core SDK
       - name: Setup .NET Core
