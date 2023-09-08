@@ -21,11 +21,11 @@ jobs:
         with:
           dotnet-version:  7.0.400
 
-      # Install dotnet wasm buildtools workload
+      # Install dotnet wasm build-tools workload
       - name: Install .NET WASM Build Tools
         run: dotnet workload install wasm-tools
 
-      # Publishes Blazor project to the release-folder
+      # Publishes Blazor project to the release folder
       - name: Publish .NET Core Project
         run: dotnet publish vvgonlineWEB.csproj -c Release -o release --nologo
       - name: Commit wwwroot to GitHub Pages
