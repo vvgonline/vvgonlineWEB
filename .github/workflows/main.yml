@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       packages: write
     steps:
       # Checkout the code
@@ -30,7 +30,7 @@ jobs:
 
       # Publishes Blazor project to the release-folder
       - name: Publish .NET Core Project
-        run: dotnet publish vvgonlineWEB.csproj -c release -p:GHPages=true -o release --nologo
+        run: dotnet publish vvgonlineWEB.csproj -c Release -p:GHPages=true -o release --nologo
 
         # changes the base-tag in index.html from '/' to 'BlazorGitHubPagesDemo' to match GitHub Pages repository subdirectory
       - name: Change base-tag in index.html from / to vvgonlineWEB
@@ -38,17 +38,17 @@ jobs:
       # copy index.html to 404.html to serve the same file when a file is not found
       - name: copy index.html to 404.html
         run: cp release/wwwroot/index.html release/wwwroot/404.html
-
-
+        
         # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
 
         # publishes wwwroot directory to GitHub Pages
       - name: wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: release/wwwroot # The folder the action should deploy.
           CLEAN: true
+    
