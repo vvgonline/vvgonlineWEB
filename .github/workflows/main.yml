@@ -43,8 +43,9 @@ jobs:
 
         # publishes wwwroot directory to GitHub Pages
       - name: wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages # The branch the action should deploy to.
-          folder: release/wwwroot # The folder the action should deploy.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: release/wwwroot # The folder the action should deploy.
+          CLEAN: true
