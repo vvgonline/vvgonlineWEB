@@ -1,8 +1,13 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url("https://use.typekit.net/snq2znx.css");
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    
+    font-family: 'Cormorant Garamond', serif;
+    /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
+
+p {
+    font-family: 'Proza Libre', sans-serif;
 }
 
 h1:focus {
@@ -105,8 +110,9 @@ a, .btn-link {
     border-radius: .75rem !important;
 }
 
-h1, h2 ,h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #ed553b;
+    font-family: 'Kanit', sans-serif;
 }
 
 b, strong {
@@ -115,4 +121,17 @@ b, strong {
 
 .btn-secondary{
     color: #fff;
+}
+
+/* kanit */
+.kanitBlack {
+    font-family: "kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.KanitBlackItalic {
+    font-family: "kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
