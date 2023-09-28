@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "Microsoft.AspNetCore.Components.dll": "sha256-Bt8uo5gkjno12+lgD3NQYTDc5cOnC9stCmbQoUGynSs=",
-      "Microsoft.AspNetCore.Components.Web.dll": "sha256-r0YBuWGUlaHUh2Z23twt81FC7qrTbOMZKoaD\/dgspW4=",
+      "Microsoft.AspNetCore.Components.Web.dll": "sha256-6rFtTrcDYigrQdKqhDTsv48k9rpZT6BfC5wO1stISYQ=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-GthKrHcSc8uOL6XXkGQP6uGfESlsj9kHhiGlLA+w5iM=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-X\/f4fDl2cuIRXeWHhK\/f2UqQbFioD+RU4a4CEh0zrrQ=",
       "Microsoft.Extensions.Configuration.dll": "sha256-DBOKSPriP2JDxVbbWrLXyD3K4\/x3RBifNBWk\/q1I39M=",
@@ -34,7 +34,7 @@
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-dbqGRcWgNMOjykoJjO8s\/ZdZBoyVrcrE\/FLNjf\/YZu8=",
       "System.Text.Encodings.Web.dll": "sha256-0cl9ZIr5FPoIXavnB5DaVQBTriPrXIR6uaSZwESfOX8=",
       "System.Text.Json.dll": "sha256-DFOt7rEJ7GRMn+lUJDTCZGFPPPcRp0C\/Wn11AbXfqYY=",
-      "vvgonlineWEB.dll": "sha256-3Ko7wrNGcOIbjuaiC2NwZSU6VCv+T0VSvHLqM5yX9Qw="
+      "vvgonlineWEB.dll": "sha256-CZ5MJ2c7TQ6YnMf56WXN95seH\/l7nrUtzWEFAL5aJYI="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -43,7 +43,7 @@
     "runtime": {
       "dotnet.7.0.11.fztsx2hvmh.js": "sha256-nNINEcRyRd+yMDM01gc8974md7lu8yM2flWQZZvKN7M=",
       "dotnet.timezones.blat": "sha256-gIJRsMe\/q4cM8EeOn+wrpfipBqBOq0niTDjqSBdXsVI=",
-      "dotnet.wasm": "sha256-g7xcpfnP1CypMGdgNPUKnkCnHFZQtdrjYW\/ZfZfM1Lc=",
+      "dotnet.wasm": "sha256-m0zNbBB2svtYFhA2sLlduCwcc5je5LR51ASFhbjFmpg=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37\/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs=",
@@ -52,7 +52,7 @@
     "runtimeAssets": {
       "dotnet.wasm": {
         "behavior": "dotnetwasm",
-        "hash": "sha256-g7xcpfnP1CypMGdgNPUKnkCnHFZQtdrjYW\/ZfZfM1Lc="
+        "hash": "sha256-m0zNbBB2svtYFhA2sLlduCwcc5je5LR51ASFhbjFmpg="
       }
     },
     "satelliteResources": null
