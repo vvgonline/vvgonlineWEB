@@ -3,6 +3,22 @@
 <PageTitle>
     12 Principles of Agile
 </PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="Agile is one approach to project management, while Scrum is a type of Agile methodology." />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="Agile is one approach to project management, while Scrum is a type of Agile methodology." />
+    <meta property="og:image" content="https://www.nvisia.com/hubfs/Agile-Process-Assessment.png" />
+</HeadContent>
 
 <!-- header -->
 <header>

@@ -1,6 +1,23 @@
 @page "/ScrumAgile"
 
 <PageTitle>VVGonline's take on SCRUM vs Agile</PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="Both of these terms Scrum and Agile are being used interchangeably, which can be confusing. Let’s take a closer look at what makes Scrum and Agile important, and how and when you should implement them in project management. " />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="Both of these terms Scrum and Agile are being used interchangeably, which can be confusing. Let’s take a closer look at what makes Scrum and Agile important, and how and when you should implement them in project management. " />
+    <meta property="og:image"
+        content="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.MY3V-D5MFrx7ynYp3d2KZAHaD4%26pid%3DApi&f=1&ipt=967bfa55e49cd0e6687464db35cc9bc97962c49859ef3f56aed8f7d28e205e72&ipo=images" />
+</HeadContent>
 
 <header class="container py-5">
     <!--TODO: write a SCRUM and Agile intro -->

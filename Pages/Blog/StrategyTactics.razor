@@ -1,6 +1,24 @@
 @page "/strategytactics"
 
 <PageTitle>VVGonline's take on Strategy vs Tactics</PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="Decision making has two parts strategy and tactics both of these terms are borrowed in business from military terminology taken from a book 'Art of War' by Sun Tzu. These terms helps to build and execute business decisions. />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="Decision making has two parts strategy and tactics both of these terms are borrowed in business from military terminology taken from a book "Art of War" by Sun Tzu. These terms helps to build and execute business decisions. " />
+    <meta property="og:image" content="https://i1.wp.com/mckoysnews.com/wp-content/uploads/2019/11/The-Art-of-War-by-Sun-Tzu.jpg" />
+</HeadContent>
+
+
 <div class="container py-5">
 
     <h2>VVGonline's take on Strategy vs Tactics</h2>
