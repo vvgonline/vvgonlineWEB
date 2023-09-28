@@ -1,4 +1,21 @@
 @page "/about"
+<PageTitle>VVGonline - About</PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/47851006?v=4" />
+</HeadContent>
 
 <PageTitle>VVGonline is a digital business consultant</PageTitle>
 
@@ -6,23 +23,25 @@
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             @* <div>
-                <img src="./svg/vvgonline-logo.svg" alt="VVGonline" style="width: 80%; height:80%;" >
+            <img src="./svg/vvgonline-logo.svg" alt="VVGonline" style="width: 80%; height:80%;" >
             </div> *@
             <h2 class="fw-light">About Vaibhav V. Gupta</h2>
             <p class="lead text-muted">
                 Vaibhav V. Gupta is a digital business consultant who is passionate about providing quality, and one
-                stop digital solutions. In his time of 15 years he has gained experience and expertise creating customer advantage in all things — <a href="">Design thinking</a>, <a href="">Digital Development</a>, <a
+                stop digital solutions. In his time of 15 years he has gained experience and expertise creating customer
+                advantage in all things — <a href="">Design thinking</a>, <a href="">Digital Development</a>, <a
                     href="">Digital Marketing</a> and <a href="itmtraining"
                     title="intro to Information Technology management">Information Technology management Training</a>.
             </p>
             <article>
                 <p>
-                Although it refers to a multitude of services, digital business consulting primarily focuses on
-                efficiently implementing business strategies across digital platforms.
-            </p>
-            <div>
-                VVGonline is an authentice represntation of Vaibhav V. Gupta's knowledge and his team that wishes to share their expertise with clients, professionals & students.
-            </div>
+                    Although it refers to a multitude of services, digital business consulting primarily focuses on
+                    efficiently implementing business strategies across digital platforms.
+                </p>
+                <div>
+                    VVGonline is an authentice represntation of Vaibhav V. Gupta's knowledge and his team that wishes to
+                    share their expertise with clients, professionals & students.
+                </div>
             </article>
         </div>
     </div>
@@ -53,8 +72,8 @@
         </div>
         <h3 class="fs-2">hire me as Digital Development expert</h3>
         <p>Mvp: minimal vaible product to most valued product. And, how VVGonline's <a href="PrinciplesOfAgile">
-            Agile Methodology
-        </a> makes it happen
+                Agile Methodology
+            </a> makes it happen
             for you?
         </p>
         <a href="#" title="hire me as Digital Development expert" class="icon-link d-inline-flex align-items-center">
@@ -64,7 +83,7 @@
     <div class="feature col">
         <div
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-            <img src="./svg/cart.svg" style="width: 3em; heigh:auto; color:#fff" class="img-fluid"/>
+            <img src="./svg/cart.svg" style="width: 3em; heigh:auto; color:#fff" class="img-fluid" />
         </div>
         <h3 class="fs-2">hire me as Digital Marketing expert</h3>
         <p>What is marketing : when you are able to clear doubts about you, products /services offered and build
@@ -77,7 +96,7 @@
     <div class="feature col">
         <div
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-            <img src="./svg/sun.svg" style="width: 3em; heigh:auto; color:#fff" class="img-fluid"/>
+            <img src="./svg/sun.svg" style="width: 3em; heigh:auto; color:#fff" class="img-fluid" />
         </div>
         <h3 class="fs-2">hire me as Technology management Trainer</h3>
         <p>Guru is a celestial being. One grows infinitely in his presence.</p>

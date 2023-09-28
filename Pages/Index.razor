@@ -2,10 +2,27 @@
 
 <PageTitle>welcome to VVGonline</PageTitle>
 
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/47851006?v=4" />
+</HeadContent>
+
 <div class="text-center py-5">
     <h1 class="display-5 fw-bold"> Namaste 🙏, I'm Vaibhav V. Gupta
         <span>
-            <a href="https://github.com/vvgonline">
+            <a href="https://github.com/vvgonline" target="_blank">
                 <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true"
                     style="width: 1em; height: 1em; display: inline-block; transition: fill 200ms cubic-bezier(.4,0,.2,1) 0ms; flex-shrink: 0;user-select: none;"><!--!-->
                     <path
@@ -15,7 +32,7 @@
             </a>
         </span>
     </h1>
-    @* 🎧🎮🎹 *@
+    @* 🎧 *@
     <p class="text-left lead text-muted">Welcome 👋.
         <br>
         VVGonline uses Information Technology management to create automation and transformation that results growth.
