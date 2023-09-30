@@ -1,57 +1,58 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="" title="VVG online" style="color:#fff;">
-            <span style="border: 2px solid #f6d55c; padding: 0; font-family: 'Gabarito', cursive; font-weight:900;">
-                &nbsp;VVG
-            </span>
-            <span
-                style=" border-bottom: 2px solid #f6d55c; margin-left:6px; font-family: 'Gabarito', serif; padding: 0;">
-                ONLINE
-            </span>
-            @* <span>
-            +
-            </span> *@
-            @* <span>
-            <img src="./svg/VVGonline-logo.svg" alt="VVGonline" style="vertical-align:middle" >
-            </span> *@
-        </a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <span>
+            <a class="navbar-brand" href="" title="VVG online" style="color:#fff;">
+                <span style="border: 2px solid #f6d55c; padding: 0; font-family: 'Gabarito', cursive; font-weight:900;">
+                    &nbsp;VVG
+                </span>
+                <span
+                    style=" border-bottom: 2px solid #f6d55c; margin-left:6px; font-family: 'Gabarito', serif; padding: 0;">
+                    ONLINE
+                </span>
+            </a>
+        </span>
+        @* hire me on nav *@
+        <span class="text-right">
+            <a href="about#hireme" class="btn btn-info">Hire Me</a>
+        </span>
+        @* uncomment when navbar toggle is fixed *@
+        @* <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+        </button> *@
     </div>
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            @* about link *@
-            <NavLink class="nav-link" href="about" title="About VVGonline">
-                <span class="" aria-hidden="true"></span> About
-            </NavLink>
-        </div>
-        @* TODO: uncomment when dev is done *@
-        @* <div class="nav-item px-3">
-        <NavLink class="nav-link" href="">
-        <span class="" aria-hidden="true"></span> Store
-        </NavLink>
-        </div> *@
-        @* hire us link *@
-        @* TODO: uncomment when dev is done *@
-        @* <div class="nav-item px-3">
-        <NavLink class="nav-link" href="about" title="Hire VVGonline team">
-        <span class="" aria-hidden="true" title="About VVGonline"></span> Hire us
-        </NavLink>
-        </div> *@
-    </nav>
-</div>
+@* <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+<nav class="flex-column">
+<div class="nav-item px-3">
+@* about link *@
+@* <NavLink class="nav-link" href="about" title="About VVGonline">
+<span class="" aria-hidden="true"></span> About
+</NavLink>
+</div> *@
+@* TODO: uncomment when dev is done *@
+@* <div class="nav-item px-3">
+<NavLink class="nav-link" href="">
+<span class="" aria-hidden="true"></span> Store
+</NavLink>
+</div> *@
+@* hire us link *@
+@* TODO: uncomment when dev is done *@
+@* <div class="nav-item px-3">
+<NavLink class="nav-link" href="about" title="Hire VVGonline team">
+<span class="" aria-hidden="true" title="About VVGonline"></span> Hire us
+</NavLink>
+</div> *@
+@* </nav> *@
+@* </div> *@
 
-@code {
-    private bool collapseNavMenu = true;
+@* @code {
+private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+private void ToggleNavMenu()
+{
+collapseNavMenu = !collapseNavMenu;
 }
+} *@
