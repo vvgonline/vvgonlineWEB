@@ -1,0 +1,83 @@
+@page "/contact"
+<PageTitle>VVGonline - contact</PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline - About" />
+    <meta name="og:description"
+        content="VVG is a digital business consultant who is passionate about providing quality, and one stop digital solutions." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/47851006?v=4" />
+</HeadContent>
+
+<div class="container">
+
+</div>
+
+<!--Section: Contact v.2-->
+<section class="mb-4">
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
+    <!--Section description-->
+    <p class="text-center text-muted mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+        directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.3362175089833!2d75.89160807599497!3d22.715741379390142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd318aad1fc3%3A0x7528e131c13e7520!2svvgonline.net!5e0!3m2!1sen!2sin!4v1696426882336!5m2!1sen!2sin"
+                style="border:0; height: 27.5em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="container"></iframe>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <h4>
+                contact details
+            </h4>
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>
+                        <span>
+                            <img src="./svg/phone.svg" alt="whatsapp only" style="width: 1.5em;">
+                        </span>
+                        <span>
+                            whatsapp only
+                            <a href="tel:+919893261959">
+                                +91 989 326 1959
+                            </a>
+                        </span>
+                    </p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>
+                        <span>
+                            <img src="./svg/envelope-closed.svg" alt="VVGonline" style="width: 1.5em; height: 1.5em;">
+                        </span>
+                        <span>
+                            <a href="mailto:vvgonline.net@gmail.com&subject=Reaching out to VVGonline"
+                                title="Contact VVGonline">
+                                vvgonline.net@gmail.com
+                            </a>
+                        </span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
