@@ -134,3 +134,7 @@ b, strong {
     font-weight: 900;
     font-style: italic;
 }
+
+.card{
+    border: 0;
+}
