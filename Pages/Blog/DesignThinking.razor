@@ -1,0 +1,152 @@
+@page "/DesignThinking"
+
+<PageTitle>
+    VVGonline provide introduction to Design Thinking
+</PageTitle>
+@inject NavigationManager _navManagr
+
+@* meta tags *@
+<HeadContent>
+    <meta name="description" content="VVGonline provide introduction to Design Thinking" />
+    @*Twitter specific meta tags *@
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@@VVGonline" />
+    @* OpenGraph meta tags *@
+    <meta name="og:url" content="@_navManagr.Uri" />
+    <meta name="og:title" content="VVGonline provide introduction to Design Thinking" />
+    <meta name="og:description" content="VVGonline provide introduction to Design Thinking" />
+    <meta property="og:image"
+        content="https://www.eyaldror.com/wp-content/uploads/2017/01/people-office-group-team-1200x795.jpg" />
+</HeadContent>
+
+<div class="container py-5">
+    <header class="text-center">
+        <h1>
+            Design Thinking
+        </h1>
+        <!-- intro -->
+        <div>
+            <p class="lead text-muted">
+                Design thinking is a problem-solving approach that has gained popularity in recent years. It is a
+                human-centric approach to innovation that involves understanding the needs of the user and
+                developing
+                solutions that meet those needs. In this article, we will explore the basics of design thinking and
+                its
+                applications.
+
+            </p>
+        </div>
+        <!-- TODO: insert banner image -->
+        <div>
+            <img src="" alt="Design Thinking" class="img-fluid">
+        </div>
+    </header>
+    <hr>
+    <!-- What is Design Thinking? -->
+    <div>
+        <h3>
+            What is Design Thinking?
+        </h3>
+
+        <p> Design thinking is a methodology that involves understanding the user’s needs, defining the
+            problem,ideating solutions, prototyping, and testing. It is a approach that involves cross-functional
+            teams working together to develop solutions that meet the user’s needs. The design thinking process
+            involves five stages:
+        <ul>
+            <li>
+                <b>
+                    Empathize:
+                </b>
+                In this stage, the team seeks to understand the user’s needs and challenges. This involves
+                conducting research, observing users, and gathering data.
+            </li>
+            <li>
+                <b>
+                    Define:
+                </b>
+                In this stage, the team defines the problem based on the insights gathered in the empathize stage.
+                The team creates a problem statement that guides the ideation process
+            </li>
+            <li>
+                <b>
+                    Ideate:
+                </b>
+                In this stage, the team generates ideas for solutions to the problem. The team uses brainstorming
+                techniques to generate a wide range of ideas.
+
+            </li>
+            <li>
+                <b>
+                    Prototype:
+                </b>
+                In this stage, the team creates a prototype of the solution. The prototype can be a physical model
+                or a digital representation of the solution.
+            </li>
+            <li>
+                <b>
+                    Test:
+                </b>
+                In this stage, the team tests the prototype with users to gather feedback. The feedback is used to
+                refine the solution and make improvements.
+            </li>
+        </ul>
+        </p>
+    </div>
+    <!-- Applications of Design Thinking -->
+    <div>
+        <h3>
+            Applications of Design Thinking
+        </h3>
+        <p>
+            Design thinking can be applied to a wide range of problems and challenges. It is commonly used in
+            product development, but it can also be used in other areas such as service design, organizational
+            change, and social innovation.
+            <br>
+            Here are some examples of how design thinking can be applied:
+        <ol>
+            <li>
+                <b>
+                    Product Development:
+                </b>
+                Design thinking can be used to develop new products or improve existing ones. By understanding the
+                user’s needs and challenges, teams can develop products that meet those needs.
+            </li>
+            <li>
+                <b>
+                    Service Design:
+                </b>
+                Design thinking can be used to design services that meet the user’s needs. By understanding the
+                user’s journey and pain points, teams can develop services that are more effective and efficient.
+            </li>
+            <li>
+                <b>
+                    Organizational Change:
+                </b>
+                Design thinking can be used to drive organizational change. By involving employees in the change
+                process and understanding their needs and challenges, teams can develop solutions that are more
+                effective.
+            </li>
+            <li>
+                <b>
+                    Social Innovation:
+                </b>
+                Design thinking can be used to address social challenges such as poverty, healthcare, and education.
+                By understanding the needs of communities and developing solutions that meet those needs, teams can
+                create positive social impact.
+            </li>
+        </ol>
+        </p>
+    </div>
+    <footer>
+        <p class="lead text-muted">
+            <b>
+                In conclusion
+            </b>, design thinking is a powerful problem-solving approach that can be applied to a wide
+            range of challenges. By understanding the user’s needs and developing solutions that meet those needs,
+            teams can create products and services that are more effective and efficient.
+        </p>
+    </footer>
+</div>
+
+@* about comp *@
+<AboutComp></AboutComp>
