@@ -1,8 +1,11 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html, body {
     font-family: 'Cormorant Garamond', serif;
-    /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
 
 p {
@@ -110,22 +113,21 @@ a, .btn-link {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ed553b;
+    /* color: #ed553b; */
     font-family: 'Kanit', sans-serif;
 }
 
-b, strong {
-	font-weight: bold;
-}
 
 .btn-secondary{
     color: #fff;
 }
 
 /* kanit */
-.kanitBlack {
-    font-family: "kanit", sans-serif;
-    font-weight: 900;
+.lead {
+    /* font-family: "kanit", sans-serif; */
+    font-family: 'Proza Libre', sans-serif;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -142,4 +144,8 @@ b, strong {
 hr{
     border-color: rgba(0,0,0,1);
     border-top-width: 10px;
+}
+
+.bg-gray-100 {
+    background-color: rgba(243,244,246,1);
 }

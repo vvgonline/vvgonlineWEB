@@ -1,23 +1,19 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    @* <div class="sidebar">
-    <NavMenu />
-    </div> *@
-
-    <main role="main">
-        @* top row *@
-        <NavMenu />
-        @* <div class="top-row">
-
-        </div> *@
-        @* main content *@
-        <article class="container content px-4 py-5">
-            @Body
-        </article>
-        <footer class="container-fluid">
-            @* footer comp *@
-            <FooterComp></FooterComp>
-        </footer>
-    </main>
+@* <div class="sidebar">
+<NavMenu />
 </div>
+<div class="page">
+</div> *@
+<main role="main">
+    @* top row *@
+    <NavMenu />
+    @* main content *@
+    <section class="container content px-4 py-5">
+        @Body
+    </section>
+</main>
+<footer class="container-fluid">
+    @* footer comp *@
+    <FooterComp></FooterComp>
+</footer>
