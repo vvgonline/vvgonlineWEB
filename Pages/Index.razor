@@ -1,7 +1,6 @@
 ﻿@page "/"
 
 <PageTitle>welcome to VVGonline</PageTitle>
-
 @inject NavigationManager _navManagr
 
 @* meta tags *@
@@ -20,78 +19,83 @@
 </HeadContent>
 
 @* blog list *@
-<div class="container py-5">
-    <header>
+<header>
+    <article>
         <h1 class="display-1">
             New at VVGonline
         </h1>
         <p class="lead">
             Explore our ideas in 10 minutes or less
         </p>
-        <div class="row" style="z-index: 0;">
-            @* <p class="h5">
-            TRENDING INSIGHTS
-            </p> *@
-            @* Tactics vs Strategy *@
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <a href="strategytactics">
-                            <img class="img-fluid rounded"
-                                src="https://i1.wp.com/mckoysnews.com/wp-content/uploads/2019/11/The-Art-of-War-by-Sun-Tzu.jpg"
-                                alt="Card image cap">
-                            <h5>Tactics vs Strategy</h5>
-                        </a>
-                        <p class="card-text">Decision making has two essential parts let's explore both terms from
-                            business'
-                            POV.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            @* col-itm pf *@
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <a href="ItmPF">
-                            <img class="card-img-top img-fluid rounded"
-                                src="https://github.com/vvgonline/vvgonlineWEB/blob/main/wwwroot/images/banners/ItmPF.png?raw=true"
-                                alt="Card image cap">
-                            <h5 class="card-title">IT Present & Future</h5>
-                        </a>
-
-                        <p class="card-text">
-                            VVGonline explains IT Management Present & Future.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            @* about *@
-            <div class="col">
-                <div class="card">
-                    <div>
-                        <a href="about">
-                            <img class="img-fluid rounded-circle"
-                                src="https://avatars.githubusercontent.com/u/47851006?v=4" alt="About Author">
-                            <div class="card-text py-3 btn btn-defualt">
-                                <div class="lead fs-4 py-2">
-                                    About Author
-                                </div>
-                                Vaibhav is a Digital Business
-                                Consultant who is passionate about
-                                providing
-                                quality, and one stop digital solutions — Design thinking , Digital Marketing and
-                                Information
-                                Technology management.
-                            </div>
-                        </a>
-                    </div>
+        <hr>
+    </article>
+    <div class="row" style="z-index: 0;">
+        @* <p class="h5">
+        TRENDING INSIGHTS
+        </p> *@
+        @* Tactics vs Strategy *@
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <a href="strategytactics">
+                        <img class="img-fluid rounded"
+                            src="https://i1.wp.com/mckoysnews.com/wp-content/uploads/2019/11/The-Art-of-War-by-Sun-Tzu.jpg"
+                            alt="Card image cap">
+                        <h5>Tactics vs Strategy</h5>
+                    </a>
+                    <p class="card-text">Decision making has two essential parts let's explore both terms from
+                        business'
+                        POV.
+                    </p>
                 </div>
             </div>
         </div>
-    </header>
-</div>
-<hr>
-<div class="row py-3">
-    <BlogListComp></BlogListComp>
-</div>
+        @* col-itm pf *@
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <a href="ItmPF">
+                        <img class="card-img-top img-fluid rounded"
+                            src="https://github.com/vvgonline/vvgonlineWEB/blob/main/wwwroot/images/banners/ItmPF.png?raw=true"
+                            alt="Card image cap">
+                        <h5 class="card-title">IT Present & Future</h5>
+                    </a>
+
+                    <p class="card-text">
+                        VVGonline explains IT Management Present & Future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <BlogListComp></BlogListComp>
+        </div>
+        @* about *@
+        <div class="col-sm-4">
+            <div class="card">
+                <div>
+                    <a href="about">
+                        <img class="img-fluid rounded-circle" src="https://avatars.githubusercontent.com/u/47851006?v=4"
+                            alt="About Author">
+                        <div class="card-text py-3 btn btn-defualt">
+                            <div class="lead fs-4 py-2">
+                                About Author
+                            </div>
+                            Vaibhav is a Digital Business
+                            Consultant who is passionate about
+                            providing
+                            quality, and one stop digital solutions — Design thinking , Digital Marketing and
+                            Information
+                            Technology management.
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
