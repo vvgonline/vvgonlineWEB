@@ -67,7 +67,10 @@
 }
 /* #endregion animation */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  scrollbar-color: rgb(14, 44, 64) rgb(0, 0, 0);
 }
 
 /* Track */
@@ -106,8 +109,17 @@ html body {
   /* #region skills-accordian-card*/
   /* #endregion skills-accordian-card*/
 }
+html body hr {
+  border-color: rgb(0, 0, 0);
+  border-top-width: 10px;
+}
 html body p {
   font-family: "Proza Libre", sans-serif;
+}
+html body p .lead {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 html body a {
   letter-spacing: 0.1rem;
@@ -128,6 +140,20 @@ html body h6 {
   letter-spacing: 0.1rem;
   font-weight: 900;
   padding: 1rem 0;
+}
+html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html body .h6 {
+  font-family: "Ubuntu Mono", monospace;
+  color: rgb(255, 183, 207);
+  border-left: 3px solid rgb(255, 183, 207);
+}
+html body blockquote, html body figure {
+  font-family: "Kanit", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  color: rgb(246, 228, 65);
+  font-size: 3rem;
+}
+html body blockquote .blockquote, html body figure .blockquote {
+  font-size: 5rem;
 }
 html body .social-icons a {
   font-size: 16px;
@@ -174,15 +200,15 @@ html body main .renderBody {
 }
 html body .design-card-header {
   color: #fff;
-  background-color: rgb(255, 55, 122);
+  background-color: rgb(255, 119, 164);
 }
 html body .code-card-header {
   color: #000;
-  background-color: rgb(246, 228, 65);
+  background-color: rgb(246, 240, 188);
 }
 html body .market-card-header {
   color: #000;
-  background-color: rgb(55, 176, 255);
+  background-color: rgb(17, 161, 255);
 }
 html body .train-card-header {
   color: #fff;
@@ -192,70 +218,9 @@ html body .play-card-header {
   color: #fff;
   background-color: rgb(14, 44, 64);
 }
-html body ul li {
+html body ol li, html body ul li {
   line-height: 2em;
 }
-
-/* ---------------------------------
-* This file contains all shared
-* styles related to the footer of
-* the site/application.
-----------------------------------*/
-/* ---------------------------------
-* This file contains all styles
-* related to the header of the
-* site/application.
-----------------------------------*/
-header {
-  border-top: 5px solid rgb(14, 44, 64);
-}
-
-nav {
-  border-bottom: 51rem solid rgb(246, 234, 127);
-}
-
-/* ---------------------------------
-* This file contains all styles
-* related to the footer of the
-* site/application.
-----------------------------------*/
-footer {
-  bottom: 0 !important;
-  height: auto;
-  width: 100%;
-  color: black !important;
-  background-color: rgba(246, 234, 127, 0.75);
-  padding-bottom: 2rem;
-  border-bottom: 1rem solid rgb(246, 234, 127);
-}
-footer a {
-  color: inherit;
-}
-
-/* ---------------------------------
-* This file contains all styles
-* related to the index page of the
-* site/application.
-----------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-}
-html, body {
-  font-family: "Cormorant Garamond", serif;
-}
-html p, body p {
-  font-family: "Proza Libre", sans-serif;
-}
-html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
-  /* color: #ed553b; */
-  font-family: "Kanit", sans-serif;
-}
-html hr, body hr {
-  border-color: rgb(0, 0, 0);
-  border-top-width: 10px;
-}
-
 h1:focus {
   outline: none;
 }
@@ -355,16 +320,50 @@ a, .btn-link {
   border-radius: 0.75rem !important;
 }
 
-.lead {
-  /* font-family: "kanit", sans-serif; */
-  font-family: "Proza Libre", sans-serif;
-  /* font-family: 'Cormorant Garamond', serif; */
-  font-weight: 400;
-  font-style: normal;
-}
-
 .card {
   border: 0;
   color: inherit;
   background-color: transparent;
-}/*# sourceMappingURL=app.css.map */
+}
+
+/* ---------------------------------
+* This file contains all shared
+* styles related to the footer of
+* the site/application.
+----------------------------------*/
+/* ---------------------------------
+* This file contains all styles
+* related to the header of the
+* site/application.
+----------------------------------*/
+header {
+  border-top: 5px solid rgb(14, 44, 64);
+}
+
+nav {
+  border-top: 0.25rem solid rgb(246, 234, 127);
+}
+
+/* ---------------------------------
+* This file contains all styles
+* related to the footer of the
+* site/application.
+----------------------------------*/
+footer {
+  bottom: 0 !important;
+  height: auto;
+  width: 100%;
+  color: black !important;
+  background-color: rgba(246, 234, 127, 0.75);
+  padding-bottom: 2rem;
+  border-bottom: 1rem solid rgb(246, 234, 127);
+}
+footer a {
+  color: inherit;
+}
+
+/* ---------------------------------
+* This file contains all styles
+* related to the index page of the
+* site/application.
+----------------------------------*//*# sourceMappingURL=app.css.map */
