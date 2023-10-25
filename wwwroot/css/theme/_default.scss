@@ -65,12 +65,14 @@ html {
         a {
             letter-spacing: 0.1rem;
             text-transform: uppercase;
+
+            a:hover {
+                color: inherit;
+                background-color: rgba(0, 0, 0, 0.15);
+            }
         }
 
-        a:hover {
-            color: inherit;
-            background-color: rgba(0, 0, 0, 0.15);
-        }
+        
         // #region heading
         h1,
         h2,
@@ -81,8 +83,13 @@ html {
             font-family: 'Kanit', sans-serif;
             color: $prime-4;
             letter-spacing: 0.1rem;
-            font-weight: 900;
             padding: 1rem 0;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 900;
+            line-height: 1;
         }
 
         .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -96,10 +103,10 @@ html {
             font-family: 'Kanit', sans-serif;
             font-family: 'Cormorant Garamond', serif;
             color: $prime-3;
-            font-size: 3rem;
+            font-size: 1.75rem;
 
             .blockquote {
-                font-size: 5rem;
+                font-size: 1.75rem;
             }
         }
 
