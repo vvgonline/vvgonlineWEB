@@ -51,18 +51,12 @@
         <g
            id="g3"
            transform="translate(16.651489)">
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:25.4px;font-family:Kanit;-inkscape-font-specification:'Kanit, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-             x="96.268265"
-             y="172.61497"
+          <path
+             d="m 105.41226,172.86897 q -2.7686,0 -4.7244,-0.8128 -1.955795,-0.8382 -2.997195,-2.69239 -1.0414,-1.8542 -1.0414,-4.9276 0,-3.0988 1.0414,-4.9276 1.0414,-1.8542 2.997195,-2.667 1.9558,-0.8382 4.7244,-0.8382 2.7686,0 4.7244,0.8382 1.9558,0.8128 2.9972,2.667 1.0414,1.8288 1.0414,4.9276 0,3.0734 -1.0414,4.9276 -1.0414,1.85419 -2.9972,2.69239 -1.9558,0.8128 -4.7244,0.8128 z m 0,-5.20699 q 1.3462,0 1.905,-0.7112 0.5842,-0.7366 0.5842,-2.5146 0,-1.778 -0.5842,-2.4892 -0.5588,-0.7366 -1.905,-0.7366 -1.3462,0 -1.9304,0.7366 -0.5588,0.7112 -0.5588,2.4892 0,1.778 0.5588,2.5146 0.5842,0.7112 1.9304,0.7112 z"
              id="text2"
-             inkscape:label="ONLINE"><tspan
-               sodipodi:role="line"
-               id="tspan2"
-               style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-               x="96.268265"
-               y="172.61497">O</tspan></text>
+             style="font-weight:900;font-size:25.4px;font-family:Kanit;-inkscape-font-specification:'Kanit, Heavy';fill:#ffffff;stroke-width:0.264583"
+             inkscape:label="ONLINE"
+             aria-label="O" />
           <rect
              style="fill:#9e590d;fill-opacity:0;fill-rule:evenodd;stroke:#9e590d;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
              id="rect3"
@@ -73,18 +67,12 @@
         </g>
         <g
            id="g3-0">
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:25.4px;font-family:Kanit;-inkscape-font-specification:'Kanit, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:2.5;stroke-dasharray:none"
-             x="84.287079"
-             y="173.14415"
+          <path
+             d="m 90.967279,173.14415 -6.2992,-16.3576 h 6.4008 l 3.0734,9.0932 3.0988,-9.0932 h 6.400801 l -6.299201,16.3576 z"
              id="text1"
-             inkscape:label="VVG"><tspan
-               sodipodi:role="line"
-               id="tspan1"
-               style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:25.4px;font-family:Kanit;-inkscape-font-specification:'Kanit, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.5;stroke-dasharray:none"
-               x="84.287079"
-               y="173.14415">V</tspan></text>
+             style="font-weight:900;font-size:25.4px;font-family:Kanit;-inkscape-font-specification:'Kanit, Heavy';fill:#ffffff;stroke-width:2.5"
+             inkscape:label="VVG"
+             aria-label="V" />
           <rect
              style="fill:#000000;fill-opacity:0;stroke:#9e590d;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
              id="rect2"
