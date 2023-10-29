@@ -70,7 +70,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scrollbar-color: rgb(14, 44, 64) rgb(0, 0, 0);
+  scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
 }
 
 /* Track */
@@ -97,6 +97,7 @@ html {
 }
 html body {
   background-image: linear-gradient(45deg, rgb(36, 25, 45), rgb(77, 26, 25));
+  background-image: url("../../images/bg/vvgonline-grad-bg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -193,8 +194,8 @@ html body .social-icons a.reddit-logo {
   color: rgb(255, 96, 0);
 }
 html body hr {
-  border-color: rgba(255, 255, 255, 0.25);
-  border-top-width: 5px;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-top-width: 10px;
 }
 html body main {
   min-height: 100%;
@@ -340,12 +341,9 @@ a, .btn-link {
 * related to the header of the
 * site/application.
 ----------------------------------*/
-header {
-  border-top: 5px solid rgb(14, 44, 64);
-}
-
 nav {
   border-top: 0.25rem solid rgb(246, 234, 127);
+  background-color: transparent;
 }
 
 /* ---------------------------------

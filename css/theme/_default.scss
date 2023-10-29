@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scrollbar-color: $bg-2 $bg-1;
+    scrollbar-color: $prime-1 $prime-3;
 }
 
 /* Track */
@@ -37,6 +37,7 @@ html {
 
     body {
         background-image: linear-gradient(45deg, $start-color, $stop-color);
+background-image: url('../../images/bg/vvgonline-grad-bg.svg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
