@@ -149,7 +149,7 @@ html body h1 {
 html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html body .h6 {
   font-family: "Ubuntu Mono", monospace;
   color: rgb(255, 183, 207);
-  border-left: 3px solid rgb(255, 183, 207);
+  border-left: 3px solid rgb(255, 17, 97);
 }
 html body blockquote, html body figure {
   font-family: "Kanit", sans-serif;
