@@ -1,4 +1,4 @@
-@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
+﻿@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
 /* ---------------------------------
 * This file contains all styles
@@ -107,6 +107,8 @@ html body {
   line-height: 1.4285714286;
   letter-spacing: 0.05rem;
   border-top: 0.25rem solid rgb(246, 234, 127);
+  /*#region heading*/
+  /*#endregion headings*/
   /* #region skills-accordian-card*/
   /* #endregion skills-accordian-card*/
 }
@@ -115,16 +117,10 @@ html body hr {
   border-top-width: 10px;
 }
 html body p {
-  font-family: "Proza Libre", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: Open sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
   font-size: 1.25rem;
   line-height: 1.625;
-}
-html body p .lead {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-style: normal;
 }
 html body a {
   letter-spacing: 0.1rem;
@@ -134,12 +130,7 @@ html body a a:hover {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.15);
 }
-html body h1,
-html body h2,
-html body h3,
-html body h4,
-html body h5,
-html body h6 {
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
   font-family: "Kanit", sans-serif;
   color: rgb(97, 187, 148);
   letter-spacing: 0.1rem;
@@ -158,10 +149,10 @@ html body blockquote, html body figure {
   font-family: "Kanit", sans-serif;
   font-family: "Cormorant Garamond", serif;
   color: rgb(246, 228, 65);
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 html body blockquote .blockquote, html body figure .blockquote {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 html body .social-icons a {
   font-size: 16px;
@@ -219,7 +210,7 @@ html body .market-card-header {
   background-color: rgb(17, 161, 255);
 }
 html body .train-card-header {
-  color: #fff;
+  color: #000;
   background-color: rgb(97, 187, 148);
 }
 html body .play-card-header {
@@ -229,6 +220,10 @@ html body .play-card-header {
 html body ol li, html body ul li {
   line-height: 2em;
 }
+
+@-ms-viewport {
+  width: device-width;
+}
 h1:focus {
   outline: none;
 }
@@ -237,6 +232,7 @@ a, .btn-link {
   color: #0071c1;
 }
 
+/*#region btn-styles*/
 .btn .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -249,6 +245,7 @@ a, .btn-link {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+/*#endregion btn-styles*/
 .content {
   padding-top: 1.1rem;
 }
@@ -328,6 +325,7 @@ a, .btn-link {
   border-radius: 0.75rem !important;
 }
 
+/*card-styles*/
 .card {
   border: 0;
   color: inherit;
@@ -346,7 +344,7 @@ a, .btn-link {
 ----------------------------------*/
 nav {
   border-top: 0.25rem solid rgb(246, 234, 127);
-  background-color: transparent;
+  /*background-color: transparent;*/
 }
 
 /* ---------------------------------
@@ -371,4 +369,4 @@ footer a {
 * This file contains all styles
 * related to the index page of the
 * site/application.
-----------------------------------*//*# sourceMappingURL=app.css.map */
+----------------------------------*/
