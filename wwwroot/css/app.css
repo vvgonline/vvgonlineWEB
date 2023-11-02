@@ -1,4 +1,4 @@
-﻿@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
+@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
 /* ---------------------------------
 * This file contains all styles
@@ -220,10 +220,6 @@ html body .play-card-header {
 html body ol li, html body ul li {
   line-height: 2em;
 }
-
-@-ms-viewport {
-  width: device-width;
-}
 h1:focus {
   outline: none;
 }
@@ -344,7 +340,10 @@ a, .btn-link {
 ----------------------------------*/
 nav {
   border-top: 0.25rem solid rgb(246, 234, 127);
-  /*background-color: transparent;*/
+  background-color: rgba(0, 0, 0, 0.4);
+}
+nav .top-row {
+  height: 3.5rem;
 }
 
 /* ---------------------------------
@@ -369,4 +368,4 @@ footer a {
 * This file contains all styles
 * related to the index page of the
 * site/application.
-----------------------------------*/
+----------------------------------*//*# sourceMappingURL=app.css.map */

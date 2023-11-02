@@ -1,4 +1,8 @@
 nav{
     border-top: 0.25rem solid $yellow-1;
-    /*background-color: transparent;*/
+    background-color: rgba(0,0,0,0.4);
+
+    .top-row{
+        height: 3.5rem;
+    }
 }
