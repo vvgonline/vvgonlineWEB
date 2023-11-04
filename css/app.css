@@ -67,9 +67,6 @@
 }
 /* #endregion animation */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
 }
 

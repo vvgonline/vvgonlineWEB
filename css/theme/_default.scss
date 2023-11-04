@@ -6,9 +6,6 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     scrollbar-color: $prime-1 $prime-3;
 }
 
@@ -153,8 +150,7 @@ html {
         }
 
         hr {
-            // border-top: 0.05px solid rgba(255, 255, 255, 0.25);
-            border-color: rgba(255, 255, 255, .5);
+            border-color: rgba(255, 255, 255, 0.5);
             border-top-width: 10px;
         }
 
