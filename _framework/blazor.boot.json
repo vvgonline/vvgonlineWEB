@@ -34,7 +34,7 @@
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-hbD8oln1krNFxUhgKmc+s7EXundksDxnjZg9dtrjZrc=",
       "System.Text.Encodings.Web.dll": "sha256-NPIdkyI2+W1OfcvK2PLAYVqZyPg2nNm82v\/RFFO2\/MI=",
       "System.Text.Json.dll": "sha256-kjPFVwfaCXozeRTblKsb2Hu0SAFKdtIczQHG2MW6qFY=",
-      "vvgonlineWEB.dll": "sha256-8XakvKUFrzoG8THOLYUBCWUABuoAXbRjBMDcCnXYsIs="
+      "vvgonlineWEB.dll": "sha256-z1ltHfupWq888PlgKCVkGuuHO0+\/EAWJhpk9dWiXZsA="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -43,7 +43,7 @@
     "runtime": {
       "dotnet.7.0.13.fztsx2hvmh.js": "sha256-HbquRvZ6YfkcbkckjXqQA6u3YIAZMqT3pPuCRmJMW9U=",
       "dotnet.timezones.blat": "sha256-a4pddX9qZIPKCk1twUjxMmZqJTAVBMUW+ACKh3Dijmw=",
-      "dotnet.wasm": "sha256-E92oCagNxzPdNFyWr0MsUZukmDZd+En2hGTVfx\/GL\/s=",
+      "dotnet.wasm": "sha256-A3wlvMmPfyLZf98YBY8iji6zjumFrl3D5NOWlxy+DKg=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37\/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs=",
@@ -52,7 +52,7 @@
     "runtimeAssets": {
       "dotnet.wasm": {
         "behavior": "dotnetwasm",
-        "hash": "sha256-E92oCagNxzPdNFyWr0MsUZukmDZd+En2hGTVfx\/GL\/s="
+        "hash": "sha256-A3wlvMmPfyLZf98YBY8iji6zjumFrl3D5NOWlxy+DKg="
       }
     },
     "satelliteResources": null
