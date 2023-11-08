@@ -143,13 +143,12 @@ html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html 
   border-left: 3px solid rgb(255, 17, 97);
 }
 html body blockquote, html body figure {
-  font-family: "Kanit", sans-serif;
   font-family: "Cormorant Garamond", serif;
   color: rgb(246, 228, 65);
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 }
 html body blockquote .blockquote, html body figure .blockquote {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 }
 html body .social-icons a {
   font-size: 16px;

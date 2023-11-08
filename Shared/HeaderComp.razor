@@ -1,18 +1,12 @@
-<header>
-    <div class="row py-3">
-        <div class="col-sm-6">
-            <article>
-                @* title *@
-                <h1>
-                    @articleTitle
-                </h1>
-            </article>
-            @* keyline *@
-            <blockquote class="pt-3">
-                <b>
-                    "@keyLine"
-                </b>
-            </blockquote>
+<header class="text-left pt-5">
+    @* banner *@
+    <div class="row">
+        <img src="@bannerImagePath" alt="@articleTitle" class="row img-fluid" loading="lazy" />
+    </div>
+    <div class="row">
+        <div class="col-3 px-0">
+            <img src="https://avatars.githubusercontent.com/u/47851006?v=4" alt="VVG online"
+                style="width: 100px; height: auto;">
             @* date/author *@
             <div>
                 <div>
@@ -20,23 +14,33 @@
                         @articlePublishDate
                     </small>
                 </div>
-                <div>By
+                <div>
                     <small>
                         @* make author link dynamic later *@
-                        <a href="about">
+                        <a href="about" title="author">
                             VVGonline
                         </a>
                     </small>
                 </div>
             </div>
         </div>
-        @* banner *@
-        <div class="col py-3">
-            <img src="@bannerImagePath" alt="@articleTitle" class="img-fluid rounded" loading="lazy" />
+        <div class="col">
+            <article>
+                @* title *@
+                <h1 class="display-6">
+                    @articleTitle
+                </h1>
+            </article>
+            @* keyline *@
+            <blockquote>
+                <b>
+                    "@keyLine"
+                </b>
+            </blockquote>
         </div>
     </div>
-    <hr>
 </header>
+<hr>
 
 @code {
     [Parameter]
