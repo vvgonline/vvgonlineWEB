@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="text-left pt-5">
+        @* banner *@
+        <div class="row">
+            <img src="@bannerImagePath" alt="@articleTitle" class="row img-fluid" loading="lazy" />
+        </div>
+        <div class="row">
+            <div class="col-3 px-0">
+                <img src="https://avatars.githubusercontent.com/u/47851006?v=4" alt="VVG online"
+                    style="width: 100px; height: auto;">
+                @* date/author *@
+                <div>
+                    <div>
+                        <small>
+                            @articlePublishDate
+                        </small>
+                    </div>
+                    <div>
+                        <small>
+                            @* make author link dynamic later *@
+                            <a href="about" title="author">
+                                VVGonline
+                            </a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <article>
+                    @* title *@
+                    <h1 class="display-6">
+                        @articleTitle
+                    </h1>
+                </article>
+                @* keyline *@
+                <blockquote>
+                    <b>
+                        "@keyLine"
+                    </b>
+                </blockquote>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
