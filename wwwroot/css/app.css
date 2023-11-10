@@ -100,7 +100,7 @@ html body {
   background-size: cover;
   color: #fff;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.75em;
+  font-size: 1.125em;
   line-height: 1.4285714286;
   letter-spacing: 0.05rem;
   border-top: 0.25rem solid rgb(246, 234, 127);
@@ -109,6 +109,10 @@ html body {
   /* #region skills-accordian-card*/
   /* #endregion skills-accordian-card*/
 }
+html body div .subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
 html body hr {
   border-color: rgb(0, 0, 0);
   border-top-width: 10px;
@@ -116,8 +120,6 @@ html body hr {
 html body p {
   font-family: "Open Sans", sans-serif;
   font-family: Open sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  font-size: 1.25rem;
-  line-height: 1.625;
 }
 html body a {
   letter-spacing: 0.1rem;
