@@ -81,13 +81,19 @@ html {
             color: $prime-4;
             letter-spacing: 0.1rem;
             padding: 1rem 0;
+            text-transform: uppercase;
         }
 
         h1 {
             font-size: 2.25rem;
             font-weight: 900;
             line-height: 1;
+            
+            .h1:focus {
+                outline: none;
+            }
         }
+
 
         .h1, .h2, .h3, .h4, .h5, .h6 {
             // font-family: "Ubuntu Mono", monospace;
@@ -203,9 +209,6 @@ html {
     width: device-width;
 }
 
-h1:focus {
-    outline: none;
-}
 
 a, .btn-link {
     color: #0071c1;

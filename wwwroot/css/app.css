@@ -134,11 +134,15 @@ html body h1, html body h2, html body h3, html body h4, html body h5, html body 
   color: rgb(97, 187, 148);
   letter-spacing: 0.1rem;
   padding: 1rem 0;
+  text-transform: uppercase;
 }
 html body h1 {
   font-size: 2.25rem;
   font-weight: 900;
   line-height: 1;
+}
+html body h1 .h1:focus {
+  outline: none;
 }
 html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html body .h6 {
   color: rgb(255, 183, 207);
@@ -218,10 +222,6 @@ html body .play-card-header {
 html body ol li, html body ul li {
   line-height: 2em;
 }
-h1:focus {
-  outline: none;
-}
-
 a, .btn-link {
   color: #0071c1;
 }
