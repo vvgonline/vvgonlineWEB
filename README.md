@@ -4,6 +4,6 @@
 
 ### 09-11 NOV 2023
 
-- clean scss
+- clean scss [WIP]
 - make ts work
-- HeaderComp on every blog
+- HeaderComp on every blog [✅ 12 nov 2023]
