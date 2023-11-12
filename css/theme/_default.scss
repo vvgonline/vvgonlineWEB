@@ -9,21 +9,6 @@
     scrollbar-color: $prime-1 $prime-3;
 }
 
-/* Track */
-body::-webkit-scrollbar-track {
-    background-color: $bg-1;
-}
-
-/* Handle */
-body::-webkit-scrollbar-thumb {
-    background-color: $bg-2;
-}
-
-/* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
-    background-color: $green-2;
-}
-
 html {
     min-height: 100%;
     font-size: 14px;
@@ -48,6 +33,22 @@ html {
         line-height: calc(20 / 14);
         letter-spacing: 0.05rem;
         border-top: 0.25rem solid $yellow-1;
+
+
+        /* Track */
+        body::-webkit-scrollbar-track {
+            background-color: $bg-1;
+        }
+
+        /* Handle */
+        body::-webkit-scrollbar-thumb {
+            background-color: $bg-2;
+        }
+
+        /* Handle on hover */
+        body::-webkit-scrollbar-thumb:hover {
+            background-color: $green-2;
+        }
         // div styles
         div{
             .subtitle{
@@ -89,7 +90,7 @@ html {
             font-weight: 900;
             line-height: 1;
             
-            .h1:focus {
+            :focus {
                 outline: none;
             }
         }
