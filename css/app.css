@@ -1,9 +1,10 @@
-@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
+@charset "UTF-8";
 /* ---------------------------------
 * This file contains all styles
 * related site/application.
 ----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
 /* ---------------------------------
 * list all colors here for themes
 * this file is imported in 
@@ -16,8 +17,6 @@
 * Main.scss & all other theme scss
 * files
 ----------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
-@import './open-iconic/font/css/open-iconic-bootstrap.min.css';
 .prime-red {
   color: rgb(255, 55, 122);
 }
@@ -84,11 +83,14 @@ html body {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-  font-family: "Cormorant Garamond", serif;
   font-size: 1.125em;
   line-height: 1.4285714286;
   letter-spacing: 0.05rem;
   border-top: 0.25rem solid rgb(246, 234, 127);
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  font-size: 1.25em;
+  letter-spacing: 1px;
   /* Track */
   /* Handle */
   /* Handle on hover */
@@ -106,17 +108,13 @@ html body body::-webkit-scrollbar-thumb {
 html body body::-webkit-scrollbar-thumb:hover {
   background-color: rgb(22, 187, 116);
 }
-html body div .subtitle {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
+html body div p .intro,
+html body div p .lead {
+  font-size: 5rem;
 }
 html body hr {
   border-color: rgb(0, 0, 0);
   border-top-width: 10px;
-}
-html body p {
-  font-family: "Open Sans", sans-serif;
-  font-family: Open sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
 html body a {
   letter-spacing: 0.1rem;
@@ -126,32 +124,51 @@ html body a a:hover {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.15);
 }
-html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
   font-family: "Kanit", sans-serif;
   color: rgb(97, 187, 148);
-  letter-spacing: 0.1rem;
   padding: 1rem 0;
   text-transform: uppercase;
-}
-html body h1 {
-  font-size: 2.25rem;
   font-weight: 900;
-  line-height: 1;
 }
-html body h1 :focus {
-  outline: none;
+html body h1 :focus,
+html body h2 :focus,
+html body h3 :focus,
+html body h4 :focus,
+html body h5 :focus,
+html body h6 :focus {
+  border: none;
 }
-html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html body .h6 {
-  color: rgb(255, 183, 207);
-  border-left: 3px solid rgb(255, 17, 97);
+html body figure blockquote {
+  background: rgb(14, 44, 64);
+  position: relative;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’";
 }
-html body blockquote, html body figure {
-  font-family: "Cormorant Garamond", serif;
-  color: rgb(246, 228, 65);
-  font-size: 1.75rem;
+html body figure blockquote p {
+  display: inline;
+  margin-left: 80px;
+  margin-bottom: 6rem;
+  font-size: 2.25rem;
 }
-html body blockquote .blockquote, html body figure .blockquote {
-  font-size: 1.75rem;
+html body figure .blockquote:before {
+  content: open-quote;
+  position: absolute;
+  left: 0;
+  font-size: 8rem;
+  line-height: 0.8em;
+  font-weight: 900;
+  color: rgb(97, 187, 148);
+}
+html body figure figcaption .blockquote-footer {
+  color: white;
 }
 html body .social-icons a {
   font-size: 16px;
@@ -216,10 +233,12 @@ html body .play-card-header {
   color: #fff;
   background-color: rgb(14, 44, 64);
 }
-html body ol li, html body ul li {
+html body ol li,
+html body ul li {
   line-height: 2em;
 }
-a, .btn-link {
+a,
+.btn-link {
   color: #0071c1;
 }
 
@@ -232,7 +251,11 @@ a, .btn-link {
 .btn .btn-secondary {
   color: #fff;
 }
-.btn .btn:focus, .btn .btn:active:focus, .btn .btn-link.nav-link:focus, .btn .form-control:focus, .btn .form-check-input:focus {
+.btn .btn:focus,
+.btn .btn:active:focus,
+.btn .btn-link.nav-link:focus,
+.btn .form-control:focus,
+.btn .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
