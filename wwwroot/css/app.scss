@@ -1,5 +1,4 @@
-@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
+
 
 /* ---------------------------------
 * This file contains all styles
@@ -7,10 +6,10 @@
 ----------------------------------*/
 
 //import theme styles
-@import 'theme/default';
+@import "theme/default";
 
 //import layout styles
-@import 'layout/shared';
+@import "layout/shared";
 
 //import pages styles
-@import 'pages/index';
+@import "pages/index";

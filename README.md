@@ -2,8 +2,9 @@
 
 ## TO-D0
 
-### 09-11 NOV 2023
+### 19 NOV 2023
 
-- clean scss [WIP]
+- clean scss [✅ 18 nov 2023]
 - make ts work
 - HeaderComp on every blog [✅ 12 nov 2023]
+- wordpress blog
