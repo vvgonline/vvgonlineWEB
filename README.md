@@ -8,3 +8,10 @@
 - make ts work
 - HeaderComp on every blog [✅ 12 nov 2023]
 - wordpress blog
+
+## LOGS
+
+### 21 NOV 2023
+
+the following workloads must be installed: wasm-tools-net7:\
+CMD: dotnet workload install wasm-tools-net7
