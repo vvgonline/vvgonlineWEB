@@ -10,5 +10,9 @@
   {
     "outputFile": "wwwroot/scss/Main.css",
     "inputFile": "wwwroot/scss/Main.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/theme/_default.css",
+    "inputFile": "wwwroot/scss/theme/_default.scss"
   }
 ]
