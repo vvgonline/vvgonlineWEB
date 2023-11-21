@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* ---------------------------------
 * This file contains all styles
 * related site/application.
@@ -144,31 +143,29 @@ html body h5 :focus,
 html body h6 :focus {
   border: none;
 }
-html body figure blockquote {
+html body figure {
   background: rgb(14, 44, 64);
-  position: relative;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "“" "”" "‘" "’";
+  border: 10px solid rgb(97, 187, 148);
 }
 html body figure blockquote p {
   display: inline;
-  margin-left: 80px;
-  margin-bottom: 6rem;
-  font-size: 2.25rem;
-}
-html body figure .blockquote:before {
-  content: open-quote;
-  position: absolute;
-  left: 0;
-  font-size: 8rem;
-  line-height: 0.8em;
-  font-weight: 900;
+  font-size: 2.25em;
   color: rgb(97, 187, 148);
 }
-html body figure figcaption .blockquote-footer {
-  color: white;
+html body figure figcaption.blockquote-footer {
+  color: rgb(246, 228, 65);
+}
+html body .blockquote {
+  position: relative;
+  margin-bottom: -2.5rem;
+  padding: 0.5em 10px;
+}
+html body .blockquote:before {
+  content: open-quote;
+  text-align: center;
+  font-size: 8rem;
+  line-height: 0.18em;
+  font-weight: 900;
 }
 html body .social-icons a {
   font-size: 16px;
