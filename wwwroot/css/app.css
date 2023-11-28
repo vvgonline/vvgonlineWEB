@@ -216,7 +216,7 @@ html body .design-card-header {
 }
 html body .code-card-header {
   color: #000;
-  background-color: rgb(246, 240, 188);
+  background-color: rgb(246, 224, 78);
 }
 html body .market-card-header {
   color: #000;
@@ -229,6 +229,10 @@ html body .train-card-header {
 html body .play-card-header {
   color: #fff;
   background-color: rgb(14, 44, 64);
+}
+html body .dark-card-header {
+  color: rgb(246, 228, 65);
+  background-image: linear-gradient(-45deg, rgba(54, 5, 104, 0.5), rgb(91, 42, 134));
 }
 html body ol li,
 html body ul li {
