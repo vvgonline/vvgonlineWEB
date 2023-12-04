@@ -14,5 +14,8 @@
     "not opera <= 102",
     "not safari <= 16.5",
     "not samsung <= 21"
-  ]
+  ],
+  "hints": {
+    "meta-viewport": "off"
+  }
 }

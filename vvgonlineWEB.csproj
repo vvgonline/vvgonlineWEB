@@ -19,7 +19,12 @@
   </ItemGroup>
   
   <ItemGroup>
+    <None Remove=".hintrc" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <None Include="compilerconfig.json" />
+    <None Include="vvgonlineWEB.sln" />
   </ItemGroup>
 
   <ItemGroup>
