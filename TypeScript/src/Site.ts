@@ -12,7 +12,7 @@
 //Module Test Hello World App
 import { sayHello } from './greet';
 
-console.log(sayHello('TypeScript'));
+console.log(sayHello('VVG ONLINE'));
 //Status: Working
 
 // /**
