@@ -223,9 +223,13 @@ html {
     }
 
     .dark-card-header {
-        color: $prime-3;
-        background-image: linear-gradient(-45deg, rgba(54, 5, 104, 0.5), rgba(91, 42, 134, 1));
-      }
+      color: $prime-3;
+      background-image: linear-gradient(
+        -45deg,
+        rgba(54, 5, 104, 0.5),
+        rgba(91, 42, 134, 1)
+      );
+    }
     /* #endregion skills-accordian-card*/
 
     ol li,
@@ -360,4 +364,9 @@ a,
   border: 0;
   color: inherit;
   background-color: transparent;
+}
+
+.youtube {
+  background-image: url(../svg/youtube.svg),
+    linear-gradient(0deg, rgba(255, 55, 122, 0.5), rgba(255, 255, 0, 0.15));
 }
