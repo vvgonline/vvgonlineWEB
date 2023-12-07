@@ -3,12 +3,14 @@
 <PageTitle>welcome to VVGonline</PageTitle>
 @inject NavigationManager _navManagr
 
+
 @* meta tags *@
 <HeadContent>
     <meta name="description" content="" />
     @*Twitter specific meta tags *@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@@VVGonline" />
+    <meta Property="teitter:title" Content="VVG ONLINE // HOME" />
     @* OpenGraph meta tags *@
     <meta name="og:url" content="@_navManagr.Uri" />
     <meta name="og:title" content="VVG ONLINE // HOME" />
@@ -17,11 +19,17 @@
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/47851006?v=4" />
 </HeadContent>
 
+<SeoHeader Overview="Home of VVG ONLINE also My personal website" ,
+    Keywords="@(new []{"VVG", "ONLINE", "Home", "vvgonline", "indore", "design", "code", "market", "train"})" />
+
+
 <div class="jumbotron jumbotron-fluid">
-    <div class="container-fluid">
+    <div class="container">
         <header>
+            <article>
+                <h1 class="display-1">WHAT I DO</h1>
+            </article>
             <JumboBanner></JumboBanner>
-            <h1 class="display-1">WHAT I DO</h1>
         </header>
         <div role="main">
             @* I DESIGN GRAPHICS & UI/UX 💻 *@
@@ -89,6 +97,7 @@
                     share
                     their knowledge or professional advice with businesses.
                 </p>
+                @* quote *@
                 <figure class="mt-4 py-4">
                     <blockquote class="blockquote text-center"></blockquote>
                     <p class="text-center h3 px-3 pb-3">
@@ -101,90 +110,93 @@
                     </figcaption>
                 </figure>
             </article>
-            @* quote *@
+            @* vlog section *@
             <section class="py-4">
-
-            </section>
-            <article>
-                <h2><a href="https://www.youtube.com/channel/UCsFTSQ6exutOIpP-wHl8qQQ" style="color: #f00"
-                        target="_blank">Vlogs</a></h2>
-            </article>
-            <article class="card mb-3">
-                <div class="card-header">
-                    <h5 class="card-title">Add Blazor to an existing ASP.NET MVC project</h5>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://www.youtube.com/embed/luR_-CLlDU4" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="card-text">In this video: I am going to Add Blazor to an existing ASP.NET MVC
-                                project.
-                            </p>
-                            <p class="card-text"><small class="text-muted">03-March-2020</small></p>
+                <article>
+                    <h2><a href="https://www.youtube.com/channel/UCsFTSQ6exutOIpP-wHl8qQQ" style="color: #f00"
+                            target="_blank">Vlogs</a></h2>
+                </article>
+                <article class="card mb-3">
+                    <div class="card-header">
+                        <h5 class="card-title">Add Blazor to an existing ASP.NET MVC project</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <iframe src="https://www.youtube.com/embed/luR_-CLlDU4" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">In this video: I am going to Add Blazor to an existing ASP.NET MVC
+                                    project.
+                                </p>
+                                <p class="card-text"><small class="text-muted">03-March-2020</small></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article class="card mb-3">
-                <div class="card-header">
-                    <h5 class="card-title">Create new Solution & Projects using Dotnet CLI</h5>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://www.youtube.com/embed/89TPsF12BnY" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="card-text">In this video: I am going to demonstrate how to create solutions and
-                                projects using Dotnet CLI.</p>
-                            <p class="card-text"><small class="text-muted">02-March-2020</small></p>
+                </article>
+                <article class="card mb-3">
+                    <div class="card-header">
+                        <h5 class="card-title">Create new Solution & Projects using Dotnet CLI</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <iframe src="https://www.youtube.com/embed/89TPsF12BnY" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">In this video: I am going to demonstrate how to create solutions
+                                    and
+                                    projects using Dotnet CLI.</p>
+                                <p class="card-text"><small class="text-muted">02-March-2020</small></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article class="card mb-3">
-                <div class="card-header">
-                    <h5 class="card-title">Nvidia to acquire ARM for 40 billion USD!</h5>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://www.youtube.com/embed/2dfVJbpozHQ" frameborder="0" allow="accelerometer; autoplay;
+                </article>
+                <article class="card mb-3">
+                    <div class="card-header">
+                        <h5 class="card-title">Nvidia to acquire ARM for 40 billion USD!</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <iframe src="https://www.youtube.com/embed/2dfVJbpozHQ" frameborder="0" allow="accelerometer; autoplay;
      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="card-text">This deal represents a major shift of balance in the technology sector
-                                in general. But, it
-                                will especially affect the mobile computing market as we know it today.</p>
-                            <p class="card-text"><small class="text-muted">15-Sep-2020</small></p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="card mb-3">
-                <div class="card-header">
-                    <h5 class="card-title">Install Dotnet Core on Linux (Ubuntu 20.4 LTS)</h5>
-                </div>
-                <div class="card-body">
-                    <div class=" row">
-                        <div class="col-md-6"><iframe src="https://www.youtube.com/embed/JUV7d1vYTgA" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe></div>
-                        <div class="col-md-6">
-                            <p class="card-text">
-                                In this video, VVGonline showcase how to install Dotnet core on Linux (Ubuntu 20.4 LTS)
-                            </p>
-                            <p class="card-text"><small class="text-muted">21-Aug-2020</small></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">This deal represents a major shift of balance in the technology
+                                    sector
+                                    in general. But, it
+                                    will especially affect the mobile computing market as we know it today.</p>
+                                <p class="card-text"><small class="text-muted">15-Sep-2020</small></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
+                </article>
+                <article class="card mb-3">
+                    <div class="card-header">
+                        <h5 class="card-title">Install Dotnet Core on Linux (Ubuntu 20.4 LTS)</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class=" row">
+                            <div class="col-md-6"><iframe src="https://www.youtube.com/embed/JUV7d1vYTgA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="col-md-6">
+                                <p class="card-text">
+                                    In this video, VVGonline showcase how to install Dotnet core on Linux (Ubuntu 20.4
+                                    LTS)
+                                </p>
+                                <p class="card-text"><small class="text-muted">21-Aug-2020</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
         </div>
     </div>
 </div>
