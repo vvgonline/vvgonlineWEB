@@ -1,4 +1,4 @@
-/* ---------------------------------
+﻿/* ---------------------------------
 * This file contains all styles
 * related site/application.
 ----------------------------------*/
@@ -354,6 +354,10 @@ html body ol li,
 html body ul li {
   line-height: 2em;
 }
+
+@-ms-viewport {
+  width: device-width;
+}
 a,
 .btn-link {
   color: #0071c1;
@@ -463,8 +467,9 @@ a,
   background-color: transparent;
 }
 
-.youtube {
-  background-image: url(../svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.5), rgba(255, 255, 0, 0.15));
+/*bootstrap extra*/
+.pt-4 {
+  padding-top: 1.5rem;
 }
 
 /* ---------------------------------
@@ -512,4 +517,23 @@ footer a {
 * This file contains all styles
 * related to the index page of the
 * site/application.
-----------------------------------*//*# sourceMappingURL=app.css.map */
+----------------------------------*/
+.gray {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.whatIdo {
+  background-color: rgba(127, 255, 125, 0.25);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ytbg {
+  background-image: url(../svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+}
+
+.youtube {
+  color: #f23464;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
