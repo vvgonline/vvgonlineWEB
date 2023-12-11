@@ -3,3 +3,23 @@
 * related to the index page of the
 * site/application.
 ----------------------------------*/
+
+.gray {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.whatIdo {
+    background-color: rgba(127,255,125, 0.25);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.ytbg {
+    background-image: url(../svg/youtube.svg), linear-gradient(0deg,rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+}
+
+.youtube {
+    color: #f23464;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

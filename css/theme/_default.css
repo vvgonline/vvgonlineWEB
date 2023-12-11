@@ -1,4 +1,6 @@
-﻿/* ---------------------------------
+﻿@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
+/* ---------------------------------
 * list all colors here for themes
 * this file is imported in 
 * Main.scss & all other theme scss
@@ -10,8 +12,6 @@
 * Main.scss & all other theme scss
 * files
 ----------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
-@import './open-iconic/font/css/open-iconic-bootstrap.min.css';
 .prime-red {
   color: rgb(255, 55, 122);
 }
@@ -30,6 +30,130 @@
 
 .prime-gray {
   color: rgb(127, 127, 127);
+}
+
+svg #identitySkills {
+  z-index: auto;
+}
+svg #identitySkills #logo #blueV {
+  animation-delay: 0s;
+  animation-name: translateUpFadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #logo #yellowV {
+  animation-delay: 0.2s;
+  animation-name: translateUpFadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #logo #barGroup {
+  animation-delay: 0.4s;
+  animation-name: translateDownFadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #fullName {
+  z-index: 0;
+}
+svg #identitySkills #fullName #Vaibhav {
+  animation-delay: 0.6s;
+  animation-name: FadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #fullName #Vijay {
+  animation-delay: 0.8s;
+  animation-name: FadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #fullName #Gupta {
+  animation-delay: 1s;
+  animation-name: FadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #online {
+  animation-delay: 1.2s;
+  animation-name: translateUpFadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #design {
+  z-index: auto;
+}
+svg #identitySkills #design #designText {
+  animation-delay: 1.6s;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #design #designIcon {
+  animation-delay: 1.6s;
+  animation-name: translateDownFadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #code {
+  z-index: auto;
+}
+svg #identitySkills #code #codeText {
+  animation-delay: 2s;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #code #codeIcon {
+  animation-delay: 2s;
+  animation-name: translateDownFadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #market {
+  z-index: auto;
+}
+svg #identitySkills #market #marketText {
+  animation-delay: 2.4s;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #market #marketIcon {
+  animation-delay: 2.4s;
+  animation-name: translateDownFadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #training {
+  z-index: auto;
+}
+svg #identitySkills #training #trainingText {
+  animation-delay: 2.8s;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+svg #identitySkills #training #trainingIcon {
+  animation-delay: 2.8s;
+  animation-name: translateDownFadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
 }
 
 /* #region animation */
@@ -61,25 +185,7 @@
 }
 /* #endregion animation */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
-}
-
-/* Track */
-body::-webkit-scrollbar-track {
-  background-color: rgb(0, 0, 0);
-}
-
-/* Handle */
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(14, 44, 64);
-}
-
-/* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(22, 187, 116);
 }
 
 html {
@@ -96,25 +202,38 @@ html body {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.25em;
+  font-size: 1.125em;
   line-height: 1.4285714286;
   letter-spacing: 0.05rem;
   border-top: 0.25rem solid rgb(246, 234, 127);
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
   /*#region heading*/
   /*#endregion headings*/
   /* #region skills-accordian-card*/
   /* #endregion skills-accordian-card*/
 }
+html body body::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);
+}
+html body body::-webkit-scrollbar-thumb {
+  background-color: rgb(14, 44, 64);
+}
+html body body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(22, 187, 116);
+}
+html body div p .intro,
+html body div p .lead {
+  font-size: 5rem;
+}
 html body hr {
   border-color: rgb(0, 0, 0);
   border-top-width: 10px;
-}
-html body p {
-  font-family: "Open Sans", sans-serif;
-  font-family: Open sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  font-size: 1.25rem;
-  line-height: 1.625;
 }
 html body a {
   letter-spacing: 0.1rem;
@@ -124,29 +243,41 @@ html body a a:hover {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.15);
 }
-html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
   font-family: "Kanit", sans-serif;
   color: rgb(97, 187, 148);
-  letter-spacing: 0.1rem;
   padding: 1rem 0;
-}
-html body h1 {
-  font-size: 2.25rem;
+  text-transform: uppercase;
   font-weight: 900;
-  line-height: 1;
 }
-html body .h1, html body .h2, html body .h3, html body .h4, html body .h5, html body .h6 {
-  color: rgb(255, 183, 207);
-  border-left: 3px solid rgb(255, 17, 97);
+html body figure {
+  background: rgb(14, 44, 64);
+  border: 10px solid rgb(97, 187, 148);
 }
-html body blockquote, html body figure {
-  font-family: "Kanit", sans-serif;
-  font-family: "Cormorant Garamond", serif;
+html body figure blockquote p {
+  display: inline;
+  font-size: 2.25em;
+  color: rgb(97, 187, 148);
+}
+html body figure figcaption.blockquote-footer {
   color: rgb(246, 228, 65);
-  font-size: 2.25rem;
 }
-html body blockquote .blockquote, html body figure .blockquote {
-  font-size: 2.25rem;
+html body .blockquote {
+  position: relative;
+  margin-bottom: -2.5rem;
+  padding: 0.5em 10px;
+}
+html body .blockquote:before {
+  content: open-quote;
+  text-align: center;
+  font-size: 8rem;
+  line-height: 0.18em;
+  font-weight: 900;
 }
 html body .social-icons a {
   font-size: 16px;
@@ -197,32 +328,34 @@ html body .design-card-header {
 }
 html body .code-card-header {
   color: #000;
-  background-color: rgb(246, 240, 188);
+  background-color: rgb(246, 224, 78);
 }
 html body .market-card-header {
   color: #000;
   background-color: rgb(17, 161, 255);
 }
 html body .train-card-header {
-  color: #fff;
+  color: #000;
   background-color: rgb(97, 187, 148);
 }
 html body .play-card-header {
   color: #fff;
   background-color: rgb(14, 44, 64);
 }
-html body ol li, html body ul li {
+html body .dark-card-header {
+  color: rgb(246, 228, 65);
+  background-image: linear-gradient(-45deg, rgba(54, 5, 104, 0.5), rgb(91, 42, 134));
+}
+html body ol li,
+html body ul li {
   line-height: 2em;
 }
 
 @-ms-viewport {
   width: device-width;
 }
-h1:focus {
-  outline: none;
-}
-
-a, .btn-link {
+a,
+.btn-link {
   color: #0071c1;
 }
 
@@ -235,7 +368,11 @@ a, .btn-link {
 .btn .btn-secondary {
   color: #fff;
 }
-.btn .btn:focus, .btn .btn:active:focus, .btn .btn-link.nav-link:focus, .btn .form-control:focus, .btn .form-check-input:focus {
+.btn .btn:focus,
+.btn .btn:active:focus,
+.btn .btn-link.nav-link:focus,
+.btn .form-control:focus,
+.btn .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -324,4 +461,9 @@ a, .btn-link {
   border: 0;
   color: inherit;
   background-color: transparent;
+}
+
+/*bootstrap extra*/
+.pt-4 {
+  padding-top: 1.5rem;
 }
