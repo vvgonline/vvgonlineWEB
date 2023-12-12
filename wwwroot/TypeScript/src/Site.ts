@@ -12,7 +12,7 @@
 //Module Test Hello World App
 import { sayHello } from './greet';
 
-console.log(sayHello('VVG ONLINE'));
+console.log(sayHello('vvg online') + Date.toString());
 //Status: Working
 
 // /**

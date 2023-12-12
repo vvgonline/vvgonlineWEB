@@ -4,18 +4,23 @@
 * site/application.
 ----------------------------------*/
 
-.gray {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
 
 .whatIdo {
-    background-color: rgba(127,255,125, 0.25);
+    //background-color: rgba(127,255,125, 0.25);
+    background-image: linear-gradient(180deg, rgba(127,255,125, 0.25), rgba(255, 55, 122, 0.5));
     padding-bottom: 0;
     margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .ytbg {
     background-image: url(../svg/youtube.svg), linear-gradient(0deg,rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .youtube {
