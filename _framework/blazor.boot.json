@@ -1,11 +1,11 @@
 {
   "entryAssembly": "vvgonlineWEB",
   "resources": {
-    "hash": "sha256-jTwfkt+inMihGzhImhtCwQnpdlM9dYYBw06Yn61Dpvw=",
+    "hash": "sha256-NqzexgBEoO+r5YlM48gZfMuBdclIfeLYfQzxHeMG3rw=",
     "runtime": {
       "dotnet.7.0.14.fztsx2hvmh.js": "sha256-48lOZ4a0iiOoL4Ti1HX2evtmZlejKG6YYKcI8UVwON0=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
-      "dotnet.wasm": "sha256-m7E58ecyBPJf35FepWAyu284kup6lNZKz6T3qUHjU4A=",
+      "dotnet.wasm": "sha256-ReHVMDaLRuGoDL3wk1F3qu2RvK+UcdqG54Dsk8vSl+s=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
@@ -38,11 +38,11 @@
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-jF5031Knj+v9JHWfETs2gj/VQZNxKMK9KbEghjV9+n4=",
       "System.Text.Encodings.Web.dll": "sha256-ChxM2laH4hgiZAQtC4snIt9lPmf8kF2gFJMqeGJ2E7Y=",
       "System.Text.Json.dll": "sha256-NWmNVIRNVbFEzeeGE/hLztSzSqUICS6SpVnnCI4b88o=",
-      "vvgonlineWEB.dll": "sha256-FWqooL7j+0o6Vec7Fu5vABLZHQJgWvx0NPVKTHyGGB4="
+      "vvgonlineWEB.dll": "sha256-UgvcxWUhsnc2qpUGgBz+/CJzB3a88EWHS+Pg34AK3Zk="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
-        "hash": "sha256-m7E58ecyBPJf35FepWAyu284kup6lNZKz6T3qUHjU4A=",
+        "hash": "sha256-ReHVMDaLRuGoDL3wk1F3qu2RvK+UcdqG54Dsk8vSl+s=",
         "behavior": "dotnetwasm"
       }
     }
