@@ -274,7 +274,8 @@ html body figure figcaption.blockquote-footer {
 html body .blockquote {
   position: relative;
   margin-bottom: -2.5rem;
-  padding: 0.5em 10px;
+  margin-top: -0.75rem;
+  padding: 0.5rem 10px;
 }
 html body .blockquote:before {
   content: open-quote;
