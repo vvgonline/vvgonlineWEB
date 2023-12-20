@@ -1,10 +1,16 @@
 nav {
-  border-top: 0.25rem solid $yellow-1;
-  background-color: rgba(0, 0, 0, 0.4);
+    border-top: 0.25rem solid $yellow-1;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*display: flex;
+    align-items: center;*/
 
-  .top-row {
-    height: 3.5rem;
-  }
+    .top-row {
+        height: 3.75rem; /*60px*/
+    }
+
+    .navbar-brand {
+        transform: translateX(-50%);
+    }
 }
 
 .navbar-brand-img {

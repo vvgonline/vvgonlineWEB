@@ -25,6 +25,7 @@
   <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="vvgonlineWEB.sln" />
+    <None Include="wwwroot\css\bootstrap\bootstrap.min.css.map" />
   </ItemGroup>
 
   <ItemGroup>

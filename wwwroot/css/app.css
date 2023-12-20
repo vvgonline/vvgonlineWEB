@@ -2,6 +2,7 @@
 * This file contains all styles
 * related site/application.
 ----------------------------------*/
+@import url("bootstrap/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
 /* ---------------------------------
@@ -278,7 +279,8 @@ html body figure figcaption.blockquote-footer {
 html body .blockquote {
   position: relative;
   margin-bottom: -2.5rem;
-  padding: 0.5em 10px;
+  margin-top: -0.75rem;
+  padding: 0.5rem 10px;
 }
 html body .blockquote:before {
   content: open-quote;
@@ -489,9 +491,14 @@ a,
 nav {
   border-top: 0.25rem solid rgb(246, 234, 127);
   background-color: rgba(0, 0, 0, 0.4);
+  /*display: flex;
+  align-items: center;*/
 }
 nav .top-row {
-  height: 3.5rem;
+  height: 3.75rem; /*60px*/
+}
+nav .navbar-brand {
+  transform: translateX(-50%);
 }
 
 .navbar-brand-img {
@@ -535,7 +542,7 @@ footer a {
   background-image: url(../svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 }
 
 .youtube {
