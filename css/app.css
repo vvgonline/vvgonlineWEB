@@ -542,11 +542,63 @@ footer a {
   background-image: url(../svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
 }
 
 .youtube {
   color: #f23464;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.skills .design {
+  border-radius: 1rem;
+  width: 110px;
+  height: 100px;
+  background: rgb(255, 55, 122);
+  display: inline-block;
+}
+.skills .design .circle {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(97, 187, 148);
+  border-radius: 50%;
+  display: inline-block;
+}
+.skills .code {
+  border-radius: 1rem;
+  width: 110px;
+  height: 100px;
+  display: inline-block;
+  background: rgb(55, 176, 255);
+}
+.skills .code a.circle {
+  height: 60px;
+  width: 60px;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+}
+.skills .market {
+  border-radius: 1rem;
+  width: 110px;
+  height: 100px;
+  background: rgb(246, 228, 65);
+  display: inline-block;
+}
+.skills .train {
+  border-radius: 1rem;
+  width: 110px;
+  height: 100px;
+  background: rgb(97, 187, 148);
+  display: inline-block;
+}
+
+.skills-with-borders {
+  border-radius: 1rem;
+  border: 2px solid rgb(246, 228, 65);
+  width: 110px;
+  height: 100px;
 }

@@ -20,7 +20,7 @@
     background-image: url(../svg/youtube.svg), linear-gradient(0deg,rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 .youtube {
@@ -28,3 +28,63 @@
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.skills {
+    .design {
+        border-radius: 1rem;
+        width: 110px;
+        height: 100px;
+        background: $prime-1;
+        display: inline-block;
+
+        .circle {
+            height: 60px;
+            width: 60px;
+            background-color: $prime-4;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    }
+
+    .code {
+        border-radius: 1rem;
+        width: 110px;
+        height: 100px;
+        display: inline-block;
+        background: $prime-2;
+
+        a.circle {
+            height: 60px;
+            width: 60px;
+            background-color: rebeccapurple;
+            border-radius: 50%;
+            display: inline-block;
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+
+    .market {
+        border-radius: 1rem;
+        width: 110px;
+        height: 100px;
+        background: $prime-3;
+        display: inline-block;
+    }
+
+    .train {
+        border-radius: 1rem;
+        width: 110px;
+        height: 100px;
+        background: $prime-4;
+        display: inline-block;
+    }
+}
+
+.skills-with-borders {
+    border-radius: 1rem;
+    border: 2px solid $prime-3;
+    width: 110px;
+    height: 100px;
+}
+

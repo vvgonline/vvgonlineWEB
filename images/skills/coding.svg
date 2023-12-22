@@ -28,10 +28,11 @@
      inkscape:cy="49.916107"
      inkscape:window-width="1254"
      inkscape:window-height="1041"
-     inkscape:window-x="669"
+     inkscape:window-x="2662"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g20" />
+     inkscape:current-layer="g20"
+     showgrid="false" />
   <defs
      id="defs1" />
   <g
@@ -46,12 +47,14 @@
        style="display:inline">
       <rect
          style="display:inline;fill:#11a1ff;fill-opacity:1;fill-rule:evenodd;stroke:#45bb88;stroke-width:0;stroke-dasharray:none"
-         id="rect16"
+         id="rect15"
          width="29.104166"
          height="26.458332"
-         x="104.99889"
-         y="145.03023"
-         inkscape:label="bg" />
+         x="70.689163"
+         y="148.91499"
+         inkscape:label="bg"
+         ry="5.2383881"
+         transform="translate(34.309727,-3.8847704)" />
       <g
          id="g24"
          inkscape:label="icon"
