@@ -15,3 +15,7 @@
 
 the following workloads must be installed: wasm-tools-net7:\
 CMD: dotnet workload install wasm-tools-net7
+
+### 08 May 2024
+
+testing CD
