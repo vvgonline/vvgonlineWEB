@@ -1,4 +1,4 @@
-﻿/* ---------------------------------
+/* ---------------------------------
 * This file contains all styles
 * related site/application.
 ----------------------------------*/
@@ -198,7 +198,6 @@ html {
   font-size: 14px;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: 100%;
 }
 html body {
   background-image: linear-gradient(45deg, rgb(36, 25, 45), rgb(77, 26, 25));
@@ -360,10 +359,6 @@ html body ol li,
 html body ul li {
   line-height: 2em;
 }
-
-@-ms-viewport {
-  width: device-width;
-}
 a,
 .btn-link {
   color: #0071c1;
@@ -490,7 +485,7 @@ a,
 ----------------------------------*/
 nav {
   border-top: 0.25rem solid rgb(246, 234, 127);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(50, 100, 60, 0.4);
   /*display: flex;
   align-items: center;*/
 }
@@ -502,8 +497,7 @@ nav .navbar-brand {
 }
 
 .navbar-brand-img {
-  width: 1rem;
-  height: auto;
+  height: 60px;
 }
 
 /* ---------------------------------
@@ -601,4 +595,4 @@ footer a {
   border: 2px solid rgb(246, 228, 65);
   width: 110px;
   height: 100px;
-}
+}/*# sourceMappingURL=app.css.map */
