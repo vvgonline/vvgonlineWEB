@@ -193,11 +193,28 @@ svg #identitySkills #training #trainingIcon {
   scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
 }
 
+:root {
+  --color-primary: #06f;
+  --color-secondary: #3e78b1;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-background: #fafaf5;
+  --color-text: #2e2e38;
+  --color-accent: #fd3;
+  --color-accent-hover: #f3a712;
+}
+
 html {
   min-height: 100%;
-  font-size: 14px;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
 }
 html body {
   background-image: linear-gradient(45deg, rgb(36, 25, 45), rgb(77, 26, 25));
@@ -210,9 +227,9 @@ html body {
   line-height: 1.4285714286;
   letter-spacing: 0.05rem;
   border-top: 0.25rem solid rgb(246, 234, 127);
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300;
-  font-size: 1.25em;
+  font-size: 16px;
   letter-spacing: 1px;
   height: 100svh;
   /* Track */
@@ -527,6 +544,42 @@ footer a {
 * related to the index page of the
 * site/application.
 ----------------------------------*/
+.hero {
+  margin-top: 76px;
+  background-color: var(--color-text);
+  color: var(--color-light);
+  padding: 10px 0;
+  height: 404px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+.hero .hero__title {
+  -moz-columns: 50%;
+       columns: 50%;
+  font-size: 48px;
+  text-align: center;
+  margin: 15px 10px;
+}
+.hero .hero__text {
+  font-size: 24px;
+  text-align: center;
+}
+.hero button {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.hero button:hover {
+  background-color: var(--color-accent-hover);
+}
+
 .whatIdo {
   background-image: linear-gradient(180deg, rgba(127, 255, 125, 0.25), rgba(255, 55, 122, 0.5));
   padding-bottom: 0;
