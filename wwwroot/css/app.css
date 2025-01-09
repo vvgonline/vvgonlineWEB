@@ -1,4 +1,4 @@
-/* ---------------------------------
+﻿/* ---------------------------------
 * This file contains all styles
 * related site/application.
 ----------------------------------*/
@@ -214,6 +214,8 @@ html {
   min-height: 100%;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 html body {
@@ -375,6 +377,10 @@ html body .dark-card-header {
 html body ol li,
 html body ul li {
   line-height: 2em;
+}
+
+@-ms-viewport {
+  width: device-width;
 }
 a,
 .btn-link {
@@ -546,10 +552,10 @@ footer a {
 ----------------------------------*/
 .hero {
   margin-top: 76px;
-  background-color: var(--color-text);
+  /*background-color: var(--color-text);*/
   color: var(--color-light);
-  padding: 10px 0;
-  height: 404px;
+  /*padding: 10px 0;*/
+  /*height: 404px;*/
   text-align: center;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
@@ -557,14 +563,13 @@ footer a {
   align-items: center; /* Centers vertically */
 }
 .hero .hero__title {
-  -moz-columns: 50%;
-       columns: 50%;
-  font-size: 48px;
+  /*columns: 50%;*/
+  font-size: 60px;
   text-align: center;
   margin: 15px 10px;
 }
 .hero .hero__text {
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
 }
 .hero button {
@@ -652,4 +657,4 @@ footer a {
   border: 2px solid rgb(246, 228, 65);
   width: 110px;
   height: 100px;
-}/*# sourceMappingURL=app.css.map */
+}
