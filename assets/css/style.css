@@ -1,3 +1,19 @@
+/* ---------------------------------
+* This file contains all styles
+* related site/application.
+----------------------------------*/
+/* ---------------------------------
+* list all colors here for themes
+* this file is imported in 
+* Main.scss & all other theme scss
+* files
+----------------------------------*/
+/* ---------------------------------
+* list all colors here for themes
+* this file is imported in 
+* Main.scss & all other theme scss
+* files
+----------------------------------*/
 :root {
   --color-primary: #06f;
   --color-secondary: #3e78b1;
@@ -15,23 +31,88 @@
   --color-accent-hover: #f3a712;
 }
 
+.prime-red {
+  color: rgb(255, 55, 122);
+}
+
+.prime-blue {
+  color: rgb(55, 176, 255);
+}
+
+.prime-yellow {
+  color: rgb(246, 228, 65);
+}
+
+.prime-green {
+  color: rgb(97, 187, 148);
+}
+
+.prime-gray {
+  color: rgb(127, 127, 127);
+}
+
+footer {
+  bottom: 0 !important;
+  height: auto;
+  width: 100%;
+  background-color: var(--color-accent-hover);
+  border-bottom: 10px solid rgb(246, 234, 127);
+}
+footer a:hover {
+  background-image: linear-gradient(45deg, rgb(36, 25, 45), rgb(77, 26, 25));
+}
+
+nav {
+  z-index: 1000;
+  background-color: var(--color-accent);
+  border: var(--color-accent-hover) 2px solid;
+  border-top: 0.25rem solid rgb(246, 234, 127);
+}
+nav .navbar-brand {
+  transform: translateX(-50%);
+}
+nav .navbar-brand-img {
+  height: 60px;
+}
+nav .logo {
+  padding: 0 15px;
+}
+
+* {
+  scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
+}
+
 html {
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
 }
 html body {
   padding: 0;
   margin: 0;
-  background-color: var(--color-background);
-  color: var(--color-text);
   min-height: 100vh;
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg version="1.1" id="Layer_1" x="0px" y="0px" width="2560px" height="1440px" viewBox="0 0 2560 1440" enable-background="new 0 0 2560 1440" xml:space="preserve" sodipodi:docname="vvgonline-grad-bg.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs6" /><sodipodi:namedview id="namedview6" pagecolor="%23505050" bordercolor="%23eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="%23505050" inkscape:zoom="0.56736111" inkscape:cx="1279.6083" inkscape:cy="720" inkscape:window-width="2560" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="Layer_1" />&%2310;<g id="deskGrad_2_">&%2310;&%2310;<radialGradient id="SVGID_1_" cx="596.3052" cy="92.1396" r="1228.8207" gradientTransform="matrix(1.3333 0 0 -1.3333 -713.5531 1508.6002)" gradientUnits="userSpaceOnUse">&%2310;<stop offset="0" style="stop-color:%23E27C56" id="stop1" />&%2310;<stop offset="1" style="stop-color:%231582B7" id="stop2" />&%2310;</radialGradient>&%2310;<rect x="-0.66399997" y="0.183" fill="url(%23SVGID_1_)" width="2560" height="1439.996" id="rect2" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-232.3906" y1="461.8555" x2="1747.4607" y2="1491.6841" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%234B2757" id="stop3" />&%2310;<stop offset="1" style="stop-color:%23BE2F27" id="stop4" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.18099999" fill="url(%23SVGID_2_)" width="2560" height="1440" id="rect4" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="715.3354" y1="1674.8174" x2="715.3352" y2="234.8213" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%231D1112" id="stop5" />&%2310;<stop offset="1" style="stop-color:%2314121B" id="stop6" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.183" opacity="0.7" fill="url(%23SVGID_3_)" enable-background="new " width="2560" height="1439.996" id="rect6" style="display:inline" sodipodi:insensitive="true" />&%2310;</g>&%2310;</svg>');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.4285714286;
+  letter-spacing: 0.05rem;
+  border-top: 0.25rem solid rgb(246, 234, 127);
+  font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--color-light);
+  height: 100svh;
   font-family: "Golos Text", sans-serif;
   font-size: 16px;
   font-weight: 400;
   /* assign font to headings */
 }
-html body img {
-  max-width: 100%;
-  height: auto;
+html body a, html body button {
+  text-transform: uppercase;
+  text-decoration: none;
 }
 html body h1,
 html body h2,
@@ -41,17 +122,6 @@ html body h5,
 html body h6 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
-}
-html body nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 80px;
-  background-color: var(--color-accent);
-  border: var(--color-accent-hover) 2px solid;
-}
-html body nav .logo {
-  padding: 0 15px;
 }
 html body .hero {
   background-color: var(--color-text);
@@ -136,6 +206,7 @@ html body .how-we-do-it-with-team .column-2 .team-member-name {
   font-weight: 700;
   display: flex;
   align-items: center;
+  color: var(--color-text);
   background-color: var(--color-accent);
   padding: 5px 12px;
   border-bottom: var(--color-text) 2px solid;
@@ -158,26 +229,18 @@ html body .how-we-do-it-with-team .column-2 .team-member-skills {
   padding: 5px 12px;
 }
 html body .client-banner {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
+  background-color: var(--color-text);
 }
 html body .client-banner img {
-  display: block;
-}
-html body footer {
-  bottom: 0 !important;
-  height: auto;
-  width: 100%;
-  margin-top: -3px;
-  background-color: var(--color-accent-hover);
-  color: var(--color-text);
-  padding: 20px 15px;
-  border-top: var(--color-accent) 5px solid;
+  margin: 0 auto;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+a {
+  color: var(--color-accent);
 }/*# sourceMappingURL=style.css.map */
