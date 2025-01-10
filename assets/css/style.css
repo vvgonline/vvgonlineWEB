@@ -1,0 +1,185 @@
+:root {
+  --color-primary: #06f;
+  --color-secondary: #3e78b1;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-background: #fafaf5;
+  --color-text: #2e2e38;
+  --color-accent: #fd3;
+  --color-accent-hover: #f3a712;
+}
+
+html {
+  box-sizing: border-box;
+}
+html body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
+  font-family: "Golos Text", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* assign font to headings */
+}
+html body img {
+  max-width: 100%;
+  height: auto;
+}
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+}
+html body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+html body nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 80px;
+  background-color: var(--color-accent);
+  border: var(--color-accent-hover) 2px solid;
+}
+html body nav .logo {
+  padding: 0 15px;
+}
+html body .hero {
+  background-color: var(--color-text);
+  color: var(--color-light);
+  padding: 10px 0;
+  height: 404px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+html body .hero .hero__title {
+  -moz-columns: 50%;
+       columns: 50%;
+  font-size: 48px;
+  text-align: center;
+  margin: 15px 10px;
+}
+html body .hero .hero__text {
+  font-size: 24px;
+  text-align: center;
+}
+html body .hero button {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+html body .hero button:hover {
+  background-color: var(--color-accent-hover);
+}
+html body .about {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start;
+  padding: 1% 0;
+}
+html body .about .about__major-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+html body .about .column {
+  flex: 50%;
+  padding: 0 15px;
+  align-items: flex-start;
+}
+html body .about .about__text {
+  padding: 0 15px;
+  text-align: center;
+}
+html body .about .about__img {
+  padding: 0 15px;
+  text-align: center;
+}
+html body .how-we-do-it-with-team {
+  display: flex;
+  flex-direction: row; /* Stack elements horizontally */
+  align-items: flex-start;
+  padding: 1% 0;
+}
+html body .how-we-do-it-with-team .how-we-do-it-with-team__major-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+html body .how-we-do-it-with-team .column-1 {
+  flex: 70%;
+  padding: 0 15px;
+  align-items: flex-start;
+}
+html body .how-we-do-it-with-team .column-2 {
+  flex: 30%;
+  padding: 0 15px;
+  align-items: flex-start;
+}
+html body .how-we-do-it-with-team .column-2 .team-member-name {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-accent);
+  padding: 5px 12px;
+  border-bottom: var(--color-text) 2px solid;
+}
+html body .how-we-do-it-with-team .column-2 .team-member-name img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+html body .how-we-do-it-with-team .column-2 .team-member-name .team-member-name__text {
+  align-self: center;
+}
+html body .how-we-do-it-with-team .column-2 .team-member-name .team-member-name__text small {
+  font-size: 12px;
+  font-weight: 400;
+}
+html body .how-we-do-it-with-team .column-2 .team-member-skills {
+  padding: 5px 12px;
+}
+html body .client-banner {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+html body .client-banner img {
+  display: block;
+}
+html body footer {
+  bottom: 0;
+  margin-top: -3px;
+  background-color: var(--color-accent-hover);
+  color: var(--color-text);
+  padding: 20px 15px;
+  border-top: var(--color-accent) 5px solid;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}/*# sourceMappingURL=style.css.map */
