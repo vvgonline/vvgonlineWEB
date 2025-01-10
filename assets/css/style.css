@@ -121,11 +121,10 @@ html body h4,
 html body h5,
 html body h6 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 36px;
+  text-transform: uppercase;
 }
 html body .hero {
   background-color: var(--color-text);
-  color: var(--color-light);
   padding: 10px 0;
   margin-top: auto;
   height: 100vh;
@@ -146,7 +145,7 @@ html body .hero .hero__text {
   font-size: 24px;
   text-align: center;
 }
-html body .hero button {
+html body .hero a {
   background-color: var(--color-accent);
   color: var(--color-text);
   border: none;
@@ -155,7 +154,7 @@ html body .hero button {
   cursor: pointer;
   margin-top: 20px;
 }
-html body .hero button:hover {
+html body .hero a:hover {
   background-color: var(--color-accent-hover);
 }
 html body .about {
