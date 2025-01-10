@@ -8,10 +8,12 @@
     //hero section
     .hero {
         margin-top: 76px;
+        background: inherit;
         /*background-color: var(--color-text);*/
         color: var(--color-light);
         /*padding: 10px 0;*/
         /*height: 404px;*/
+        height: 100vh;
         text-align: center;
         display: flex;
         flex-direction: column; /* Stack elements vertically */
@@ -130,4 +132,8 @@
 
 .What-is-vvg-online{
     font-size: 37px;
+}
+
+.client-banner{
+    background-color: var(--color-text);
 }
