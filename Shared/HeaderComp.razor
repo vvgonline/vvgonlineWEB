@@ -1,6 +1,6 @@
 <br />
 <br />
-<header class="container text-left pt-5">
+<header class="container text-left pt-5 my-3">
     @* date/author *@
     <div class="row">
         <div>
@@ -28,11 +28,11 @@
     <div class="row">
         <article class="col">
             @* title *@
-            <h1 class="display-1">
+            <h2 class="display-2">
                 @articleTitle
-            </h1>
+            </h2>
             @* keyline *@
-            <div class="display-6 pb-3">
+            <div class="h4 pb-4">
                 <b>
                     "@keyLine"
                 </b>
@@ -44,7 +44,6 @@
         <img src="@bannerImagePath" alt="@articleTitle" class="img-fluid rounded" loading="lazy" />
     </div>
 </header>
-<hr>
 @code {
     [Parameter]
     public string? articleTitle { get; set; }

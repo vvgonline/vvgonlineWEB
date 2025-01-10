@@ -1,0 +1,35 @@
+@* what is vvg online *@
+    <article class="dark-card-header p-4 pb-5 m-0">
+        <h2>
+            What is VVG online?
+        </h2>
+        <p class="h5">
+            <b>"VVG ONLINE"</b> is a digital business consulting firm that specializes in helping businesses to
+            optimize their online presence and digital strategies. With a focus on innovation and growth, VVG
+            ONLINE offers a range of services designed to help businesses succeed in the digital age.
+        </p>
+    </article>
+    <section>
+        <figure class="my-5">
+            <blockquote class="blockquote text-center"></blockquote>
+            <p class="text-center h3 px-3 pb-3">
+                We at 'VVG ONLINE' are joining forces to speed up our journey towards a future that is more sustainable,
+                inclusive, and growing for all.
+            </p>
+            <figcaption class="px-5 text-center blockquote-footer">
+                <cite title="Source Title"><b>Vaibhav Gupta, CEO</b></cite>
+            </figcaption>
+        </figure>
+        <!--#region old-->
+        @* <p>
+    VVG online is a
+    <a href="Dbc">Digital Business Consultant</a>
+    who is passionate about providing quality, and one
+    stop digital solutions. In his time of 15 years he has gained experience and expertise creating
+    customer
+    advantage in all things — <a href="DesignThinking">Design thinking</a>, <a href="DigitalMarketing">Digital
+    Marketing</a>, and
+    <a href="itmtraining" title="Intro to Information Technology management">Information Technology Management</a>.
+    </p> *@
+        <!-- #endregion old -->
+    </section>
