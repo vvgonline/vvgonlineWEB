@@ -30,9 +30,9 @@ html {
     color: var(--color-text);
     min-height: 100vh;
 
-    img{
-        max-width: 100%;
-        height: auto;
+    img {
+      max-width: 100%;
+      height: auto;
     }
 
     //#region fonts css
@@ -53,11 +53,11 @@ html {
     //#endregion fonts css
 
     //#region container
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 15px;
-    }
+    // .container {
+    //   max-width: 1200px;
+    //   margin: 0 auto;
+    //   padding: 0 15px;
+    // }
     //#endregion container
 
     //#region navbar
@@ -66,10 +66,17 @@ html {
       position: sticky;
       top: 0;
       z-index: 1000;
-      height: 80px;
       background-color: var(--color-accent);
       border: var(--color-accent-hover) 2px solid;
-
+      border-top: 0.25rem solid $yellow-1;
+      background-color: rgba(50, 100, 60, 0.4);
+      flex-wrap: nowrap !important;
+      .navbar-brand {
+        transform: translateX(-50%);
+      }
+      .navbar-brand-img {
+        height: 60px;
+      }
       .logo {
         padding: 0 15px;
       }
@@ -82,7 +89,8 @@ html {
       background-color: var(--color-text);
       color: var(--color-light);
       padding: 10px 0;
-      height: 404px;
+      margin-top: auto;
+      height: 100vh;
       text-align: center;
       display: flex;
       flex-direction: column; /* Stack elements vertically */
@@ -216,7 +224,9 @@ html {
 
     //#region footer
     footer {
-      bottom: 0;
+      bottom: 0 !important;
+      height: auto;
+      width: 100%;
       margin-top: -3px;
       background-color: var(--color-accent-hover);
       color: var(--color-text);

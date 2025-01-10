@@ -42,11 +42,6 @@ html body h6 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
 }
-html body .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 html body nav {
   position: sticky;
   top: 0;
@@ -62,7 +57,8 @@ html body .hero {
   background-color: var(--color-text);
   color: var(--color-light);
   padding: 10px 0;
-  height: 404px;
+  margin-top: auto;
+  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
@@ -170,7 +166,9 @@ html body .client-banner img {
   display: block;
 }
 html body footer {
-  bottom: 0;
+  bottom: 0 !important;
+  height: auto;
+  width: 100%;
   margin-top: -3px;
   background-color: var(--color-accent-hover);
   color: var(--color-text);
