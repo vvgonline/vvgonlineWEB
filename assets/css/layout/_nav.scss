@@ -1,4 +1,5 @@
 nav {
+  width: 100%; /* default width */
   z-index: 1000;
   background-color: var(--color-accent);
   border: var(--color-accent-hover) 2px solid;
@@ -11,5 +12,10 @@ nav {
   }
   .logo {
     padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  nav {
+    width: 360px;
   }
 }
