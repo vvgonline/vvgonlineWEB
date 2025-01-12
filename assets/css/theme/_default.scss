@@ -42,6 +42,12 @@ html {
     color: var(--color-light);
     overflow: hidden !important;
 
+    .btn.btn-outline-dark,
+    .form-control,
+    .btn.btn-outline-light {
+      border-radius: 0;
+    }
+
     a,
     button {
       text-transform: uppercase;

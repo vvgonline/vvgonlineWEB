@@ -117,6 +117,11 @@ html body {
   font-weight: 400;
   /* assign font to headings */
 }
+html body .btn.btn-outline-dark,
+html body .form-control,
+html body .btn.btn-outline-light {
+  border-radius: 0;
+}
 html body a,
 html body button {
   text-transform: uppercase;

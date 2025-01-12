@@ -39,20 +39,23 @@
 </head>
 
 <body>
-    <!-- #region nav --><!--style="height: auto;"-->
-    <nav class="navbar top-row fixed-top px-2">
-        <div class="container">
-            <span class="">
-                <a class="navbar-brand" href="index.html" title="VVG ONLINE">
-                    <img src="./assets/images/logo-2025.svg" alt="VVG ONLINE" class="d-inline-block align-text-top">
-                </a>
-            </span>
-            <span>
-                <a href="" class="btn btn-outline-dark">About</a>
-            </span>
-
-        </div>
-    </nav>
+    <!--#region header-->
+    <header>
+        <!-- #region nav --><!--style="height: auto;"-->
+        <nav class="navbar top-row fixed-top px-2">
+            <div class="container">
+                <span class="">
+                    <a class="navbar-brand" href="index.html" title="VVG ONLINE">
+                        <img src="./assets/images/logo-2025.svg" alt="VVG ONLINE" class="d-inline-block align-text-top">
+                    </a>
+                </span>
+                <span>
+                    <a href="" class="btn btn-outline-dark">About</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!--#endregion header-->
     <!-- #endregion nav -->
     <main role="main">
         <!--#region hero banner -->
@@ -136,15 +139,16 @@
             </div>
         </div>
         <!-- #endregion about -->
+        <!--  -->
         <!-- #region client-banner -->
-        <div class="client-banner text-center mb-3">
-            <img src="./assets/images/client-banner.png" alt="vvgonline-client-banner" class="img-fluid">
-        </div>
+        <section class="client-banner text-center mb-3">
+            <img src="./assets/images/client-banner.png" alt="Clients served by VVG ONLINE" class="img-fluid">
+        </section>
         <!-- #endregion client-banner -->
         <!-- #region how-we-do-it-with-team -->
-        <div class="container my-4">
-            <div class="how-we-do-it-with-team">
-                <div class="column-1">
+        <article class="container my-4">
+            <div class="how-we-do-it-with-team row">
+                <section class="column-1 col-sm-8">
                     <h2>HOW WE DO IT</h2>
                     <p class="how-we-do-it-with-team__major-text">
                         We enable you to have digital solutions, tools, and capabilities to achieve sustainability and
@@ -176,8 +180,8 @@
                         and that they are able to deliver value and drive
                         meaningful change.
                     </p>
-                </div>
-                <div class="column-2">
+                </section>
+                <section class="column-2 col-sm-4">
                     <!-- team-member vvg -->
                     <div class="team-member-name">
                         <div>
@@ -211,20 +215,20 @@
                     <br><br>
                     <!-- team-member AF -->
                     <!-- <div class="team-member-name">
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/47851006?v=4" alt="Vaibhav Gupta">
+                        <div>
+                            <img src="https://avatars.githubusercontent.com/u/47851006?v=4" alt="Vaibhav Gupta">
+                        </div>
+                        <div class="team-member-name__text">
+                            <div>Andre Ferguson</div>
+                            <small>CCO</small>
+                        </div>
                     </div>
-                    <div class="team-member-name__text">
-                        <div>Andre Ferguson</div>
-                        <small>CCO</small>
-                    </div>
-                </div>
-                <div class="team-member-skills">
-                    Top skills: Cloud Expertise, Data Management, Security, Cybersecurity, Compliance, and Migration
-                </div> -->
-                </div>
+                    <div class="team-member-skills">
+                        Top skills: Cloud Expertise, Data Management, Security, Cybersecurity, Compliance, and Migration
+                    </div> -->
+                </section>
             </div>
-        </div>
+        </article>
         <!-- #endregion how-we-do-it-with-team -->
     </main>
     <!-- #region footer -->
@@ -270,12 +274,12 @@
                         </div>
                     </div>
                     <div class="row my-4" style="color: #2e2e38;">
-                        <div class="col">
+                        <div class="col px-3">
                             <div class="px-3">
-                                <h5>Subscribe to our newsletter</h5>
+                                <h5>Subscribe</h5>
                                 <form action="/newsletter/subscribe" method="post" class="form-group">
-                                    <label for="email" class="h6">Email address:</label>
-                                    <input type="email" name="email" id="email" class="form-control w-50 my-2" required>
+                                    <p>stay current with our latest insights</p>
+                                    <input type="email" name="email" id="email" class="form-control w-50 my-2" required placeholder="Email address">
                                     <input type="submit" class="btn btn-outline-dark my-2" value="Subscribe">
                                 </form>
                             </div>
