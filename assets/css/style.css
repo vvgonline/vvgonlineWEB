@@ -246,6 +246,12 @@ html body .client-banner {
 html body .client-banner img {
   margin: 0 auto;
 }
+html body .ytbg {
+  background-image: url(../images/svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 *,
 *:before,
