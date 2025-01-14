@@ -7,209 +7,241 @@
 }
 
 html {
-    min-height: 100%;
-    overflow-x: hidden;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  //body
+  body {
     padding: 0;
-    //body
-    body {
-        padding: 0;
-        margin: 0;
-        //min-height: 100vh;
-        //#region bg styles
-        // following line is in case svg is not found or not working
-        //background-image: linear-gradient(45deg, $start-color, $stop-color);
-        // #region svg-bg
-        background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg version="1.1" id="Layer_1" x="0px" y="0px" width="2560px" height="1440px" viewBox="0 0 2560 1440" enable-background="new 0 0 2560 1440" xml:space="preserve" sodipodi:docname="vvgonline-grad-bg.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs6" /><sodipodi:namedview id="namedview6" pagecolor="%23505050" bordercolor="%23eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="%23505050" inkscape:zoom="0.56736111" inkscape:cx="1279.6083" inkscape:cy="720" inkscape:window-width="2560" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="Layer_1" />&%2310;<g id="deskGrad_2_">&%2310;&%2310;<radialGradient id="SVGID_1_" cx="596.3052" cy="92.1396" r="1228.8207" gradientTransform="matrix(1.3333 0 0 -1.3333 -713.5531 1508.6002)" gradientUnits="userSpaceOnUse">&%2310;<stop offset="0" style="stop-color:%23E27C56" id="stop1" />&%2310;<stop offset="1" style="stop-color:%231582B7" id="stop2" />&%2310;</radialGradient>&%2310;<rect x="-0.66399997" y="0.183" fill="url(%23SVGID_1_)" width="2560" height="1439.996" id="rect2" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-232.3906" y1="461.8555" x2="1747.4607" y2="1491.6841" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%234B2757" id="stop3" />&%2310;<stop offset="1" style="stop-color:%23BE2F27" id="stop4" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.18099999" fill="url(%23SVGID_2_)" width="2560" height="1440" id="rect4" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="715.3354" y1="1674.8174" x2="715.3352" y2="234.8213" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%231D1112" id="stop5" />&%2310;<stop offset="1" style="stop-color:%2314121B" id="stop6" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.183" opacity="0.7" fill="url(%23SVGID_3_)" enable-background="new " width="2560" height="1439.996" id="rect6" style="display:inline" sodipodi:insensitive="true" />&%2310;</g>&%2310;</svg>');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        //#endregion bg styles
+    margin: 0;
+    width: 100vw;
+    //min-height: 100vh;
+    //#region bg styles
+    // following line is in case svg is not found or not working
+    //background-image: linear-gradient(45deg, $start-color, $stop-color);
+    // #region svg-bg
+    background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg version="1.1" id="Layer_1" x="0px" y="0px" width="2560px" height="1440px" viewBox="0 0 2560 1440" enable-background="new 0 0 2560 1440" xml:space="preserve" sodipodi:docname="vvgonline-grad-bg.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs6" /><sodipodi:namedview id="namedview6" pagecolor="%23505050" bordercolor="%23eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="%23505050" inkscape:zoom="0.56736111" inkscape:cx="1279.6083" inkscape:cy="720" inkscape:window-width="2560" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="Layer_1" />&%2310;<g id="deskGrad_2_">&%2310;&%2310;<radialGradient id="SVGID_1_" cx="596.3052" cy="92.1396" r="1228.8207" gradientTransform="matrix(1.3333 0 0 -1.3333 -713.5531 1508.6002)" gradientUnits="userSpaceOnUse">&%2310;<stop offset="0" style="stop-color:%23E27C56" id="stop1" />&%2310;<stop offset="1" style="stop-color:%231582B7" id="stop2" />&%2310;</radialGradient>&%2310;<rect x="-0.66399997" y="0.183" fill="url(%23SVGID_1_)" width="2560" height="1439.996" id="rect2" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-232.3906" y1="461.8555" x2="1747.4607" y2="1491.6841" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%234B2757" id="stop3" />&%2310;<stop offset="1" style="stop-color:%23BE2F27" id="stop4" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.18099999" fill="url(%23SVGID_2_)" width="2560" height="1440" id="rect4" style="display:inline" sodipodi:insensitive="true" />&%2310;&%2310;<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="715.3354" y1="1674.8174" x2="715.3352" y2="234.8213" gradientTransform="matrix(1 0 0 -1 564 1675)">&%2310;<stop offset="0" style="stop-color:%231D1112" id="stop5" />&%2310;<stop offset="1" style="stop-color:%2314121B" id="stop6" />&%2310;</linearGradient>&%2310;<rect x="-0.66399997" y="0.183" opacity="0.7" fill="url(%23SVGID_3_)" enable-background="new " width="2560" height="1439.996" id="rect6" style="display:inline" sodipodi:insensitive="true" />&%2310;</g>&%2310;</svg>');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    //#endregion bg styles
 
-        line-height: calc(20 / 14);
-        letter-spacing: 0.05rem;
-        border-top: 0.25rem solid $yellow-1;
-        font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        font-weight: 300;
-        font-size: 16px;
-        letter-spacing: 1px;
-        color: var(--color-light);
-        overflow: hidden !important;
+    line-height: calc(20 / 14);
+    letter-spacing: 0.05rem;
+    border-top: 0.25rem solid $yellow-1;
+    font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--color-light);
+    overflow: hidden !important;
 
-        .btn.btn-outline-dark,
-        .form-control,
-        .btn.btn-outline-light {
-            border-radius: 0;
-        }
-
-        a,
-        button {
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-        //#region fonts css
-        font-family: "Golos Text", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        /* assign font to headings */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "IBM Plex Sans", sans-serif;
-            //font-size: 36px;
-            text-transform: uppercase;
-        }
-        //#endregion fonts css
-        //#region hero
-        //hero section
-        .hero {
-            background-color: var(--color-text);
-            padding: 10px 0;
-            margin-top: 80px;
-            padding-bottom: 80px;
-            height: calc(100vh - env(safe-area-inset-bottom));
-            text-align: center;
-            display: flex !important;
-            flex-direction: column; /* Stack elements vertically */
-            justify-content: center; /* Centers horizontally and vertically */
-            //align-items: center; /* Centers vertically */
-
-            .hero__title {
-                columns: 50%;
-                font-size: 48px;
-                text-align: center;
-                margin: 15px 10px;
-            }
-
-            .hero__text {
-                font-size: 24px;
-                text-align: center;
-            }
-
-            a {
-                background-color: var(--color-accent);
-                color: var(--color-text);
-                border: none;
-                padding: 10px 20px;
-                font-size: 18px;
-                cursor: pointer;
-                margin-top: 20px;
-            }
-
-            a:hover {
-                background-color: var(--color-accent-hover);
-            }
-        }
-        //#endregion hero
-        //#region about flex grid 2 column
-        .about {
-            display: flex;
-            flex-direction: column; /* Stack elements vertically */
-            align-items: flex-start;
-            padding: 1% 0;
-
-            .about__major-text {
-                font-size: 16px;
-                font-weight: 700;
-            }
-
-            .column {
-                flex: 50%;
-                padding: 0 15px;
-                align-items: flex-start;
-            }
-
-            .about__text {
-                padding: 0 15px;
-                text-align: center;
-            }
-
-            .about__img {
-                padding: 0 15px;
-                text-align: center;
-            }
-        }
-        //#endregion about flex grid 2 column
-        //#region how-we-do-it-with-team flex grid 2 column 70-30
-        .how-we-do-it-with-team {
-            display: flex;
-            flex-direction: row; /* Stack elements horizontally */
-            align-items: flex-start;
-            padding: 1% 0;
-
-            .how-we-do-it-with-team__major-text {
-                font-size: 16px;
-                font-weight: 700;
-            }
-
-            .column-1 {
-                flex: 70%;
-                padding: 0 15px;
-                align-items: flex-start;
-            }
-
-            .column-2 {
-                flex: 30%;
-                padding: 0 15px;
-                align-items: flex-start;
-
-                .team-member-name {
-                    font-size: 16px;
-                    font-weight: 700;
-                    display: flex;
-                    align-items: center;
-                    color: var(--color-text);
-                    background-color: var(--color-accent);
-                    padding: 5px 12px;
-                    border-bottom: var(--color-text) 2px solid;
-
-                    img {
-                        height: 50px;
-                        width: 50px;
-                        margin-right: 10px;
-                        border-radius: 50%;
-                        align-self: center;
-                    }
-
-                    .team-member-name__text {
-                        align-self: center;
-
-                        small {
-                            font-size: 12px;
-                            font-weight: 400;
-                        }
-                    }
-                }
-
-                .team-member-skills {
-                    padding: 5px 12px;
-                }
-            }
-        }
-        //#endregion how-we-do-it-with-team flex grid 2 column 70-30
-        //#region clients
-        .client-banner {
-            background-color: var(--color-text);
-
-            img {
-                margin: 0 auto;
-            }
-        }
-        //#endregion clients
-        .ytbg {
-            background-image: url(../images/svg/youtube.svg), linear-gradient(0deg,rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
+    .btn.btn-outline-dark,
+    .form-control,
+    .btn.btn-outline-light {
+      border-radius: 0;
     }
+
+    a,
+    button {
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    //#region fonts css
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* assign font to headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "IBM Plex Sans", sans-serif;
+      //font-size: 36px;
+      text-transform: uppercase;
+    }
+    //#endregion fonts css
+    //#region hero
+    //hero section
+    .hero {
+      //background-color: var(--color-text);
+      background-position: center;
+      padding: 10px 0;
+      margin-top: 80px;
+      padding-bottom: 80px;
+      height: calc(100vh - env(safe-area-inset-bottom));
+      text-align: center;
+      display: flex !important;
+      flex-direction: column; /* Stack elements vertically */
+      justify-content: center; /* Centers horizontally and vertically */
+      //align-items: center; /* Centers vertically */
+
+      #hero-video-background {
+        background-color: var(--color-text);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100vh;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+      }
+
+      #hero-video-container {
+      }
+
+      #hero-video-loaded {
+        background-color: transparent; /* Remove background color when video loads */
+      }
+
+      .hero__title {
+        columns: 50%;
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+        margin: 15px 10px;
+        z-index: 1;
+      }
+
+      .hero__text {
+        font-size: 24px;
+        text-align: center;
+        z-index: 1;
+      }
+
+      a {
+        background-color: var(--color-accent);
+        color: var(--color-text);
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      a:hover {
+        background-color: var(--color-accent-hover);
+      }
+    }
+    //#endregion hero
+    //#region about flex grid 2 column
+    .about {
+      display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: flex-start;
+      padding: 1% 0;
+
+      .about__major-text {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .column {
+        flex: 50%;
+        padding: 0 15px;
+        align-items: flex-start;
+      }
+
+      .about__text {
+        padding: 0 15px;
+        text-align: center;
+      }
+
+      .about__img {
+        padding: 0 15px;
+        text-align: center;
+      }
+    }
+    //#endregion about flex grid 2 column
+    //#region how-we-do-it-with-team flex grid 2 column 70-30
+    .how-we-do-it-with-team {
+      display: flex;
+      flex-direction: row; /* Stack elements horizontally */
+      align-items: flex-start;
+      padding: 1% 0;
+
+      .how-we-do-it-with-team__major-text {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .column-1 {
+        flex: 70%;
+        padding: 0 15px;
+        align-items: flex-start;
+      }
+
+      .column-2 {
+        flex: 30%;
+        padding: 0 15px;
+        align-items: flex-start;
+
+        .team-member-name {
+          font-size: 16px;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          color: var(--color-text);
+          background-color: var(--color-accent);
+          padding: 5px 12px;
+          border-bottom: var(--color-text) 2px solid;
+
+          img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            align-self: center;
+          }
+
+          .team-member-name__text {
+            align-self: center;
+
+            small {
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .team-member-skills {
+          padding: 5px 12px;
+        }
+      }
+    }
+    //#endregion how-we-do-it-with-team flex grid 2 column 70-30
+    //#region clients
+    .client-banner {
+      background-color: var(--color-text);
+
+      img {
+        margin: 0 auto;
+      }
+    }
+    //#endregion clients
+    .ytbg {
+      background-image: url(../images/svg/youtube.svg),
+        linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  }
 }
 *,
 *:before,
