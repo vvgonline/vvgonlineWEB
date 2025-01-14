@@ -83,14 +83,15 @@ html {
       display: flex !important;
       flex-direction: column; /* Stack elements vertically */
       justify-content: center; /* Centers horizontally and vertically */
-      //align-items: center; /* Centers vertically */
+      align-items: center; /* Centers vertically */
+      overflow: hidden;
 
       #hero-video-background {
         background-color: var(--color-text);
         position: absolute;
         top: 50%;
         left: 50%;
-        min-width: 100%;
+        min-width: 100vw;
         min-height: 100vh;
         width: auto;
         height: auto;
