@@ -91,10 +91,6 @@ nav .logo {
     width: 356px;
   }
 }
-* {
-  scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
-}
-
 html {
   min-height: 100%;
   overflow-x: hidden;
@@ -128,7 +124,9 @@ html body {
 }
 html body .btn.btn-outline-dark,
 html body .form-control,
-html body .btn.btn-outline-light, html body #subscribeButton, html body .btn.btn-default {
+html body .btn.btn-outline-light,
+html body #subscribeButton,
+html body .btn.btn-default {
   border-radius: 0;
 }
 html body a,
@@ -287,4 +285,5 @@ html body .ytbg {
 *:before,
 *:after {
   box-sizing: inherit;
+  scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
 }/*# sourceMappingURL=style.css.map */

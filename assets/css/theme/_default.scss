@@ -2,9 +2,6 @@
 @import "./colors";
 @import "../layout/footer";
 @import "../layout/nav";
-* {
-  scrollbar-color: $prime-1 $prime-3;
-}
 
 html {
   min-height: 100%;
@@ -45,7 +42,9 @@ html {
 
     .btn.btn-outline-dark,
     .form-control,
-    .btn.btn-outline-light, #subscribeButton, .btn.btn-default {
+    .btn.btn-outline-light,
+    #subscribeButton,
+    .btn.btn-default {
       border-radius: 0;
     }
 
@@ -246,4 +245,5 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  scrollbar-color: $prime-1 $prime-3;
 }
