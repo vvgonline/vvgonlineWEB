@@ -269,7 +269,7 @@
                             <!--<p> <a href="about" class="btn btn-default">about</a></p>-->
                             <!-- privacy policy -->
                             <p>
-                                <a href="privacy.html" class="btn btn-defualt">
+                                <a href="privacy.html" class="btn btn-default">
                                     privacy policy
                                 </a>
                             </p>
@@ -288,14 +288,14 @@
                             <!-- repos -->
                             <p>
                                 <a href="https://github.com/VVGonline?tab=repositories" target="_blank"
-                                    class="btn btn-defualt">
+                                    class="btn btn-default">
                                     repos
                                 </a>
                             </p>
                             <!-- vlogs  -->
                             <p>
                                 <a href="https://www.youtube.com/channel/UCsFTSQ6exutOIpP-wHl8qQQ" target="_blank"
-                                    class="btn btn-defualt">
+                                    class="btn btn-default">
                                     vlogs
                                 </a>
                             </p>
@@ -307,7 +307,7 @@
                                 <h5>Subscribe</h5>
                                 <p>stay current with our latest insights</p>
                                 <input type="email" name="email" id="email" class="form-control my-2" placeholder="Enter your email">
-                                <button type="button" id="subscribeButton" class="btn btn-primary">Subscribe</button>
+                                <button type="button" id="subscribeButton" class="btn btn-outline-dark">Subscribe</button>
                             </div>
                         </div>
                     </div>
@@ -332,12 +332,7 @@
     <!-- #endregion about -->
     <!-- video load check script -->
     <script>
-        const video = document.getElementById('hero-video-background');
-        const container = document.getElementById('hero-video-container');
-
-        video.addEventListener('canplay', () => {
-            container.classList.add('video-loaded');
-        });
+        
     </script>
     <!-- importing bootstrap popover -->
     <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
@@ -355,7 +350,7 @@
 
         new bootstrap.Popover(document.getElementById('popoverButton'))
     </script>
-    <script>var exports = {};</script>
+    <!-- <script>var exports = {};</script> -->
     <script type="module" src="./assets/scripts/dist/site.js"></script>
 </body>
 

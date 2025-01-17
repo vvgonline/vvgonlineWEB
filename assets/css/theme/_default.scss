@@ -45,7 +45,7 @@ html {
 
     .btn.btn-outline-dark,
     .form-control,
-    .btn.btn-outline-light, #subscribeButton {
+    .btn.btn-outline-light, #subscribeButton, .btn.btn-default {
       border-radius: 0;
     }
 
@@ -73,7 +73,6 @@ html {
     //#region hero
     //hero section
     .hero {
-      //background-color: var(--color-text);
       background-position: center;
       padding: 10px 0;
       margin-top: 80px;
