@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "tsc-watch": "^6.2.1"
   }
 }
