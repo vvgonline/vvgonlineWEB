@@ -72,10 +72,10 @@ html {
     //#region hero
     //hero section
     .hero {
-      background-position: center;
-      padding: 10px 0;
-      margin-top: 80px;
-      padding-bottom: 80px;
+      //background-position: center;
+      padding: 10px;
+      //margin-top: 80px;
+      //margin-bottom: 80px;
       height: calc(100vh - env(safe-area-inset-bottom));
       text-align: center;
       display: flex !important;
@@ -137,14 +137,41 @@ html {
     //#endregion hero
     //#region about flex grid 2 column
     .about {
+      .row {
+        --bs-gutter-x: 0;
+        display: flex;
+        //align-items: stretch;
+      }
+
+      .col-sm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .col-sm img {
+        flex-grow: 1;
+        object-fit: cover;
+      }
+
       display: flex;
       flex-direction: column; /* Stack elements vertically */
-      align-items: flex-start;
-      padding: 1% 0;
+      align-items: center; /* Centers horizontally */
+      //padding: 1% 0;
 
       .about__major-text {
         font-size: 16px;
         font-weight: 700;
+      }
+
+      .vvg-online-what-we-do-row {
+        background-color: #fdfbe4;
+        color: var(--color-text);
+      }
+
+      .vvg-online-our-services-are-must-row {
+        background-color: #597ba8;
+        color: var(--color-background);
       }
 
       .column {
