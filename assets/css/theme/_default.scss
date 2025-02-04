@@ -49,6 +49,7 @@ html {
       justify-content: center; /* Centers horizontally and vertically */
       align-items: center; /* Centers vertically */
       overflow: hidden;
+      color: var(--color-background);
 
       #hero-video-background {
         background-color: var(--color-text);
@@ -72,8 +73,8 @@ html {
       }
 
       .hero__title {
-        columns: 50%;
-        font-size: 48px;
+        line-height: 48px;
+        font-size: 56px;
         font-weight: 900;
         text-align: center;
         margin: 15px 10px;
