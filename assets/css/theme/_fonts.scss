@@ -10,15 +10,16 @@ $h3-size: $h2-size / $golden-ratio;
 $body-size: $h3-size / $golden-ratio;
 
 // Define font sizes with calc() for responsiveness
-$h1-font-size: calc(($h1-size / 16) * 1.325rem);
+
+$h1-font-size: calc(#{$h1-size / 16} * 1.325rem);
 $h2-font-size: calc(#{$h2-size / 16} * 1.325rem);
 $h3-font-size: calc(#{$h3-size / 16} * 1.325rem);
 $body-font-size: calc(#{$body-size / 16} * 1.325rem);
 
 // Calculate Line Height and Font Weights
-$line-height: calc((1.325rem + 0.9vw) / 1.618 * 1.618);
-$heading-font-weight: 700;
-$body-font-weight: 320;
+$line-height: calc((1.325rem + 0.9vw));
+$heading-font-weight: 800;
+$body-font-weight: 400;
 $text-letter-spacing: calc(#{$base-letter-spacing} / $golden-ratio);
 
 // Apply Font Sizes and Styles to Elements
