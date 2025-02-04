@@ -127,9 +127,9 @@ html {
 
       display: flex;
       flex-direction: column; /* Stack elements vertically */
-      //align-items: center; /* Centers horizontally */
+      align-items: center; /* Centers horizontally */
       //padding: 1% 0;
-      padding-right: 15%;
+      //padding-right: 15%;
 
       .about__major-text {
         font-weight: 550;
@@ -211,10 +211,6 @@ html {
               font-weight: 400;
             }
           }
-        }
-
-        ul>li {
-            font-size: inherit;
         }
         .team-member-skills {
           padding: 5px 12px;

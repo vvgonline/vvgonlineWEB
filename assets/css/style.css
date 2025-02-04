@@ -219,7 +219,7 @@ html body .hero a:hover {
 html body .about {
   display: flex;
   flex-direction: column; /* Stack elements vertically */
-  padding-right: 15%;
+  align-items: center; /* Centers horizontally */
 }
 html body .about .row {
   --bs-gutter-x: 0;
@@ -304,9 +304,6 @@ html body .how-we-do-it-with-team .column-2 .team-member-name .team-member-name_
 html body .how-we-do-it-with-team .column-2 .team-member-name .team-member-name__text small {
   font-size: 12px;
   font-weight: 400;
-}
-html body .how-we-do-it-with-team .column-2 ul > li {
-  font-size: inherit;
 }
 html body .how-we-do-it-with-team .column-2 .team-member-skills {
   padding: 5px 12px;
