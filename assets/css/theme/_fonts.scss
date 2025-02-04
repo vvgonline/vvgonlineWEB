@@ -1,0 +1,71 @@
+// Base Settings
+$base-font-size: 16px; // Base font size for the document
+$golden-ratio: 1.618;
+$base-letter-spacing: 0.05rem;
+
+// Calculate font sizes using the Golden Ratio
+$h1-size: $base-font-size * $golden-ratio * $golden-ratio;
+$h2-size: $h1-size / $golden-ratio;
+$h3-size: $h2-size / $golden-ratio;
+$body-size: $h3-size / $golden-ratio;
+
+// Define font sizes with calc() for responsiveness
+$h1-font-size: calc(($h1-size / 16) * 1.325rem);
+$h2-font-size: calc(($h2-size / 16) * 1.325rem);
+$h3-font-size: calc(#{$h3-size / 16} * 1rem);
+$body-font-size: calc(#{$body-size / 16} * 1.325rem);
+
+// Calculate Line Height and Font Weights
+$line-height: calc((1.325rem + 0.9vw) / 1.618 * 1.618);
+$heading-font-weight: 700;
+$body-font-weight: 320;
+$text-letter-spacing: calc(#{$base-letter-spacing} / $golden-ratio);
+
+// Apply Font Sizes and Styles to Elements
+h1 {
+  font-size: $h1-font-size;
+  letter-spacing: $text-letter-spacing;
+  line-height: $line-height;
+  font-weight: $heading-font-weight;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  letter-spacing: $text-letter-spacing;
+  line-height: $line-height;
+  font-weight: $heading-font-weight;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  letter-spacing: $text-letter-spacing;
+  line-height: $line-height;
+  font-weight: $heading-font-weight;
+}
+
+body {
+  font-size: $body-font-size;
+  font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: $body-font-weight;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+p {
+  font-size: calc((1.325rem + 0.9vw) / 1.618);
+  letter-spacing: $text-letter-spacing;
+  line-height: $line-height;
+  font-weight: $body-font-weight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+}
