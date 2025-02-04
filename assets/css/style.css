@@ -51,40 +51,45 @@
   color: rgb(127, 127, 127);
 }
 
+:root {
+  --golden-ratio: 1.618;
+  --base-font-size: 16px;
+}
+
 h1 {
-  font-size: calc(2.617924px * 1.325rem);
-  letter-spacing: calc(0.05rem / 1.618);
-  line-height: calc(1.325rem + 0.9vw);
-  font-weight: 800;
+  font-size: calc(var(--base-font-size) * var(--golden-ratio) * var(--golden-ratio));
 }
 
 h2 {
-  font-size: calc(1.618px * 1.325rem);
-  letter-spacing: calc(0.05rem / 1.618);
-  line-height: calc(1.325rem + 0.9vw);
-  font-weight: 800;
+  font-size: calc(var(--base-font-size) * var(--golden-ratio));
 }
 
 h3 {
-  font-size: calc(1px * 1.325rem);
-  letter-spacing: calc(0.05rem / 1.618);
-  line-height: calc(1.325rem + 0.9vw);
-  font-weight: 800;
+  font-size: var(--base-font-size);
 }
 
 body {
-  font-size: calc(0.6180469716px * 1.325rem);
-  font-family: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 400;
-  background-color: var(--color-background);
-  color: var(--color-text);
+  font-size: calc(var(--base-font-size) / var(--golden-ratio));
 }
 
-p {
-  font-size: calc((1.325rem + 0.9vw) / 1.618);
-  letter-spacing: calc(0.05rem / 1.618);
-  line-height: calc(1.325rem + 0.9vw);
-  font-weight: 400;
+@media (min-width: 768px) {
+  :root {
+    --base-font-size: 16px;
+    --base-font-size: 20px;
+  }
+}
+body {
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--base-font-size);
+}
+
+.lead {
+  font-size: calc(var(--base-font-size) * 1.05);
+  font-weight: 500;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
 }
 
 h1,
@@ -93,7 +98,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Golos Text", sans-serif;
   text-transform: uppercase;
 }
 
