@@ -73,13 +73,12 @@ html {
       }
 
       .hero__title {
-        line-height: 56px;
         font-size: 48px;
         font-weight: 900;
         text-align: center;
-        margin: 15px 10px;
+        //margin: 15px 10px;
         z-index: 1;
-        color: var(--color-background);
+        color: var(--color-light);
       }
 
       .hero__text {

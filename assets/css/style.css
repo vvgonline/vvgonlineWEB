@@ -199,13 +199,11 @@ html body .hero #hero-video-loaded {
   background-color: transparent; /* Remove background color when video loads */
 }
 html body .hero .hero__title {
-  line-height: 56px;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
-  margin: 15px 10px;
   z-index: 1;
-  color: var(--color-background);
+  color: var(--color-light);
 }
 html body .hero .hero__text {
   font-weight: 24px;
