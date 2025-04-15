@@ -1,4 +1,3 @@
-"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -9,6 +8,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var _a;
+import { downloadVideo } from './downloadVideo';
+import { shareFacebook, shareTwitter, copyLink } from './share-button-script';
+console.log('Hello from site.ts!');
 //define subscribe button
 const btnSubscribeButton = document.getElementById('subscribeButton');
 //define input textbox
@@ -44,6 +46,11 @@ if (video) {
 document.addEventListener('keydown', function (e) {
     if (e.ctrlKey && (e.key === 's' || e.key === 'S')) {
         e.preventDefault();
+        downloadVideo('blob:https://learn.microsoft.com/41852f3e-1f0e-43cd-a57a-2742ff170a3c', 'video.mp4');
     }
 });
+// Example usage
+shareFacebook(0);
+shareTwitter(0);
+copyLink(0);
 //# sourceMappingURL=site.js.map

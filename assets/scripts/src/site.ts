@@ -1,4 +1,7 @@
 import { downloadVideo } from './downloadVideo';
+import { shareFacebook, shareTwitter, copyLink } from './share-button-script';
+
+console.log('Hello from site.ts!');
 
 //define subscribe button
 const btnSubscribeButton = document.getElementById('subscribeButton');
@@ -44,3 +47,8 @@ document.addEventListener('keydown', function (e) {
         downloadVideo('blob:https://learn.microsoft.com/41852f3e-1f0e-43cd-a57a-2742ff170a3c', 'video.mp4');
     }
 });
+
+// Example usage
+shareFacebook(0);
+shareTwitter(0);
+copyLink(0);
