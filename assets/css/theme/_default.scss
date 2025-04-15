@@ -226,6 +226,32 @@ html {
       }
     }
     //#endregion clients
+    //#region insights
+    .card {
+      overflow: hidden; /* Ensures the image stays within the card bounds */
+      border-radius: 0;
+
+      .card-title{
+        font-size: 24px;        
+      }
+
+      .latest-insights-card-text {
+        text-transform: none;
+      }
+      .card-img-top {
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+
+        &:hover {
+          transform: scale(1.1);
+
+          clip-path: inset(
+            0
+          ); /* Ensures the image stays within the card bounds */
+        }
+      }
+    }
+    //#endregion insights
     .ytbg {
       background-image: url(../images/svg/youtube.svg),
         linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));

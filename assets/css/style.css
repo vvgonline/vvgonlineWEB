@@ -100,9 +100,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Golos Text", sans-serif;
+  font-family: "Roboto Slab", serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.custom-display-6 {
+  font-size: 2.5rem; /* Custom font size */
+  font-weight: 500; /* Custom font weight */
 }
 
 footer {
@@ -319,6 +324,25 @@ html body .client-banner {
 }
 html body .client-banner img {
   margin: 0 auto;
+}
+html body .card {
+  overflow: hidden; /* Ensures the image stays within the card bounds */
+  border-radius: 0;
+}
+html body .card .card-title {
+  font-size: 24px;
+}
+html body .card .latest-insights-card-text {
+  text-transform: none;
+}
+html body .card .card-img-top {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+html body .card .card-img-top:hover {
+  transform: scale(1.1);
+  -webkit-clip-path: inset(0);
+          clip-path: inset(0); /* Ensures the image stays within the card bounds */
 }
 html body .ytbg {
   background-image: url(../images/svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));

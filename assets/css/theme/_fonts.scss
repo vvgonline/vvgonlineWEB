@@ -55,7 +55,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Golos Text", sans-serif;
+  //font-family: "Golos Text", sans-serif;
+  //font-family: "Montserrat", sans-serif;
+  //font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto Slab", serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.custom-display-6 {
+    font-size: 2.5rem; /* Custom font size */
+    font-weight: 500; /* Custom font weight */
 }

@@ -1,3 +1,5 @@
+import { downloadVideo } from './downloadVideo';
+
 //define subscribe button
 const btnSubscribeButton = document.getElementById('subscribeButton');
 //define input textbox
@@ -39,5 +41,6 @@ if (video) {
 document.addEventListener('keydown', function (e) {
     if (e.ctrlKey && (e.key === 's' || e.key === 'S')) {
         e.preventDefault();
+        downloadVideo('blob:https://learn.microsoft.com/41852f3e-1f0e-43cd-a57a-2742ff170a3c', 'video.mp4');
     }
 });

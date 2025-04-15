@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Blob</title>
+</head>
+
+<body>
+    <button id="downloadButton">Download Blob</button>
+
+    <script src="./assets/scripts/dist/downloadVideo.js"></script>
+    <script>
+        // Replace this with the actual blob URL you have
+        const blobUrl = 'blob:https://learn.microsoft.com/41852f3e-1f0e-43cd-a57a-2742ff170a3c';
+
+        document.getElementById('downloadButton').addEventListener('click', () => {
+            downloadVideo(blobUrl, 'video.mp4');
+        });
+    </script>
+</body>
+
+</html>
