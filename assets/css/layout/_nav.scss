@@ -5,8 +5,8 @@ nav {
   background-color: var(--color-accent);
   border: var(--color-accent-hover) 2px solid;
   border-top: 0.25rem solid $yellow-1;
-  .navbar-brand {
-    transform: translateX(-50%);
+  .container {
+    height: 50%;
   }
   .navbar-brand-img {
     height: 60px;
