@@ -154,25 +154,27 @@ nav .logo {
   height: 404px;
   display: flex;
   justify-content: center;
-  background-color: #ccc;
+  background: var(--color-text) no-repeat left;
+  background: no-repeat left url(/assets/images/banners/Digital-Assets-Banner.jpg);
   background-size: cover;
   top: 0;
   position: relative;
 }
 .blog-banner .blog-banner__content {
-  color: var(--color-background);
   position: absolute;
 }
 .blog-banner .blog-banner__content h1 {
+  background-color: rgba(0, 0, 0, 0.75);
   font-size: 40px;
   line-height: 48px;
-  color: #fff;
+  color: var(--color-accent);
   margin-bottom: 20px;
 }
 .blog-banner .blog-banner__content p {
-  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.85);
+  font-size: 1rem;
   line-height: 28px;
-  color: #fff;
+  color: var(--color-background);
 }
 @media (max-width: 768px) {
   .blog-banner {
@@ -200,33 +202,33 @@ nav .logo {
     line-height: 20px;
   }
 }
-
 @media (max-width: 480px) {
-  .blog-banner {
+  .blog-banner .blog-banner {
     height: 404px;
   }
-  .blog-banner .blog-banner__content h1 {
+  .blog-banner .blog-banner .blog-banner__content h1 {
     font-size: 20px;
     line-height: 28px;
   }
-  .blog-banner .blog-banner__content p {
+  .blog-banner .blog-banner .blog-banner__content p {
     font-size: 14px;
     line-height: 20px;
   }
 }
 @media (max-width: 360px) {
-  .blog-banner {
+  .blog-banner .blog-banner {
     height: 404px;
   }
-  .blog-banner .blog-banner__content h1 {
+  .blog-banner .blog-banner .blog-banner__content h1 {
     font-size: 18px;
     line-height: 24px;
   }
-  .blog-banner .blog-banner__content p {
+  .blog-banner .blog-banner .blog-banner__content p {
     font-size: 14px;
     line-height: 20px;
   }
 }
+
 html {
   min-height: 100%;
   overflow-x: hidden;
