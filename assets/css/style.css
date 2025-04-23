@@ -155,7 +155,7 @@ nav .logo {
   display: flex;
   justify-content: center;
   background: var(--color-text) no-repeat left;
-  background: no-repeat left url(/assets/images/banners/Digital-Assets-Banner.jpg);
+  background: no-repeat left url(/assets/images/banners/Blog-Banner.jpg);
   background-size: cover;
   top: 0;
   position: relative;
