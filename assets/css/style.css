@@ -290,7 +290,7 @@ html body .hero .hero__title {
   color: var(--color-light);
 }
 html body .hero .hero__text {
-  font-weight: 24px;
+  font-size: 18px;
   text-align: center;
   z-index: 1;
 }
