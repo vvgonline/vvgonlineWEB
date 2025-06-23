@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://vvgonline.net/</loc>
   <lastmod>2025-01-12T14:08:16+00:00</lastmod>
@@ -33,5 +32,21 @@
   <priority>0.80</priority>
 </url>
 
+<!-- Blog posts -->
+<url>
+  <loc>https://vvgonline.net/Blog/Digital-Assets-The-Real-Estate-of-the-Virtual-World.html</loc>
+  <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://vvgonline.net/Blog/Operating-Model-Design.html</loc>
+  <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://vvgonline.net/Blog/Key-Performance-Indicators-a-vvg-online-approach.html</loc>
+  <lastmod>2025-05-20T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
 
 </urlset>
