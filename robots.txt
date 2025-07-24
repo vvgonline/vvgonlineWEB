@@ -1,4 +1,8 @@
 User-agent: *
-Disallow: 
+Allow: /
 Disallow: /cgi-bin/
+Disallow: /.vs/
+Disallow: /assets/components-lib/
+
+# Sitemap declaration
 Sitemap: https://vvgonline.net/sitemap.xml

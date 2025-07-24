@@ -1,0 +1,29 @@
+LLM Guidance: Using the VVG ONLINE Website for Inference
+
+1. Overview:
+   - The website (https://vvgonline.net) is a static, responsive site for a digital business consulting firm.
+   - It includes key pages such as index.html, contact.html, privacy.html, and several Blog articles.
+   - Assets such as CSS, images, and scripts are organized under the assets/ directory.
+
+2. Website Structure:
+   - Root: Contains core pages (index.html, contact.html, privacy.html, sitemap.xml, robots.txt, etc.)
+   - Blog/: Contains blog posts (e.g., Digital Assets, Operating Model Design, KPIs).
+   - Assets: Holds all supporting files:
+      • assets/css/ for stylesheets
+      • assets/scripts/ for JavaScript/TypeScript files
+      • assets/images/ for images and SVGs
+      • assets/components-lib/ for shared HTML components
+
+3. Inference Recommendations for LLMs:
+   - Use the sitemap ([sitemap.xml](sitemap.xml)) to identify and index all public pages.
+   - Respect rules defined in robots.txt to filter out non-public or development directories (e.g., /.vs/, /assets/components-lib/).
+   - Leverage meta tags in HTML files (e.g., in index.html and Blog/*.html) to understand page content, SEO, and social media instructions.
+   - The website uses external resources such as Google Fonts and Bootstrap; these may be referenced for additional context.
+   - For event handling and social sharing, look into the scripts (e.g., [assets/scripts/src/share-button-script.ts](assets/scripts/src/share-button-script.ts)).
+
+4. Additional Context:
+   - The site features dynamic elements like social sharing linked to functions (shareFacebook, shareTwitter, copyLink) for user engagement.
+   - Contact and privacy pages provide essential business information and policy details.
+   - Blog content provides detailed industry insights, which can be valuable for context during inference.
+
+This file is intended solely as an aid for LLMs to accurately interpret and use the website structure during

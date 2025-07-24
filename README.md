@@ -68,4 +68,4 @@ This is a private repository for VVG ONLINE. Please contact the team for contrib
 
 ## Contact
 
-For more information, visit [vvgonline.net](https://vvgonline.net) or use our [contact form](https://vvgonline.net/contact.html).
+For more information, visit [vvgonline.net](https://vvgonline.net) or use our [contact form](https://vvgonline.net/contact.html)
