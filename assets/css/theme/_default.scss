@@ -8,7 +8,7 @@
 
 html {
   min-height: 100%;
-  overflow-x: hidden;
+  //overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -38,11 +38,13 @@ html {
     //#region hero
     //hero section
     .hero {
+      position: relative; // Add this
+      overflow: hidden; // Ensures video doesn't spill out
       //background-position: center;
       padding: 10px;
       //margin-top: 80px;
-      //margin-bottom: 80px;
-      height: calc(100vh - env(safe-area-inset-bottom));
+      margin-bottom: 80px;
+      //height: calc(100vh - env(safe-area-inset-bottom));
       text-align: center;
       display: flex !important;
       flex-direction: column; /* Stack elements vertically */
@@ -53,9 +55,9 @@ html {
 
       #hero-video-background {
         background-color: var(--color-text);
-        position: fixed;
-        top: 50%;
-        left: 50%;
+        position: absolute !important; // It is important to keep the position as absolute. Before it was fixed but due to this this the banner filled out Or lived out of the hero Space.
+        top: 50% !important;
+        left: 50% !important;
         pointer-events: none;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -66,6 +68,7 @@ html {
         min-height: 100vh;
         width: auto;
         height: auto;
+        object-fit: cover;
         z-index: -1;
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);

@@ -318,7 +318,6 @@ nav .logo {
 }
 html {
   min-height: 100%;
-  overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   margin: 0;
@@ -343,8 +342,10 @@ html body button {
   text-decoration: none;
 }
 html body .hero {
+  position: relative;
+  overflow: hidden;
   padding: 10px;
-  height: calc(100vh - env(safe-area-inset-bottom));
+  margin-bottom: 80px;
   text-align: center;
   display: flex !important;
   flex-direction: column; /* Stack elements vertically */
@@ -354,9 +355,9 @@ html body .hero {
 }
 html body .hero #hero-video-background {
   background-color: var(--color-text);
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
   pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -366,6 +367,8 @@ html body .hero #hero-video-background {
   min-height: 100vh;
   width: auto;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -1;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
@@ -556,4 +559,8 @@ video::-webkit-media-controls-enclosure {
 
 video::-webkit-media-controls-panel {
   width: calc(100% + 30px); /* Adjust as needed */
+}
+
+.bg-color {
+  background-color: var(--color-background);
 }/*# sourceMappingURL=style.css.map */
