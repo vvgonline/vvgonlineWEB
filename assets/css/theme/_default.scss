@@ -4,258 +4,268 @@
 @import "../layout/footer";
 @import "../layout/nav";
 @import "../Pages/blog-banner";
+@import "./responsive";
 
 html {
-    min-height: 100%;
-    overflow-x: hidden;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  //body
+  body {
     padding: 0;
-    //body
-    body {
-        padding: 0;
-        margin: 0;
-        width: 100vw;
-        border-top: 0.25rem solid $yellow-1;
+    margin: 0;
+    width: 100vw;
+    border-top: 0.25rem solid $yellow-1;
 
-        .btn.btn-outline-dark,
-        .form-control,
-        .btn.btn-outline-light,
-        #subscribeButton,
-        .btn.btn-default {
-            border-radius: 0;
-        }
-
-        a,
-        button {
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-        //#region hero
-        //hero section
-        .hero {
-            //background-position: center;
-            padding: 10px;
-            //margin-top: 80px;
-            //margin-bottom: 80px;
-            height: calc(100vh - env(safe-area-inset-bottom));
-            text-align: center;
-            display: flex !important;
-            flex-direction: column; /* Stack elements vertically */
-            justify-content: center; /* Centers horizontally and vertically */
-            align-items: center; /* Centers vertically */
-            overflow: hidden;
-            color: var(--color-background);
-
-            #hero-video-background {
-                background-color: var(--color-text);
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                min-width: 100vw;
-                min-height: 100vh;
-                width: auto;
-                height: auto;
-                z-index: -1;
-                -ms-transform: translateX(-50%) translateY(-50%);
-                -moz-transform: translateX(-50%) translateY(-50%);
-                -webkit-transform: translateX(-50%) translateY(-50%);
-                transform: translateX(-50%) translateY(-50%);
-                background-size: cover;
-            }
-
-            #hero-video-loaded {
-                background-color: transparent; /* Remove background color when video loads */
-            }
-
-            .hero__title {
-                font-size: 48px;
-                font-weight: 900;
-                text-align: center;
-                //margin: 15px 10px;
-                z-index: 1;
-                color: var(--color-light);
-            }
-
-            .hero__text {
-                font-size: 18px;
-                text-align: center;
-                z-index: 1;
-            }
-            //hyperlinks
-            a {
-                background-color: var(--color-accent);
-                color: var(--color-text);
-                border: none;
-                padding: 10px 20px;
-                font-size: 18px;
-                cursor: pointer;
-                margin-top: 20px;
-            }
-
-            a:hover {
-                background-color: var(--color-accent-hover);
-            }
-        }
-        //#endregion hero
-        //#region about flex grid 2 column
-        .about {
-            .row {
-                --bs-gutter-x: 0;
-                display: flex;
-                //align-items: stretch;
-            }
-
-            .col,
-            .col-sm,
-            .col-lg-6 {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
-            .col-sm img {
-                flex-grow: 1;
-                object-fit: cover;
-            }
-
-            display: flex;
-            flex-direction: column; /* Stack elements vertically */
-            align-items: center; /* Centers horizontally */
-            //padding: 1% 0;
-            //padding-right: 15%;
-
-            .about__major-text {
-                font-weight: 550;
-            }
-
-            .vvg-online-what-we-do-row {
-                background-color: #fdfbe4;
-                color: var(--color-text);
-            }
-
-            .vvg-online-our-services-are-must-row {
-                background-color: #597ba8;
-                color: var(--color-background);
-            }
-
-            .column {
-                flex: 50%;
-                padding: 0 15px;
-                align-items: flex-start;
-            }
-
-            .about__text {
-                padding: 0 15px;
-                text-align: center;
-            }
-
-            .about__img {
-                padding: 0 15px;
-                text-align: center;
-            }
-        }
-        //#endregion about flex grid 2 column
-        //#region how-we-do-it-with-team flex grid 2 column 70-30
-        .how-we-do-it-with-team {
-            display: flex;
-            flex-direction: row; /* Stack elements horizontally */
-            align-items: flex-start;
-            padding: 1% 0;
-
-            .how-we-do-it-with-team__major-text {
-                font-size: 16px;
-                font-weight: 700;
-            }
-
-            .column-1 {
-                flex: 70%;
-                padding: 0 15px;
-                align-items: flex-start;
-            }
-
-            .column-2 {
-                flex: 30%;
-                padding: 0 15px;
-                align-items: flex-start;
-
-                .team-member-name {
-                    font-size: 16px;
-                    font-weight: 700;
-                    display: flex;
-                    align-items: center;
-                    color: var(--color-text);
-                    background-color: var(--color-accent);
-                    padding: 5px 12px;
-                    border-bottom: var(--color-text) 2px solid;
-
-                    img {
-                        height: 50px;
-                        width: 50px;
-                        margin-right: 10px;
-                        border-radius: 50%;
-                        align-self: center;
-                    }
-
-                    .team-member-name__text {
-                        align-self: center;
-
-                        small {
-                            font-size: 12px;
-                            font-weight: 400;
-                        }
-                    }
-                }
-
-                .team-member-skills {
-                    padding: 5px 12px;
-                }
-            }
-        }
-        //#endregion how-we-do-it-with-team flex grid 2 column 70-30
-        //#region clients
-        .client-banner {
-            background-color: var(--color-text);
-
-            img {
-                margin: 0 auto;
-            }
-        }
-        //#endregion clients
-        //#region insights
-        .card {
-            overflow: hidden; /* Ensures the image stays within the card bounds */
-            border-radius: 0;
-
-            .card-title {
-                font-size: 24px;
-            }
-
-            .latest-insights-card-text {
-                text-transform: none;
-            }
-
-            .card-img-top {
-                transition: transform 0.3s ease-in-out;
-                overflow: hidden;
-
-                &:hover {
-                    transform: scale(1.1);
-                    clip-path: inset( 0 ); /* Ensures the image stays within the card bounds */
-                }
-            }
-        }
-        //#endregion insights
-        .ytbg {
-            background-image: url(../images/svg/youtube.svg), linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
+    .btn.btn-outline-dark,
+    .form-control,
+    .btn.btn-outline-light,
+    #subscribeButton,
+    .btn.btn-default {
+      border-radius: 0;
     }
+
+    a,
+    button {
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    //#region hero
+    //hero section
+    .hero {
+      //background-position: center;
+      padding: 10px;
+      //margin-top: 80px;
+      //margin-bottom: 80px;
+      height: calc(100vh - env(safe-area-inset-bottom));
+      text-align: center;
+      display: flex !important;
+      flex-direction: column; /* Stack elements vertically */
+      justify-content: center; /* Centers horizontally and vertically */
+      align-items: center; /* Centers vertically */
+      //overflow: hidden;
+      color: var(--color-background);
+
+      #hero-video-background {
+        background-color: var(--color-text);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        min-width: 100vw;
+        min-height: 100vh;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+      }
+
+      #hero-video-loaded {
+        background-color: transparent; /* Remove background color when video loads */
+      }
+
+      .hero__title {
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+        //margin: 15px 10px;
+        z-index: 1;
+        color: var(--color-light);
+      }
+
+      .hero__text {
+        font-size: 18px;
+        text-align: center;
+        z-index: 1;
+      }
+      //hyperlinks
+      a {
+        background-color: var(--color-accent);
+        color: var(--color-text);
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      a:hover {
+        background-color: var(--color-accent-hover);
+      }
+    }
+    //#endregion hero
+    //#region about flex grid 2 column
+    .about {
+      .row {
+        --bs-gutter-x: 0;
+        display: flex;
+        //align-items: stretch;
+      }
+
+      .col,
+      .col-sm,
+      .col-lg-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .col-sm img {
+        flex-grow: 1;
+        object-fit: cover;
+      }
+
+      display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Centers horizontally */
+      //padding: 1% 0;
+      //padding-right: 15%;
+
+      .about__major-text {
+        font-weight: 550;
+      }
+
+      .vvg-online-what-we-do-row {
+        background-color: #fdfbe4;
+        color: var(--color-text);
+      }
+
+      .vvg-online-our-services-are-must-row {
+        background-color: #597ba8;
+        color: var(--color-background);
+      }
+
+      .column {
+        flex: 50%;
+        padding: 0 15px;
+        align-items: flex-start;
+      }
+
+      .about__text {
+        padding: 0 15px;
+        text-align: center;
+      }
+
+      .about__img {
+        padding: 0 15px;
+        text-align: center;
+      }
+    }
+    //#endregion about flex grid 2 column
+    //#region how-we-do-it-with-team flex grid 2 column 70-30
+    .how-we-do-it-with-team {
+      display: flex;
+      flex-direction: row; /* Stack elements horizontally */
+      align-items: flex-start;
+      padding: 1% 0;
+
+      .how-we-do-it-with-team__major-text {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .column-1 {
+        flex: 70%;
+        padding: 0 15px;
+        align-items: flex-start;
+      }
+
+      .column-2 {
+        flex: 30%;
+        padding: 0 15px;
+        align-items: flex-start;
+
+        .team-member-name {
+          font-size: 16px;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          color: var(--color-text);
+          background-color: var(--color-accent);
+          padding: 5px 12px;
+          border-bottom: var(--color-text) 2px solid;
+
+          img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            align-self: center;
+          }
+
+          .team-member-name__text {
+            align-self: center;
+
+            small {
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .team-member-skills {
+          padding: 5px 12px;
+        }
+      }
+    }
+    //#endregion how-we-do-it-with-team flex grid 2 column 70-30
+    //#region clients
+    .client-banner {
+      background-color: var(--color-text);
+
+      img {
+        margin: 0 auto;
+      }
+    }
+    //#endregion clients
+    //#region insights
+    .card {
+      overflow: hidden; /* Ensures the image stays within the card bounds */
+      border-radius: 0;
+
+      .card-title {
+        font-size: 24px;
+      }
+
+      .latest-insights-card-text {
+        text-transform: none;
+      }
+
+      .card-img-top {
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+
+        &:hover {
+          transform: scale(1.1);
+          clip-path: inset(
+            0
+          ); /* Ensures the image stays within the card bounds */
+        }
+      }
+    }
+    //#endregion insights
+    .ytbg {
+      background-image: url(../images/svg/youtube.svg),
+        linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  }
 }
 *,
 *:before,

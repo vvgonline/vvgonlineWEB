@@ -1,0 +1,115 @@
+// Media Queries for different screen sizes
+// Mobile devices (portrait)
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 100vh !important;
+    padding: 5px !important;
+
+    #hero-video-background {
+      height: 100vh !important;
+      width: auto !important;
+    }
+
+    .hero__title {
+      font-size: 32px !important;
+      margin: 10px 5px !important;
+    }
+
+    .hero__text {
+      font-size: 16px !important;
+      padding: 0 10px !important;
+    }
+  }
+}
+
+// Mobile devices (landscape)
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .hero {
+    height: 100vh !important;
+
+    #hero-video-background {
+      width: 100vw !important;
+      height: auto !important;
+    }
+
+    .hero__title {
+      font-size: 28px !important;
+      margin: 5px !important;
+    }
+
+    .hero__text {
+      font-size: 14px !important;
+    }
+  }
+}
+
+// Tablets (portrait and landscape)
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .hero {
+    height: calc(100vh - env(safe-area-inset-bottom)) !important;
+
+    #hero-video-background {
+      width: 100vw !important;
+      height: auto !important;
+      min-height: 100vh !important;
+    }
+
+    .hero__title {
+      font-size: 42px !important;
+    }
+
+    .hero__text {
+      font-size: 18px !important;
+    }
+  }
+}
+
+// Large screens and desktops
+@media screen and (min-width: 1025px) {
+  .hero {
+    height: calc(100vh - env(safe-area-inset-bottom)) !important;
+
+    #hero-video-background {
+      min-width: 100vw !important;
+      min-height: 100vh !important;
+      width: auto !important;
+      height: auto !important;
+    }
+
+    .hero__title {
+      font-size: 48px !important;
+    }
+
+    .hero__text {
+      font-size: 24px !important;
+    }
+  }
+}
+
+// 4K and ultra-wide screens
+@media screen and (min-width: 2560px) {
+  .hero {
+    #hero-video-background {
+      width: 100vw !important;
+      height: auto !important;
+    }
+
+    .hero__title {
+      font-size: 64px !important;
+    }
+
+    .hero__text {
+      font-size: 32px !important;
+    }
+  }
+}
+
+// Support for devices with notches (iPhone X and newer)
+@supports (padding: max(0px)) {
+  .hero {
+    padding-left: max(10px, env(safe-area-inset-left));
+    padding-right: max(10px, env(safe-area-inset-right));
+    padding-top: max(10px, env(safe-area-inset-top));
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
+  }
+}
