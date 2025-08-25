@@ -1,7 +1,13 @@
 .contact-section {
   margin-top: 100px;
   color: var(--color-background);
-  p{
+  p {
     color: rgba(var(--color-background), 0.7);
   }
+}
+
+.contact-form-iframe {
+  height: 640px;
+  width: 100%;
+  border: none;
 }

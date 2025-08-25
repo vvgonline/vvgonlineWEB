@@ -93,18 +93,39 @@
     <!--#region header-->
     <header>
         <!-- #region nav -->
-        <nav class="navbar top-row fixed-top px-2 mb-5">
+        <nav class="navbar navbar-expand-lg top-row fixed-top px-2 mb-5">
             <div class="container">
                 <a class="navbar-brand" href="../index.html" title="VVG ONLINE">
                     <img src="../assets/images/logo-2025.svg" alt="VVG ONLINE" class="d-inline-block align-text-top">
                 </a>
-                <a href="#" class="btn btn-outline-dark">About</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#insights">Insights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../contact.html" class="btn btn-primary nav-link contact-icon">
+                                <i class="bi bi-envelope"></i> Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- #endregion nav -->
         <!--#region banner-->
-        <div class="blog-banner text-center mt-5 p-5 mb-4">
-            <div class="blog-banner__content mt-5 p-5 mb-4">
+        <div class="blog-banner text-center p-5 mb-4">
+            <div class="blog-banner__content p-5 mb-4">
                 <h1 class="mb-4 p-3">Operating Model Design</h1>
                 <p class="blog-banner__date">
                     April 17, 2025 | <i>Article</i>
@@ -308,13 +329,10 @@
             </article>
         </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- <script>var exports = {};</script> -->
-    <script async defer type="module" src="../assets/scripts/dist/site.js"></script>
+    <script type="module" src="../assets/scripts/dist/site.js"></script>
 </body>
 
 </html>

@@ -189,13 +189,11 @@ footer .social-icons a:hover {
 .navbar .nav-link:hover {
   color: var(--color-accent);
 }
-.navbar .nav-link.contact-icon {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.navbar .navbar-toggler {
+  border-color: var(--color-accent);
 }
-.navbar .nav-link.contact-icon i {
-  font-size: 1.2rem;
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28248, 87, 166, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .blog-banner {
@@ -386,7 +384,7 @@ html body {
   margin: 0;
   width: 100vw;
   background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
-  color: var(--color-text);
+  color: var(--color-background);
   font-family: "Golos Text", sans-serif;
 }
 html body .btn.btn-outline-dark,
@@ -743,4 +741,10 @@ footer .social-icons a:hover {
 }
 .contact-section p {
   color: rgba(var(--color-background), 0.7);
+}
+
+.contact-form-iframe {
+  height: 640px;
+  width: 100%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
