@@ -8,6 +8,17 @@
   text-align: center;
   overflow: hidden;
 
+  .hero-title {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2.22rem;
+    color: wheat;
+  }
+
   #hero-video-background {
     position: absolute;
     top: 50%;
@@ -33,10 +44,6 @@
 
   .hero-content {
     z-index: 1;
-  }
-
-  .hero-subtitle {
-    color: wheat;
   }
 }
 

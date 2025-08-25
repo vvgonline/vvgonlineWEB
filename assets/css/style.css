@@ -14,6 +14,7 @@
 * Main.scss & all other theme scss
 * files
 ----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Lustria:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap");
 :root {
   --color-primary: #06f;
   --color-secondary: #3e78b1;
@@ -78,18 +79,19 @@ body {
   }
 }
 body {
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "IBM Plex Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: var(--color-background);
   color: var(--color-text);
-  line-height: var(--golden-ratio);
+  line-height: 1.7;
   letter-spacing: calc(var(--base-font-size) / var(--golden-ratio) * 0.01);
+  font-weight: 300;
 }
 
 .lead {
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: calc(var(--base-font-size) * 1.24);
-  font-weight: 500;
-  color: var(--color-dark);
+  font-family: "Lustria", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.25em;
+  font-weight: 400;
+  color: var(--color-background);
   margin-bottom: 1rem;
 }
 
@@ -99,8 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
-  text-transform: uppercase;
+  font-family: "Lora", serif, serif;
   font-weight: 700;
 }
 
@@ -606,6 +607,10 @@ html body .ytbg {
   border: 3px solid rgb(246, 228, 65);
 }
 
+.pp-lead {
+  color: var(--color-text);
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -615,6 +620,15 @@ html body .ytbg {
   color: white;
   text-align: center;
   overflow: hidden;
+}
+.hero .hero-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero .hero-subtitle {
+  font-size: 2.22rem;
+  color: wheat;
 }
 .hero #hero-video-background {
   position: absolute;
@@ -639,9 +653,6 @@ html body .ytbg {
 }
 .hero .hero-content {
   z-index: 1;
-}
-.hero .hero-subtitle {
-  color: wheat;
 }
 
 #services {

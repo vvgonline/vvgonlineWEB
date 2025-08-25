@@ -1,3 +1,11 @@
+// Import Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Lustria:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+// Define font families
+$font-lora: "Lora", serif;
+$font-lustria: "Lustria", serif;
+$font-ibm-plex-sans: "IBM Plex Sans", sans-serif;
+
 :root {
   --golden-ratio: 1.618;
   --base-font-size: 1rem;
@@ -29,23 +37,24 @@ body {
 }
 
 body {
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  font-family: $font-ibm-plex-sans, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: var(--color-background);
   color: var(--color-text);
-  line-height: var(--golden-ratio);
+  line-height: 1.7;
   letter-spacing: calc(var(--base-font-size) / var(--golden-ratio) * 0.01);
+  font-weight: 300;
 }
 
 // Lead Text Styling
 .lead {
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: $font-lustria, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: calc(var(--base-font-size) * 1.24);
-  font-weight: 500;
-  color: var(--color-dark);
+  font-size: 1.25em;
+  font-weight: 400;
+  color: var(--color-background);
   margin-bottom: 1rem;
 }
 
@@ -55,15 +64,11 @@ h3,
 h4,
 h5,
 h6 {
-  //font-family: "Golos Text", sans-serif;
-  //font-family: "Montserrat", sans-serif;
-  //font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto Slab", serif;
-  text-transform: uppercase;
+  font-family: $font-lora, serif;
   font-weight: 700;
 }
 
 .custom-display-6 {
-    font-size: 2.5rem; /* Custom font size */
-    font-weight: 500; /* Custom font weight */
+  font-size: 2.5rem; /* Custom font size */
+  font-weight: 500; /* Custom font weight */
 }
