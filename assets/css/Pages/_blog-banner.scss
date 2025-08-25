@@ -30,6 +30,15 @@ $banner-image-path: "/assets/images/banners/Blog-Banner.jpg";
       color: var(--color-background);
     }
   }
+  .blog-banner__date {
+    display: block;
+    color: #f3a712;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+  }
   @media (max-width: 768px) {
     height: 404px;
     .blog-banner__content {

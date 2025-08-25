@@ -1,48 +1,80 @@
-@media (min-width: 992px) {
-  .hero {
-    height: 100vh;
-    overflow: hidden;
-    // video {
-    //   max-width: 100vw;
-    //   max-height: 100vh;
-    //   height: auto;
-    //   z-index: -1;
-    //   -ms-transform: translateX(-50%) translateY(-50%);
-    //   -moz-transform: translateX(-50%) translateY(-50%);
-    //   -webkit-transform: translateX(-50%) translateY(-50%);
-    //   transform: translateX(-50%) translateY(-50%);
-    //   background-size: cover;
-    // }
-    #hero-video-background {
-      background-color: var(--color-text);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100vw;
-      min-height: 100vh;
-      width: auto;
-      height: auto;
-      z-index: -1;
-      -ms-transform: translateX(-50%) translateY(-50%);
-      -moz-transform: translateX(-50%) translateY(-50%);
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      background-size: cover;
-    }
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+
+  #hero-video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  .hero-content {
+    z-index: 1;
+  }
+
+  .hero-subtitle {
+    color: wheat;
   }
 }
-video::-internal-media-controls-download-button {
-  display: none;
+
+#services {
+  color: var(--color-background);
+  p {
+    color: rgba(var(--color-background), 0.3);
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+  }
+
+  .feature-icon-primary {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
 }
 
-video::-webkit-media-controls-enclosure {
-  overflow: hidden;
-}
+#insights {
+  color: var(--color-background);
+  p {
+    color: rgba(var(--color-background), 0.3);
+  }
+  .blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-video::-webkit-media-controls-panel {
-  width: calc(100% + 30px); /* Adjust as needed */
-}
-
-.bg-color {
-  background-color: var(--color-background);
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+  }
 }

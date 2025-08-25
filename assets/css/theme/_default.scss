@@ -20,7 +20,9 @@ html {
     padding: 0;
     margin: 0;
     width: 100vw;
-    border-top: 0.25rem solid $yellow-1;
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    color: var(--color-text);
+    font-family: 'Golos Text', sans-serif;
 
     .btn.btn-outline-dark,
     .form-control,
@@ -277,4 +279,19 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   scrollbar-color: $prime-1 $prime-3;
+
+  /* Fallback for unsupported browsers */
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $prime-3;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $prime-1;
+    border-radius: 10px;
+    border: 3px solid $prime-3;
+  }
 }
