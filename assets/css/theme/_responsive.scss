@@ -20,6 +20,12 @@
       padding: 0 10px !important;
     }
   }
+  .blog-banner h1 {
+    font-size: 1.5rem;
+  }
+  .blog-banner p {
+    font-size: 0.875rem;
+  }
 }
 
 // Mobile devices (landscape)
@@ -122,5 +128,41 @@
     .nav-item {
       text-align: right;
     }
+  }
+  .blog-banner__content {
+    h1 {
+      font-size: 2rem;
+      line-height: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .blog-banner {
+    height: 404px;
+  }
+  .blog-banner__content h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .blog-banner__content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-banner {
+    height: 404px;
+  }
+  .blog-banner__content h1 {
+    font-size: 1.5rem;
+  }
+  .blog-banner__content p {
+    font-size: 0.875rem;
   }
 }

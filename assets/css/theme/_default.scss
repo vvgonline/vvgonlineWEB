@@ -2,11 +2,14 @@
 @import "./colors";
 @import "./fonts";
 @import "./responsive";
-@import "./animations";
+@import "./animation";
 @import "../layout/footer";
 @import "../layout/nav";
 @import "../Pages/blog-banner";
-
+@import "../Pages/privacy";
+@import "../Pages/index";
+@import "../Pages/contact";
+// Global Styles
 html {
   min-height: 100%;
   //overflow-x: hidden;
