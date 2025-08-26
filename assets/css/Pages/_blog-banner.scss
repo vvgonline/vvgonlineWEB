@@ -1,53 +1,56 @@
 $banner-image-path: "/assets/images/banners/Blog-Banner.jpg";
 .blog-banner {
-  width: 100%;
-  height: 404px;
+  width: auto;
+  height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
   background: var(--color-text) no-repeat left;
-  background: no-repeat left url(#{$banner-image-path});
+  //   background: no-repeat left url(#{$banner-image-path});
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(#{$banner-image-path}) no-repeat center center;
   background-size: cover;
   top: 0;
   position: relative;
 
   .blog-banner__content {
-    position: absolute;
-    //top: -50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
-    //text-align: center;
+    text-align: center;
+    max-width: 800px;
+    padding: 2rem;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
     h1 {
       background-color: rgba(0, 0, 0, 0.75);
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 3rem;
+      line-height: 1.2;
       color: var(--color-accent);
       margin-bottom: 20px;
     }
     p {
-      background-color: rgba(0, 0, 0, 0.85);
-      font-size: 1rem;
-      line-height: 28px;
-      color: var(--color-background);
+      //   background-color: rgba(0, 0, 0, 0.85);
+      font-size: 1.125rem;
+      line-height: 1.6;
     }
-  }
-  .blog-banner__date {
-    display: block;
-    color: #f3a712;
-    font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.85);
-    padding: 0.5em 1em;
-    border-radius: 8px;
-    margin-bottom: 1em;
+    .blog-banner__date {
+      display: block;
+      color: var(--color-accent-hover);
+      font-size: 1.2rem;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 0.5em 1em;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
   }
   @media (max-width: 768px) {
     height: 404px;
     .blog-banner__content {
       h1 {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 2rem;
+        line-height: 1rem;
       }
       p {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 24px;
       }
     }
@@ -56,27 +59,20 @@ $banner-image-path: "/assets/images/banners/Blog-Banner.jpg";
     height: 404px;
     .blog-banner__content {
       h1 {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 1.5rem;
       }
       p {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 0.875rem;
       }
     }
   }
   @media (max-width: 480px) {
     .blog-banner {
-      height: 404px;
-      .blog-banner__content {
-        h1 {
-          font-size: 20px;
-          line-height: 28px;
-        }
-        p {
-          font-size: 14px;
-          line-height: 20px;
-        }
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.875rem;
       }
     }
   }

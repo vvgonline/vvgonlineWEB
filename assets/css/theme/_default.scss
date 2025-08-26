@@ -1,10 +1,11 @@
 //import scss files
 @import "./colors";
 @import "./fonts";
+@import "./responsive";
+@import "./animations";
 @import "../layout/footer";
 @import "../layout/nav";
 @import "../Pages/blog-banner";
-@import "./responsive";
 
 html {
   min-height: 100%;
