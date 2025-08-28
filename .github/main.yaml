@@ -24,3 +24,7 @@ jobs:
           folder: .
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check for in-progress deployments
+        run: |
+          # Replace with GitHub API call or script to detect in-progress deployments
+          # Exit 0 to skip deployment if another is running
