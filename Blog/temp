@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GST Rate Deductions for E-commerce: A Complete Guide by VVG ONLINE</title>
-    <meta name="description" content="Explore how recent GST rate deductions in electronics, textiles, and other sectors are a game-changer for e-commerce businesses. Learn how VVG ONLINE helps you leverage these changes for better pricing, higher profitability, and strategic growth.">
-    <meta name="keywords" content="GST rate deductions, e-commerce GST, GST India, VVG ONLINE, e-commerce business, GST compliance, online business tax, GST for electronics, GST for textiles, GST for FMCG">
+    <meta name="description"
+        content="Explore how recent GST rate deductions in electronics, textiles, and other sectors are a game-changer for e-commerce businesses. Learn how VVG ONLINE helps you leverage these changes for better pricing, higher profitability, and strategic growth.">
+    <meta name="keywords"
+        content="GST rate deductions, e-commerce GST, GST India, VVG ONLINE, e-commerce business, GST compliance, online business tax, GST for electronics, GST for textiles, GST for FMCG">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -13,53 +16,71 @@
             line-height: 1.6;
             color: #333;
         }
+
         .container {
             max-width: 960px;
             margin-top: 30px;
             margin-bottom: 30px;
         }
-        h1, h2, h3, h4, h5, h6 {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             color: #2c3e50;
             margin-top: 1.5rem;
             margin-bottom: 1rem;
         }
+
         h1 {
             font-size: 2.5rem;
             font-weight: bold;
         }
+
         h2 {
             font-size: 2rem;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 0.5rem;
         }
+
         h3 {
             font-size: 1.75rem;
         }
+
         .table {
             margin-top: 1.5rem;
             margin-bottom: 1.5rem;
         }
-        .table th, .table td {
+
+        .table th,
+        .table td {
             vertical-align: middle;
         }
+
         .list-unstyled li {
             margin-bottom: 0.5rem;
         }
+
         .text-center img {
             max-width: 100%;
             height: auto;
         }
+
         .card {
             margin-top: 2rem;
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .card-header {
             background-color: #f8f9fa;
             font-weight: bold;
             border-radius: 8px 8px 0 0;
         }
+
         .footer {
             margin-top: 2rem;
             border-top: 1px solid #ddd;
@@ -67,21 +88,25 @@
             font-size: 0.875rem;
             color: #666;
         }
+
         .disclaimer {
             font-style: italic;
             font-size: 0.8rem;
             color: #888;
             margin-top: 2rem;
         }
+
         .contact-info a {
             color: #e74c3c;
             text-decoration: none;
         }
+
         .contact-info a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header class="text-center my-4">
@@ -91,15 +116,22 @@
 
         <section id="introduction">
             <h2>Introduction</h2>
-            <p>The Goods and Services Tax (GST) landscape in India has undergone significant transformations since its implementation in 2017. With periodic rate revisions and deductions across various sectors, these changes have created ripple effects throughout the e-commerce ecosystem. Understanding these deductions and their implications is crucial for businesses looking to optimize their operations and enhance profitability in the digital marketplace.</p>
-            <p>This comprehensive analysis explores the recent GST rate deductions across different sectors, their profound impact on e-commerce businesses, and strategic approaches to leverage these changes for competitive advantage.</p>
+            <p>The Goods and Services Tax (GST) landscape in India has undergone significant transformations since its
+                implementation in 2017. With periodic rate revisions and deductions across various sectors, these
+                changes have created ripple effects throughout the e-commerce ecosystem. Understanding these deductions
+                and their implications is crucial for businesses looking to optimize their operations and enhance
+                profitability in the digital marketplace.</p>
+            <p>This comprehensive analysis explores the recent GST rate deductions across different sectors, their
+                profound impact on e-commerce businesses, and strategic approaches to leverage these changes for
+                competitive advantage.</p>
         </section>
 
         ---
 
         <section id="gst-rate-structure">
             <h2>Overview of GST Rate Structure</h2>
-            <p>Before diving into sector-specific deductions, it's essential to understand the current GST slab structure in India:</p>
+            <p>Before diving into sector-specific deductions, it's essential to understand the current GST slab
+                structure in India:</p>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <thead class="thead-dark">
@@ -144,9 +176,10 @@
 
         <section id="sector-wise-deductions">
             <h2>Sector-wise GST Rate Deductions: A Detailed Analysis</h2>
-            
+
             <h3 class="mt-4">1. Consumer Electronics and Mobile Devices</h3>
-            <p>The consumer electronics sector has witnessed substantial GST rate adjustments, particularly benefiting e-commerce platforms that dominate this market segment.</p>
+            <p>The consumer electronics sector has witnessed substantial GST rate adjustments, particularly benefiting
+                e-commerce platforms that dominate this market segment.</p>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <thead class="thead-dark">
@@ -193,10 +226,14 @@
             </div>
             <p><strong>Impact on E-commerce:</strong></p>
             <ul>
-                <li><strong>Price Competitiveness:</strong> The 6-10% reduction translates directly to lower prices, making online platforms more attractive</li>
-                <li><strong>Increased Demand:</strong> Studies show a 25-30% increase in online electronics sales post-GST reduction</li>
-                <li><strong>Improved Margins:</strong> E-commerce platforms can maintain competitive prices while improving profit margins</li>
-                <li><strong>Market Expansion:</strong> Lower prices enable penetration into Tier-2 and Tier-3 cities</li>
+                <li><strong>Price Competitiveness:</strong> The 6-10% reduction translates directly to lower prices,
+                    making online platforms more attractive</li>
+                <li><strong>Increased Demand:</strong> Studies show a 25-30% increase in online electronics sales
+                    post-GST reduction</li>
+                <li><strong>Improved Margins:</strong> E-commerce platforms can maintain competitive prices while
+                    improving profit margins</li>
+                <li><strong>Market Expansion:</strong> Lower prices enable penetration into Tier-2 and Tier-3 cities
+                </li>
             </ul>
 
             <h3 class="mt-4">2. Textile and Apparel Industry</h3>
@@ -257,7 +294,8 @@ Profit Margin Increase:  ████████ 22%
             </pre>
 
             <h3 class="mt-4">3. FMCG and Grocery Sector</h3>
-            <p>Fast-Moving Consumer Goods have seen targeted GST reductions to boost consumption and digital adoption.</p>
+            <p>Fast-Moving Consumer Goods have seen targeted GST reductions to boost consumption and digital adoption.
+            </p>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <thead class="thead-dark">
@@ -312,7 +350,8 @@ Q4: ████████████████████ 35%
             </pre>
 
             <h3 class="mt-4">4. Healthcare and Pharmaceutical Products</h3>
-            <p>The healthcare sector has received special attention with strategic GST reductions to improve accessibility.</p>
+            <p>The healthcare sector has received special attention with strategic GST reductions to improve
+                accessibility.</p>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <thead class="thead-dark">
@@ -357,7 +396,7 @@ Q4: ████████████████████ 35%
                     </tbody>
                 </table>
             </div>
-            
+
             <h3 class="mt-4">5. Home and Furniture Sector</h3>
             <p>The home furnishing and furniture industry has benefited from GST rationalization.</p>
             <div class="table-responsive">
@@ -410,7 +449,7 @@ Q4: ████████████████████ 35%
 
         <section id="impact-analysis">
             <h2>Comprehensive Impact Analysis on E-commerce Operations</h2>
-            
+
             <h3 class="mt-4">Financial Impact Matrix</h3>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
@@ -459,28 +498,29 @@ Q4: ████████████████████ 35%
 
             <h3 class="mt-4">Operational Benefits for E-commerce Platforms</h3>
             <p><strong>1. Enhanced Price Competitiveness</strong><br>
-            GST deductions enable e-commerce platforms to offer products at significantly lower prices compared to traditional retail, especially when combined with online-exclusive discounts and deals.</p>
-            
+                GST deductions enable e-commerce platforms to offer products at significantly lower prices compared to
+                traditional retail, especially when combined with online-exclusive discounts and deals.</p>
+
             <p><strong>2. Improved Supply Chain Efficiency</strong><br>
-            Lower tax rates reduce the overall cost burden throughout the supply chain, enabling:</p>
+                Lower tax rates reduce the overall cost burden throughout the supply chain, enabling:</p>
             <ul>
                 <li>Better vendor negotiations</li>
                 <li>Streamlined logistics costs</li>
                 <li>Reduced working capital requirements</li>
                 <li>Faster inventory turnover</li>
             </ul>
-            
+
             <p><strong>3. Market Expansion Opportunities</strong><br>
-            The price reduction resulting from GST deductions makes products accessible to:</p>
+                The price reduction resulting from GST deductions makes products accessible to:</p>
             <ul>
                 <li>Price-sensitive consumer segments</li>
                 <li>Tier-2 and Tier-3 city markets</li>
                 <li>First-time online buyers</li>
                 <li>Budget-conscious millennials and Gen-Z consumers</li>
             </ul>
-            
+
             <p><strong>4. Category Expansion Potential</strong><br>
-            Lower GST rates encourage e-commerce platforms to:</p>
+                Lower GST rates encourage e-commerce platforms to:</p>
             <ul>
                 <li>Introduce new product categories</li>
                 <li>Expand private label offerings</li>
@@ -507,7 +547,7 @@ Books & Stationery: █████ 5/10
 
         <section id="strategic-approaches">
             <h2>Strategic Approaches to Leverage GST Deductions</h2>
-            
+
             <h3 class="mt-4">1. Dynamic Pricing Strategies</h3>
             <p><strong>Implementation Framework:</strong></p>
             <ul>
@@ -556,7 +596,8 @@ Books & Stationery: █████ 5/10
             <p><strong>Tactical Approaches:</strong></p>
             <ul>
                 <li><strong>GST Benefit Campaigns:</strong> Launch targeted campaigns highlighting price reductions</li>
-                <li><strong>Category-specific Promotions:</strong> Focus marketing on sectors with maximum deductions</li>
+                <li><strong>Category-specific Promotions:</strong> Focus marketing on sectors with maximum deductions
+                </li>
                 <li><strong>Educational Content:</strong> Create content explaining GST benefits to customers</li>
                 <li><strong>Loyalty Programs:</strong> Design rewards based on GST-optimized categories</li>
             </ul>
@@ -587,7 +628,7 @@ Vendor Management Best Practices:
 
         <section id="compliance-considerations">
             <h2>Compliance and Regulatory Considerations</h2>
-            
+
             <h3 class="mt-4">Key Compliance Areas</h3>
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
@@ -642,7 +683,7 @@ Vendor Management Best Practices:
 
         <section id="future-outlook">
             <h2>Future Outlook and Trends</h2>
-            
+
             <h3 class="mt-4">Anticipated GST Developments</h3>
             <p><strong>Short-term (6-12 months):</strong></p>
             <ul>
@@ -682,25 +723,48 @@ B2B E-commerce:         █████████ Very High
             <div class="card bg-light">
                 <div class="card-body">
                     <h2 class="card-title text-center text-primary">How VVG ONLINE Empowers Your E-commerce Success</h2>
-                    <p class="card-text">In the complex landscape of GST regulations and e-commerce operations, having the right partner can make the difference between mere survival and exceptional growth. <strong>VVG ONLINE</strong> stands at the forefront of digital business consulting, specializing in helping e-commerce businesses navigate GST complexities while maximizing growth opportunities.</p>
+                    <p class="card-text">In the complex landscape of GST regulations and e-commerce operations, having
+                        the right partner can make the difference between mere survival and exceptional growth.
+                        <strong>VVG ONLINE</strong> stands at the forefront of digital business consulting, specializing
+                        in helping e-commerce businesses navigate GST complexities while maximizing growth
+                        opportunities.
+                    </p>
                 </div>
             </div>
-            
+
             <h3 class="mt-4">Our Comprehensive Service Portfolio</h3>
             <ul class="list-unstyled">
-                <li><strong>1. GST Strategy Consulting:</strong> Our expert consultants develop customized GST strategies that align with your business model, ensuring optimal tax efficiency while maintaining complete compliance. We analyze your entire product portfolio, identify GST optimization opportunities, and implement strategies that can reduce your tax burden by up to 15-20%.</li>
-                <li><strong>2. E-commerce Platform Optimization:</strong> We help businesses leverage GST deductions to enhance their competitive positioning. Our services include pricing strategy development, margin optimization, and technology integration to ensure your platform automatically adapts to GST changes, giving you a significant edge over competitors.</li>
-                <li><strong>3. Compliance Management Solutions:</strong> VVG ONLINE provides end-to-end GST compliance management, including registration assistance, return filing support, audit preparation, and dispute resolution. Our proprietary compliance tracking system ensures you never miss a deadline or face penalties.</li>
-                <li><strong>4. Technology Implementation:</strong> We implement cutting-edge GST management systems that integrate seamlessly with your existing e-commerce infrastructure. From automated invoice generation to real-time tax calculations, our solutions reduce manual effort by 80% while ensuring 100% accuracy.</li>
-                <li><strong>5. Training and Capacity Building:</strong> Our comprehensive training programs ensure your team stays updated with the latest GST regulations and best practices. We provide customized workshops, webinars, and documentation tailored to your business needs.</li>
-                <li><strong>6. Strategic Growth Advisory:</strong> Beyond compliance, we help identify growth opportunities created by GST deductions. Our data-driven insights enable you to expand into new categories, optimize your supply chain, and enhance customer acquisition strategies.</li>
+                <li><strong>1. GST Strategy Consulting:</strong> Our expert consultants develop customized GST
+                    strategies that align with your business model, ensuring optimal tax efficiency while maintaining
+                    complete compliance. We analyze your entire product portfolio, identify GST optimization
+                    opportunities, and implement strategies that can reduce your tax burden by up to 15-20%.</li>
+                <li><strong>2. E-commerce Platform Optimization:</strong> We help businesses leverage GST deductions to
+                    enhance their competitive positioning. Our services include pricing strategy development, margin
+                    optimization, and technology integration to ensure your platform automatically adapts to GST
+                    changes, giving you a significant edge over competitors.</li>
+                <li><strong>3. Compliance Management Solutions:</strong> VVG ONLINE provides end-to-end GST compliance
+                    management, including registration assistance, return filing support, audit preparation, and dispute
+                    resolution. Our proprietary compliance tracking system ensures you never miss a deadline or face
+                    penalties.</li>
+                <li><strong>4. Technology Implementation:</strong> We implement cutting-edge GST management systems that
+                    integrate seamlessly with your existing e-commerce infrastructure. From automated invoice generation
+                    to real-time tax calculations, our solutions reduce manual effort by 80% while ensuring 100%
+                    accuracy.</li>
+                <li><strong>5. Training and Capacity Building:</strong> Our comprehensive training programs ensure your
+                    team stays updated with the latest GST regulations and best practices. We provide customized
+                    workshops, webinars, and documentation tailored to your business needs.</li>
+                <li><strong>6. Strategic Growth Advisory:</strong> Beyond compliance, we help identify growth
+                    opportunities created by GST deductions. Our data-driven insights enable you to expand into new
+                    categories, optimize your supply chain, and enhance customer acquisition strategies.</li>
             </ul>
 
             <h3 class="mt-4">Why Choose VVG ONLINE?</h3>
             <ul class="list-unstyled">
-                <li><strong>Proven Track Record:</strong> Successfully guided 500+ e-commerce businesses through GST transitions</li>
+                <li><strong>Proven Track Record:</strong> Successfully guided 500+ e-commerce businesses through GST
+                    transitions</li>
                 <li><strong>Industry Expertise:</strong> Deep understanding of sector-specific GST implications</li>
-                <li><strong>Technology-First Approach:</strong> Cutting-edge solutions for modern e-commerce challenges</li>
+                <li><strong>Technology-First Approach:</strong> Cutting-edge solutions for modern e-commerce challenges
+                </li>
                 <li><strong>Customized Solutions:</strong> Tailored strategies for businesses of all sizes</li>
                 <li><strong>Continuous Support:</strong> 24/7 assistance for critical GST and e-commerce queries</li>
                 <li><strong>ROI-Focused:</strong> Average client savings of 18% on GST liabilities</li>
@@ -711,33 +775,2602 @@ B2B E-commerce:         █████████ Very High
 
         <section id="next-steps">
             <h2 class="text-center">Take the Next Step Toward E-commerce Excellence</h2>
-            <p>The GST landscape continues to evolve, presenting both challenges and opportunities for e-commerce businesses. Whether you're a startup looking to establish GST-compliant operations or an established player seeking to optimize your tax strategy, VVG ONLINE is your trusted partner for sustainable growth.</p>
-            <p>Don't let GST complexities hold your business back. Our team of experts is ready to transform these regulatory requirements into competitive advantages. We combine deep regulatory knowledge with practical e-commerce experience to deliver solutions that drive real business results.</p>
-            <p><strong>Connect with VVG ONLINE today</strong> to schedule a comprehensive GST and e-commerce consultation. Our expert consultants will analyze your current operations, identify optimization opportunities, and develop a roadmap for enhanced profitability and compliance. Take advantage of our free initial assessment to understand how GST deductions can accelerate your e-commerce growth.</p>
-            
+            <p>The GST landscape continues to evolve, presenting both challenges and opportunities for e-commerce
+                businesses. Whether you're a startup looking to establish GST-compliant operations or an established
+                player seeking to optimize your tax strategy, VVG ONLINE is your trusted partner for sustainable growth.
+            </p>
+            <p>Don't let GST complexities hold your business back. Our team of experts is ready to transform these
+                regulatory requirements into competitive advantages. We combine deep regulatory knowledge with practical
+                e-commerce experience to deliver solutions that drive real business results.</p>
+            <p><strong>Connect with VVG ONLINE today</strong> to schedule a comprehensive GST and e-commerce
+                consultation. Our expert consultants will analyze your current operations, identify optimization
+                opportunities, and develop a roadmap for enhanced profitability and compliance. Take advantage of our
+                free initial assessment to understand how GST deductions can accelerate your e-commerce growth.</p>
+
             <div class="card mt-4">
                 <div class="card-header bg-primary text-white text-center">
                     <h4>Contact Us</h4>
                 </div>
                 <div class="card-body contact-info">
                     <ul class="list-unstyled text-center">
-                        <li><strong>Email:</strong> <a href="mailto:vvgonline.net@gmail.com">vvgonline.net@gmail.com</a></li>
-                        <li><strong>Website:</strong> <a href="http://www.vvgonline.net" target="_blank">www.vvgonline.net</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:vvgonline.net@gmail.com">vvgonline.net@gmail.com</a>
+                        </li>
+                        <li><strong>Website:</strong> <a href="http://www.vvgonline.net"
+                                target="_blank">www.vvgonline.net</a></li>
                         <li><strong>Business Hours:</strong> Monday to Saturday, 9:00 AM - 7:00 PM IST</li>
-                        <li><strong>Consultation Booking:</strong> Visit our website to schedule a personalized consultation</li>
+                        <li><strong>Consultation Booking:</strong> Visit our website to schedule a personalized
+                            consultation</li>
                     </ul>
                 </div>
             </div>
-            <p class="text-center mt-3">Transform GST compliance from a challenge into your competitive advantage with VVG ONLINE – Your Partner in Digital Business Excellence.</p>
+            <p class="text-center mt-3">Transform GST compliance from a challenge into your competitive advantage with
+                VVG ONLINE – Your Partner in Digital Business Excellence.</p>
         </section>
 
         <footer class="footer text-center">
-            <p class="disclaimer"><em>Disclaimer: GST rates and regulations are subject to change based on government notifications. The information provided in this blog is for general guidance purposes. For specific advice regarding your business, please consult with our experts at VVG ONLINE.</em></p>
+            <p class="disclaimer"><em>Disclaimer: GST rates and regulations are subject to change based on government
+                    notifications. The information provided in this blog is for general guidance purposes. For specific
+                    advice regarding your business, please consult with our experts at VVG ONLINE.</em></p>
         </footer>
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Presentation</title>
+    <meta name="description" content="An interactive, single-page presentation with a responsive design.">
+    <meta name="author" content="Gemini">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Interactive Presentation",
+        "description": "A responsive, interactive presentation webpage.",
+        "author": {
+            "@type": "Person",
+            "name": "Gemini"
+        }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Lora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom SCSS (will be transpiled to CSS) -->
+    <style>
+        :root {
+            --lora-font: 'Lora', serif;
+            --ibm-plex-sans-font: 'IBM Plex Sans', sans-serif;
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --slide-bg: #fff;
+            --border-radius: 0.75rem;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            transition: padding 0.5s ease;
+        }
+
+        body.fullscreen {
+            padding: 0;
+        }
+
+        .presentation-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background-color: var(--slide-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            position: relative;
+            transition: width 0.5s ease, height 0.5s ease;
+        }
+
+        .presentation-container.fullscreen {
+            width: 100vw;
+            height: 100vh;
+            border-radius: 0;
+            box-shadow: none;
+            overflow-y: auto;
+        }
+
+        .slide-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            overflow-x: hidden;
+        }
+
+        .slide {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: var(--slide-bg);
+        }
+
+        .slide-content-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            gap: 2rem;
+        }
+
+        .text-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .media-placeholder {
+            flex: 1;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .media-placeholder img,
+        .media-placeholder video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+
+        .logo-placeholder {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 2rem;
+        }
+
+        .logo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--lora-font);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: var(--ibm-plex-sans-font);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .nav-buttons {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        .nav-buttons button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            margin: 0 0.5rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .nav-buttons button:hover:not(:disabled) {
+            background-color: #34495e;
+            transform: scale(1.1);
+        }
+
+        .nav-buttons button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .fullscreen-btn-container {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+        }
+
+        .fullscreen-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen-btn:hover {
+            background-color: #34495e;
+            transform: scale(1.1);
+        }
+
+        .slide-indicators {
+            position: absolute;
+            bottom: 2rem;
+            left: 10%;
+            right: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            z-index: 10;
+        }
+
+        .indicator {
+            width: 12px;
+            height: 12px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            opacity: 0.3;
+            transition: opacity 0.3s ease;
+        }
+
+        .indicator.active {
+            opacity: 1;
+        }
+
+        .slide-number {
+            position: absolute;
+            bottom: 2.25rem;
+            right: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            z-index: 10;
+        }
+
+        /* Mobile Portrait View */
+        @media (orientation: portrait) {
+            .presentation-container {
+                display: none;
+            }
+
+            .rotate-device-prompt {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 100vh;
+                padding: 2rem;
+            }
+
+            .rotate-icon {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        /* Landscape View */
+        @media (orientation: landscape) {
+            .rotate-device-prompt {
+                display: none;
+            }
+
+            .presentation-container {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .slide-content-container {
+                flex-direction: column;
+            }
+
+            .text-content {
+                text-align: center;
+                align-items: center;
+            }
+
+            .media-placeholder {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Prompt for Mobile Portrait -->
+    <div class="rotate-device-prompt d-none d-lg-flex">
+        <span class="rotate-icon">&#x21BA;</span>
+        <h2 style="font-family: var(--lora-font);">Please rotate your device for the best viewing experience.</h2>
+    </div>
+
+    <div class="presentation-container">
+        <div class="fullscreen-btn-container">
+            <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Enter fullscreen mode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 2.5 0h4a.5.5 0 0 1 0 1h-4zM12.5 0a1.5 1.5 0 0 1 1.5 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4zm-8 11a.5.5 0 0 0-.5.5v4a.5.5 0 0 1 1 0v-4a.5.5 0 0 0 .5-.5h4a.5.5 0 0 1 0 1h-4zM12.5 15a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 1 0v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="slide-wrapper" id="slideWrapper">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">The Future of AI</h1>
+                        <p class="lead">Exploring the transformative impact of artificial intelligence on society,
+                            industry, and daily life.</p>
+                        <a href="#cta-1" class="cta-button">Learn More</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for AI future">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Revolutionizing Healthcare</h1>
+                        <p class="lead">AI-driven diagnostics and personalized treatment plans are set to improve
+                            patient outcomes and streamline medical processes.</p>
+                        <a href="#cta-2" class="cta-button">See Case Studies</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for healthcare">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Smart Transportation</h1>
+                        <p class="lead">From autonomous vehicles to optimized traffic flow, AI is making our cities
+                            smarter and more efficient.</p>
+                        <a href="#cta-3" class="cta-button">Discover Our Solutions</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for transportation">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Creative Expression</h1>
+                        <p class="lead">Generative AI is empowering artists and creators with new tools for innovation
+                            and digital artistry.</p>
+                        <a href="#cta-4" class="cta-button">View Our Portfolio</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for creativity">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Ethical Considerations</h1>
+                        <p class="lead">Addressing the critical questions of bias, privacy, and accountability in the
+                            age of intelligent machines.</p>
+                        <a href="#cta-5" class="cta-button">Read Our Policy</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for ethics">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Transforming Education</h1>
+                        <p class="lead">Personalized learning paths and virtual tutors are tailoring education to
+                            individual student needs like never before.</p>
+                        <a href="#cta-6" class="cta-button">Explore Courses</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for education">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Future of Work</h1>
+                        <p class="lead">AI is redefining job roles and creating new opportunities in a rapidly evolving
+                            technological landscape.</p>
+                        <a href="#cta-7" class="cta-button">Join Our Team</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for work">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Global Impact</h1>
+                        <p class="lead">From climate modeling to poverty reduction, AI is providing powerful tools to
+                            tackle the world's most pressing challenges.</p>
+                        <a href="#cta-8" class="cta-button">Support Our Mission</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for global impact">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Your AI Journey</h1>
+                        <p class="lead">Explore how our tools can help you harness the power of AI in your personal and
+                            professional life.</p>
+                        <a href="#cta-9" class="cta-button">Contact Us</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for personal journey">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-number">
+            <span id="currentSlideNum">1</span> / <span id="totalSlidesNum">9</span>
+        </div>
+
+        <div class="nav-buttons">
+            <button id="prevBtn" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                </svg>
+            </button>
+            <button id="nextBtn" aria-label="Next slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slideWrapper = document.getElementById('slideWrapper');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            const currentSlideNum = document.getElementById('currentSlideNum');
+            const totalSlidesNum = document.getElementById('totalSlidesNum');
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlide = 0;
+
+            totalSlidesNum.textContent = totalSlides;
+
+            function updateSlide() {
+                const offset = -currentSlide * 100;
+                slideWrapper.style.transform = `translateX(${offset}%)`;
+                currentSlideNum.textContent = currentSlide + 1;
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === totalSlides - 1;
+
+                // Update slide indicators (optional, since we have slide numbers)
+                // This is a placeholder for a more complex implementation if you wanted dot indicators
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    currentSlide++;
+                    updateSlide();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    updateSlide();
+                }
+            });
+
+            // Fullscreen functionality
+            fullscreenBtn.addEventListener('click', () => {
+                const presentationContainer = document.querySelector('.presentation-container');
+                const body = document.body;
+
+                if (!document.fullscreenElement) {
+                    presentationContainer.requestFullscreen().then(() => {
+                        body.classList.add('fullscreen');
+                    }).catch(err => {
+                        console.error(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+
+            // Handle fullscreen exit event
+            document.addEventListener('fullscreenchange', () => {
+                const body = document.body;
+                if (!document.fullscreenElement) {
+                    body.classList.remove('fullscreen');
+                }
+            });
+
+            // Initial state
+            updateSlide();
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Presentation</title>
+    <meta name="description" content="An interactive, single-page presentation with a responsive design.">
+    <meta name="author" content="Gemini">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Interactive Presentation",
+        "description": "A responsive, interactive presentation webpage.",
+        "author": {
+            "@type": "Person",
+            "name": "Gemini"
+        }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Lora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom SCSS (will be transpiled to CSS) -->
+    <style>
+        :root {
+            --lora-font: 'Lora', serif;
+            --ibm-plex-sans-font: 'IBM Plex Sans', sans-serif;
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --slide-bg: #fff;
+            --border-radius: 0.75rem;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            transition: padding 0.5s ease;
+        }
+
+        body.fullscreen {
+            padding: 0;
+            background-color: var(--primary-color);
+        }
+
+        .presentation-container {
+            width: 100%;
+            height: 100%;
+            max-height: 90vh;
+            max-width: 1400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background-color: var(--slide-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            position: relative;
+            transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease;
+        }
+
+        .presentation-container.fullscreen {
+            width: 100vw;
+            height: 100vh;
+            max-height: 100vh;
+            max-width: none;
+            border-radius: 0;
+            box-shadow: none;
+            overflow-y: hidden;
+        }
+
+        .slide-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            overflow-x: hidden;
+        }
+
+        .slide {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: var(--slide-bg);
+        }
+
+        .slide-content-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            grid-template-rows: auto 1fr;
+            gap: 2rem;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+
+        .text-content {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            padding-left: 2rem;
+        }
+
+        .media-placeholder {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .media-placeholder img,
+        .media-placeholder video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+
+        .logo-placeholder {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            width: 60px;
+            height: 60px;
+        }
+
+        .logo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--lora-font);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: var(--ibm-plex-sans-font);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        /* New styling for navigation buttons */
+        .nav-buttons {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-buttons button {
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .nav-buttons #prevBtn {
+            background-color: var(--accent-color);
+            border-radius: 0.75rem;
+            width: 60px;
+        }
+
+        .nav-buttons #nextBtn {
+            background-color: var(--accent-color);
+            border-radius: 0.75rem;
+        }
+
+        .nav-buttons button:hover:not(:disabled) {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        .nav-buttons button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .fullscreen-btn-container {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+        }
+
+        .fullscreen-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen-btn:hover {
+            background-color: #34495e;
+            transform: scale(1.1);
+        }
+
+        .slide-number {
+            position: absolute;
+            bottom: 2.75rem;
+            right: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            z-index: 10;
+        }
+
+        /* New styling for top slide indicators */
+        .top-indicators {
+            position: absolute;
+            top: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            z-index: 10;
+        }
+
+        .slide-indicator {
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+
+        .slide-indicator.active {
+            opacity: 1;
+        }
+
+        .slide-indicator-num {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ccc;
+        }
+
+        .slide-indicator.active .slide-indicator-num {
+            color: var(--primary-color);
+        }
+
+        .slide-indicator-bar {
+            width: 100%;
+            height: 4px;
+            background-color: #ccc;
+            margin-top: 0.5rem;
+        }
+
+        .slide-indicator.active .slide-indicator-bar {
+            background-color: var(--accent-color);
+        }
+
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .presentation-container {
+                max-height: 100vh;
+                max-width: 100vw;
+            }
+
+            .slide-content-container {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+                text-align: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .text-content {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                text-align: center;
+                align-items: center;
+                padding: 0;
+            }
+
+            .media-placeholder {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                width: 100%;
+            }
+
+            .logo-placeholder {
+                position: static;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="presentation-container">
+        <div class="top-indicators" id="topIndicators">
+            <!-- Slide indicators will be generated here by JS -->
+        </div>
+
+        <div class="fullscreen-btn-container">
+            <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Enter fullscreen mode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 2.5 0h4a.5.5 0 0 1 0 1h-4zM12.5 0a1.5 1.5 0 0 1 1.5 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4zm-8 11a.5.5 0 0 0-.5.5v4a.5.5 0 0 1 1 0v-4a.5.5 0 0 0 .5-.5h4a.5.5 0 0 1 0 1h-4zM12.5 15a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 1 0v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="slide-wrapper" id="slideWrapper">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">The Future of AI</h1>
+                        <p class="lead">Exploring the transformative impact of artificial intelligence on society,
+                            industry, and daily life.</p>
+                        <a href="#cta-1" class="cta-button">Learn More</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for AI future">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Revolutionizing Healthcare</h1>
+                        <p class="lead">AI-driven diagnostics and personalized treatment plans are set to improve
+                            patient outcomes and streamline medical processes.</p>
+                        <a href="#cta-2" class="cta-button">See Case Studies</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for healthcare">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Smart Transportation</h1>
+                        <p class="lead">From autonomous vehicles to optimized traffic flow, AI is making our cities
+                            smarter and more efficient.</p>
+                        <a href="#cta-3" class="cta-button">Discover Our Solutions</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for transportation">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Creative Expression</h1>
+                        <p class="lead">Generative AI is empowering artists and creators with new tools for innovation
+                            and digital artistry.</p>
+                        <a href="#cta-4" class="cta-button">View Our Portfolio</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for creativity">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Ethical Considerations</h1>
+                        <p class="lead">Addressing the critical questions of bias, privacy, and accountability in the
+                            age of intelligent machines.</p>
+                        <a href="#cta-5" class="cta-button">Read Our Policy</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for ethics">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Transforming Education</h1>
+                        <p class="lead">Personalized learning paths and virtual tutors are tailoring education to
+                            individual student needs like never before.</p>
+                        <a href="#cta-6" class="cta-button">Explore Courses</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for education">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Future of Work</h1>
+                        <p class="lead">AI is redefining job roles and creating new opportunities in a rapidly evolving
+                            technological landscape.</p>
+                        <a href="#cta-7" class="cta-button">Join Our Team</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for work">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Global Impact</h1>
+                        <p class="lead">From climate modeling to poverty reduction, AI is providing powerful tools to
+                            tackle the world's most pressing challenges.</p>
+                        <a href="#cta-8" class="cta-button">Support Our Mission</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for global impact">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="slide">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <div class="logo-placeholder">
+                            <img src="https://placehold.co/60x60/ecf0f1/34495e?text=Logo" alt="Placeholder for logo">
+                        </div>
+                        <h1 class="display-4 fw-bold">Your AI Journey</h1>
+                        <p class="lead">Explore how our tools can help you harness the power of AI in your personal and
+                            professional life.</p>
+                        <a href="#cta-9" class="cta-button">Contact Us</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for personal journey">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <button id="prevBtn" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg>
+            </button>
+            <button id="nextBtn" aria-label="Next slide">Next
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slideWrapper = document.getElementById('slideWrapper');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            const topIndicators = document.getElementById('topIndicators');
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlide = 0;
+
+            // Generate slide indicators
+            for (let i = 0; i < totalSlides; i++) {
+                const indicator = document.createElement('div');
+                indicator.classList.add('slide-indicator');
+                indicator.innerHTML = `
+                    <span class="slide-indicator-num">${i + 1}</span>
+                    <div class="slide-indicator-bar"></div>
+                `;
+                indicator.addEventListener('click', () => {
+                    currentSlide = i;
+                    updateSlide();
+                });
+                topIndicators.appendChild(indicator);
+            }
+
+            const allIndicators = document.querySelectorAll('.slide-indicator');
+
+            function updateSlide() {
+                const offset = -currentSlide * 100;
+                slideWrapper.style.transform = `translateX(${offset}%)`;
+
+                // Update button states
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === totalSlides - 1;
+
+                // Update active indicator
+                allIndicators.forEach((indicator, index) => {
+                    if (index === currentSlide) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    currentSlide++;
+                    updateSlide();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    updateSlide();
+                }
+            });
+
+            // Fullscreen functionality
+            fullscreenBtn.addEventListener('click', () => {
+                const presentationContainer = document.querySelector('.presentation-container');
+                const body = document.body;
+
+                if (!document.fullscreenElement) {
+                    presentationContainer.requestFullscreen().then(() => {
+                        body.classList.add('fullscreen');
+                    }).catch(err => {
+                        console.error(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+
+            // Handle fullscreen exit event
+            document.addEventListener('fullscreenchange', () => {
+                const body = document.body;
+                if (!document.fullscreenElement) {
+                    body.classList.remove('fullscreen');
+                }
+            });
+
+            // Initial state
+            updateSlide();
+        });
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Presentation</title>
+    <meta name="description" content="An interactive, single-page presentation with a responsive design.">
+    <meta name="author" content="Gemini">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Interactive Presentation",
+        "description": "A responsive, interactive presentation webpage.",
+        "author": {
+            "@type": "Person",
+            "name": "Gemini"
+        }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Lora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom SCSS (will be transpiled to CSS) -->
+    <style>
+        :root {
+            --lora-font: 'Lora', serif;
+            --ibm-plex-sans-font: 'IBM Plex Sans', sans-serif;
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --slide-bg: #fff;
+            --border-radius: 0.75rem;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            transition: padding 0.5s ease;
+        }
+
+        body.fullscreen {
+            padding: 0;
+            background-color: black;
+        }
+
+        .presentation-container {
+            width: 100%;
+            height: 100%;
+            max-height: 90vh;
+            max-width: 1400px;
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "content content"
+                "footer footer";
+            grid-template-rows: auto 1fr auto;
+            gap: 1rem;
+            box-sizing: border-box;
+            background-color: black;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            position: relative;
+            transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease;
+        }
+
+        .presentation-container.fullscreen {
+            width: 100vw;
+            height: 100vh;
+            max-height: 100vh;
+            max-width: none;
+            border-radius: 0;
+            box-shadow: none;
+            overflow-y: hidden;
+            grid-template-areas:
+                "header header"
+                "content content"
+                "footer footer";
+        }
+
+        .slide-wrapper {
+            grid-area: content;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            overflow-x: hidden;
+            background-color: black;
+        }
+
+        .slide {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: black;
+        }
+
+        .slide-content-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            grid-template-rows: auto 1fr;
+            gap: 2rem;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+
+        .text-content {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            padding-left: 2rem;
+        }
+
+        .media-placeholder {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+            background-color: #333;
+            border-radius: var(--border-radius);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .media-placeholder img,
+        .media-placeholder video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+
+        .logo-placeholder {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            width: 60px;
+            height: 60px;
+            filter: invert(1);
+        }
+
+        .logo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--lora-font);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: var(--ibm-plex-sans-font);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        /* New styling for navigation buttons */
+        .nav-buttons {
+            grid-area: header;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-buttons button {
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            background-color: #1a73e8;
+            border-radius: 0.75rem;
+        }
+
+        .nav-buttons #prevBtn {
+            padding: 0.75rem 1rem;
+        }
+
+        .nav-buttons button:hover:not(:disabled) {
+            background-color: #155cb0;
+            transform: scale(1.05);
+        }
+
+        .nav-buttons button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .fullscreen-btn-container {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+        }
+
+        .fullscreen-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen-btn:hover {
+            background-color: #34495e;
+            transform: scale(1.1);
+        }
+
+        /* New styling for top slide indicators */
+        .top-indicators {
+            grid-area: footer;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .slide-indicator {
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+
+        .slide-indicator.active {
+            opacity: 1;
+        }
+
+        .slide-indicator-num {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ccc;
+        }
+
+        .slide-indicator.active .slide-indicator-num {
+            color: var(--accent-color);
+        }
+
+        .slide-indicator-bar {
+            width: 100%;
+            height: 4px;
+            background-color: #ccc;
+            margin-top: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .slide-indicator.active .slide-indicator-bar {
+            background-color: var(--accent-color);
+        }
+
+        .slide-title-label {
+            position: absolute;
+            bottom: -2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.8rem;
+            color: #ccc;
+            white-space: nowrap;
+            display: none;
+        }
+
+        .slide-indicator.active .slide-title-label {
+            display: block;
+        }
+
+        .footer-row {
+            grid-area: footer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1rem 2rem;
+            color: #aaa;
+            font-size: 0.8rem;
+        }
+
+        .footer-row .logo {
+            filter: invert(1);
+        }
+
+        .privacy-link,
+        .trademark-link {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+
+        .privacy-link:hover,
+        .trademark-link:hover {
+            text-decoration: underline;
+        }
+
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .presentation-container {
+                max-height: 100vh;
+                max-width: 100vw;
+            }
+
+            .slide-content-container {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+                text-align: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .text-content {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                text-align: center;
+                align-items: center;
+                padding: 0;
+            }
+
+            .media-placeholder {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                width: 100%;
+            }
+
+            .logo-placeholder {
+                position: static;
+                margin-bottom: 1rem;
+            }
+
+            .nav-buttons,
+            .top-indicators {
+                position: static;
+                transform: none;
+                margin-top: 1rem;
+            }
+
+            .footer-row {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="presentation-container">
+
+        <div class="nav-buttons">
+            <button id="prevBtn" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg>
+            </button>
+            <button id="nextBtn" aria-label="Next slide">Next
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="fullscreen-btn-container">
+            <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Enter fullscreen mode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 2.5 0h4a.5.5 0 0 1 0 1h-4zM12.5 0a1.5 1.5 0 0 1 1.5 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4zm-8 11a.5.5 0 0 0-.5.5v4a.5.5 0 0 1 1 0v-4a.5.5 0 0 0 .5-.5h4a.5.5 0 0 1 0 1h-4zM12.5 15a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 1 0v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="slide-wrapper" id="slideWrapper">
+            <!-- Slide 1 -->
+            <div class="slide" data-heading="The Future of AI">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">The Future of AI</h1>
+                        <p class="lead">Exploring the transformative impact of artificial intelligence on society,
+                            industry, and daily life.</p>
+                        <a href="#cta-1" class="cta-button">Learn More</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for AI future">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide" data-heading="Revolutionizing Healthcare">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Revolutionizing Healthcare</h1>
+                        <p class="lead">AI-driven diagnostics and personalized treatment plans are set to improve
+                            patient outcomes and streamline medical processes.</p>
+                        <a href="#cta-2" class="cta-button">See Case Studies</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for healthcare">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide" data-heading="Smart Transportation">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Smart Transportation</h1>
+                        <p class="lead">From autonomous vehicles to optimized traffic flow, AI is making our cities
+                            smarter and more efficient.</p>
+                        <a href="#cta-3" class="cta-button">Discover Our Solutions</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for transportation">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide" data-heading="Creative Expression">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Creative Expression</h1>
+                        <p class="lead">Generative AI is empowering artists and creators with new tools for innovation
+                            and digital artistry.</p>
+                        <a href="#cta-4" class="cta-button">View Our Portfolio</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for creativity">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide" data-heading="Ethical Considerations">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Ethical Considerations</h1>
+                        <p class="lead">Addressing the critical questions of bias, privacy, and accountability in the
+                            age of intelligent machines.</p>
+                        <a href="#cta-5" class="cta-button">Read Our Policy</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for ethics">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide" data-heading="Transforming Education">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Transforming Education</h1>
+                        <p class="lead">Personalized learning paths and virtual tutors are tailoring education to
+                            individual student needs like never before.</p>
+                        <a href="#cta-6" class="cta-button">Explore Courses</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for education">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide" data-heading="Future of Work">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Future of Work</h1>
+                        <p class="lead">AI is redefining job roles and creating new opportunities in a rapidly evolving
+                            technological landscape.</p>
+                        <a href="#cta-7" class="cta-button">Join Our Team</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for work">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide" data-heading="Global Impact">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Global Impact</h1>
+                        <p class="lead">From climate modeling to poverty reduction, AI is providing powerful tools to
+                            tackle the world's most pressing challenges.</p>
+                        <a href="#cta-8" class="cta-button">Support Our Mission</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for global impact">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="slide" data-heading="Your AI Journey">
+                <div class="slide-content-container">
+                    <div class="text-content">
+                        <h1 class="display-4 fw-bold">Your AI Journey</h1>
+                        <p class="lead">Explore how our tools can help you harness the power of AI in your personal and
+                            professional life.</p>
+                        <a href="#cta-9" class="cta-button">Contact Us</a>
+                    </div>
+                    <div class="media-placeholder">
+                        <img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image"
+                            alt="Placeholder image for personal journey">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-indicators" id="topIndicators">
+            <!-- Slide indicators will be generated here by JS -->
+        </div>
+
+        <div class="footer-row">
+            <div class="d-flex align-items-center">
+                <img src="https://placehold.co/30x30/2c3e50/ecf0f1?text=Logo" alt="Logo" class="logo me-2">
+                <span>Here's what's new in Microsoft Edge</span>
+            </div>
+            <div class="privacy-section">
+                <span>&copy; Microsoft 2025</span>
+                <a href="#" class="privacy-link">Your Privacy Choices</a>
+                <a href="#" class="privacy-link">Privacy</a>
+                <a href="#" class="trademark-link">Trademarks</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slideWrapper = document.getElementById('slideWrapper');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            const topIndicators = document.getElementById('topIndicators');
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlide = 0;
+
+            // Generate slide indicators
+            for (let i = 0; i < totalSlides; i++) {
+                const indicator = document.createElement('div');
+                indicator.classList.add('slide-indicator');
+                const slideHeading = slides[i].dataset.heading;
+                indicator.innerHTML = `
+                    <span class="slide-indicator-num">${i + 1}.</span>
+                    <div class="slide-indicator-bar"></div>
+                    <span class="slide-title-label">${slideHeading}</span>
+                `;
+                indicator.addEventListener('click', () => {
+                    currentSlide = i;
+                    updateSlide();
+                });
+                topIndicators.appendChild(indicator);
+            }
+
+            const allIndicators = document.querySelectorAll('.slide-indicator');
+
+            function updateSlide() {
+                const offset = -currentSlide * 100;
+                slideWrapper.style.transform = `translateX(${offset}%)`;
+
+                // Update button states
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === totalSlides - 1;
+
+                // Update active indicator
+                allIndicators.forEach((indicator, index) => {
+                    if (index === currentSlide) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    currentSlide++;
+                    updateSlide();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    updateSlide();
+                }
+            });
+
+            // Fullscreen functionality
+            fullscreenBtn.addEventListener('click', () => {
+                const presentationContainer = document.querySelector('.presentation-container');
+                const body = document.body;
+
+                if (!document.fullscreenElement) {
+                    presentationContainer.requestFullscreen().then(() => {
+                        body.classList.add('fullscreen');
+                    }).catch(err => {
+                        console.error(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+
+            // Handle fullscreen exit event
+            document.addEventListener('fullscreenchange', () => {
+                const body = document.body;
+                if (!document.fullscreenElement) {
+                    body.classList.remove('fullscreen');
+                }
+            });
+
+            // Initial state
+            updateSlide();
+        });
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Presentation</title>
+    <meta name="description" content="An interactive, single-page presentation with a responsive design.">
+    <meta name="author" content="Gemini">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Interactive Presentation",
+        "description": "A responsive, interactive presentation webpage.",
+        "author": {
+            "@type": "Person",
+            "name": "Gemini"
+        }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Lora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom SCSS (will be transpiled to CSS) -->
+    <style>
+        :root {
+            --lora-font: 'Lora', serif;
+            --ibm-plex-sans-font: 'IBM Plex Sans', sans-serif;
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --border-radius: 0.75rem;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            transition: padding 0.5s ease;
+        }
+
+        body.fullscreen {
+            padding: 0;
+            background-color: black;
+        }
+
+        /* Main container for the entire presentation */
+        .presentation-container {
+            width: 100%;
+            max-width: 1400px;
+            height: 100%;
+            max-height: 90vh;
+            display: flex;
+            background-color: black;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            position: relative;
+            transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease;
+        }
+
+        .presentation-container.fullscreen {
+            width: 100vw;
+            height: 100vh;
+            max-height: 100vh;
+            max-width: none;
+            border-radius: 0;
+            box-shadow: none;
+            overflow: hidden;
+        }
+
+        /* Left and Right Columns for desktop layout */
+        .column-left,
+        .column-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .column-left {
+            flex: 1;
+            align-items: flex-start;
+            text-align: left;
+            position: relative;
+        }
+
+        .column-right {
+            flex: 1.5;
+            position: relative;
+        }
+
+        .slide-content-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .slide-text-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide-media-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .media-placeholder {
+            width: 100%;
+            background-color: #333;
+            border-radius: var(--border-radius);
+            min-height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .media-placeholder img,
+        .media-placeholder video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+
+        .logo-placeholder {
+            width: 60px;
+            height: 60px;
+            filter: invert(1);
+            position: absolute;
+            left: 2rem;
+            bottom: 2rem;
+        }
+
+        .logo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--lora-font);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: var(--ibm-plex-sans-font);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            font-family: var(--ibm-plex-sans-font);
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 2rem;
+            bottom: 10rem;
+        }
+
+        .nav-buttons button {
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            background-color: #1a73e8;
+            border-radius: 0.75rem;
+        }
+
+        .nav-buttons #prevBtn {
+            padding: 0.75rem 1rem;
+        }
+
+        .nav-buttons button:hover:not(:disabled) {
+            background-color: #155cb0;
+            transform: scale(1.05);
+        }
+
+        .nav-buttons button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .fullscreen-btn-container {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            display: none;
+            /* Hide on desktop as per wireframe */
+        }
+
+        .fullscreen-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen-btn:hover {
+            background-color: #34495e;
+            transform: scale(1.1);
+        }
+
+        /* New styling for slide indicators */
+        .top-indicators {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            gap: 1rem;
+            width: calc(100% - 4rem);
+        }
+
+        .slide-indicator {
+            position: relative;
+            text-align: center;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+        }
+
+        .slide-indicator.active .slide-indicator-num {
+            color: #1a73e8;
+            font-weight: bold;
+        }
+
+        .slide-indicator.active .slide-indicator-bar {
+            background-color: #1a73e8;
+            height: 6px;
+        }
+
+        .slide-indicator-num {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ccc;
+        }
+
+        .slide-indicator-text {
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        .slide-indicator-bar {
+            width: 100%;
+            height: 4px;
+            background-color: #ccc;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Responsive design */
+        @media (min-width: 769px) {
+            .presentation-container {
+                flex-direction: row;
+            }
+
+            .column-left {
+                justify-content: center;
+                align-items: flex-start;
+                padding-left: 5rem;
+                padding-right: 2rem;
+            }
+
+            .column-right {
+                justify-content: center;
+                align-items: center;
+                padding-left: 2rem;
+                padding-right: 5rem;
+            }
+
+            .slide-text-container {
+                justify-content: flex-start;
+                text-align: left;
+            }
+
+            .nav-buttons {
+                position: static;
+                margin-top: 2rem;
+                left: initial;
+                bottom: initial;
+            }
+
+            .logo-placeholder {
+                top: 2rem;
+                bottom: initial;
+            }
+
+            .top-indicators {
+                left: initial;
+                bottom: 2rem;
+                justify-content: center;
+                width: initial;
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .presentation-container {
+                flex-direction: column;
+                max-height: 100vh;
+                max-width: 100vw;
+            }
+
+            .column-left,
+            .column-right {
+                width: 100%;
+                padding: 1rem;
+            }
+
+            .column-left {
+                order: 1;
+                align-items: center;
+                text-align: center;
+            }
+
+            .column-right {
+                order: 2;
+            }
+
+            .slide-text-container {
+                padding: 0;
+            }
+
+            .nav-buttons {
+                position: static;
+                margin-top: 2rem;
+            }
+
+            .logo-placeholder {
+                position: static;
+                margin-top: 2rem;
+            }
+
+            .top-indicators {
+                position: static;
+                margin-top: 1rem;
+                justify-content: center;
+            }
+
+            .fullscreen-btn-container {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="presentation-container">
+        <!-- Left Column (Text Content, Logo, and Navigation) -->
+        <div class="column-left">
+            <div id="slideTextContent">
+                <!-- Content will be dynamically inserted here by JavaScript -->
+            </div>
+            <div class="nav-buttons">
+                <button id="prevBtn" aria-label="Previous slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                    </svg>
+                </button>
+                <button id="nextBtn" aria-label="Next slide">Next
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="logo-placeholder">
+                <img src="https://placehold.co/60x60/2c3e50/ecf0f1?text=Logo" alt="Placeholder logo">
+            </div>
+        </div>
+
+        <!-- Right Column (Media and Indicators) -->
+        <div class="column-right">
+            <div id="slideMediaContent">
+                <!-- Media will be dynamically inserted here by JavaScript -->
+            </div>
+            <div class="top-indicators" id="topIndicators">
+                <!-- Slide indicators will be generated here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slideTextContent = document.getElementById('slideTextContent');
+            const slideMediaContent = document.getElementById('slideMediaContent');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const topIndicators = document.getElementById('topIndicators');
+            let currentSlide = 0;
+
+            const slidesData = [
+                {
+                    heading: 'The Future of AI',
+                    paragraph: 'Exploring the transformative impact of artificial intelligence on society, industry, and daily life.',
+                    cta: 'Learn More',
+                    ctaLink: '#cta-1',
+                    media: '<img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image" alt="Placeholder image for AI future">',
+                },
+                {
+                    heading: 'Revolutionizing Healthcare',
+                    paragraph: 'AI-driven diagnostics and personalized treatment plans are set to improve patient outcomes and streamline medical processes.',
+                    cta: 'See Case Studies',
+                    ctaLink: '#cta-2',
+                    media: '<img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image" alt="Placeholder image for healthcare">',
+                },
+                {
+                    heading: 'Smart Transportation',
+                    paragraph: 'From autonomous vehicles to optimized traffic flow, AI is making our cities smarter and more efficient.',
+                    cta: 'Discover Our Solutions',
+                    ctaLink: '#cta-3',
+                    media: '<img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image" alt="Placeholder image for transportation">',
+                },
+                {
+                    heading: 'Creative Expression',
+                    paragraph: 'Generative AI is empowering artists and creators with new tools for innovation and digital artistry.',
+                    cta: 'View Our Portfolio',
+                    ctaLink: '#cta-4',
+                    media: '<img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image" alt="Placeholder image for creativity">',
+                },
+                {
+                    heading: 'Ethical Considerations',
+                    paragraph: 'Addressing the critical questions of bias, privacy, and accountability in the age of intelligent machines.',
+                    cta: 'Read Our Policy',
+                    ctaLink: '#cta-5',
+                    media: '<img src="https://placehold.co/600x400/2c3e50/ecf0f1?text=Image" alt="Placeholder image for ethics">',
+                },
+            ];
+
+            const totalSlides = slidesData.length;
+
+            function updateSlide() {
+                const data = slidesData[currentSlide];
+
+                // Update text content
+                slideTextContent.innerHTML = `
+                    <h1 class="display-4 fw-bold">${data.heading}</h1>
+                    <p class="lead">${data.paragraph}</p>
+                    <a href="${data.ctaLink}" class="cta-button">${data.cta}</a>
+                `;
+
+                // Update media content
+                slideMediaContent.innerHTML = `<div class="media-placeholder">${data.media}</div>`;
+
+                // Update button states
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === totalSlides - 1;
+
+                // Update indicators
+                updateIndicators();
+            }
+
+            function updateIndicators() {
+                topIndicators.innerHTML = '';
+                slidesData.forEach((slide, index) => {
+                    const indicator = document.createElement('div');
+                    indicator.classList.add('slide-indicator');
+                    if (index === currentSlide) {
+                        indicator.classList.add('active');
+                    }
+                    indicator.innerHTML = `
+                        <div class="slide-indicator-num">${index + 1}.</div>
+                        <div class="slide-indicator-bar"></div>
+                    `;
+                    indicator.addEventListener('click', () => {
+                        currentSlide = index;
+                        updateSlide();
+                    });
+                    topIndicators.appendChild(indicator);
+                });
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    currentSlide++;
+                    updateSlide();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    updateSlide();
+                }
+            });
+
+            // Initial state
+            updateSlide();
+        });
+    </script>
+</body>
+
 </html>

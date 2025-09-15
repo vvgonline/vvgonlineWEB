@@ -244,6 +244,57 @@ h6 {
     font-size: 0.875rem;
   }
 }
+/* responsive styles */
+@media (max-width: 991.98px) {
+  .slide-nav .slide-text {
+    display: none;
+  }
+  .slide-nav.active .slide-line {
+    width: 10rem;
+    /* Adjusted active width for smaller screens */
+    transition: all 0.3s ease-in-out;
+  }
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .fullscreen-btn {
+    top: 5px;
+    right: 5px;
+  }
+  .slider-wrapper {
+    padding-bottom: 2rem;
+  }
+  .logo-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .slide-nav {
+    /* Adjust spacing and layout for smaller screens */
+    padding-top: 0;
+    margin-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .slide-nav .slide-text {
+    /* Hide the full text descriptions on mobile to save space */
+    display: none;
+  }
+  .slide-nav.active .slide-line {
+    /* Make the active line shorter on mobile */
+    width: 2rem;
+  }
+  .slide-nav.active .slide-number,
+  .slide-nav.active .slide-text {
+    /* Ensure colors remain active */
+    color: #22d3ee;
+  }
+  .slide-nav .slide-number {
+    /* Center the numbers */
+    text-align: center;
+    font-size: 14px;
+  }
+}
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -400,6 +451,147 @@ footer .social-icons a:hover {
   margin-bottom: 1em;
 }
 
+/* ---------------------------------
+* list all colors here for themes
+* this file is imported in 
+* Main.scss & all other theme scss
+* files
+----------------------------------*/
+/* ---------------------------------
+* list all colors here for themes
+* this file is imported in 
+* Main.scss & all other theme scss
+* files
+----------------------------------*/
+:root {
+  --color-primary: #06f;
+  --color-secondary: #3e78b1;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-background: #fafaf5;
+  --color-text: #2e2e38;
+  --color-accent: #fd3;
+  --color-accent-hover: #f3a712;
+}
+
+.prime-red {
+  color: rgb(255, 55, 122);
+}
+
+.prime-blue {
+  color: rgb(55, 176, 255);
+}
+
+.prime-yellow {
+  color: rgb(246, 228, 65);
+}
+
+.prime-green {
+  color: rgb(97, 187, 148);
+}
+
+.prime-gray {
+  color: rgb(127, 127, 127);
+}
+
+.blog-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 100%;
+  flex: 6;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.blog-img {
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.blog-card:hover .blog-img {
+  transform: scale(1.05);
+}
+
+.blog-category {
+  display: inline-block;
+  background-color: rgba(37, 99, 235, 0.1);
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  transition: color 0.2s ease;
+  color: var(--color-text);
+}
+
+.blog-title:hover {
+  color: var(--color-black);
+}
+
+.blog-meta {
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.blog-meta span {
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.blog-meta i {
+  margin-right: 0.5rem;
+}
+
+.blog-excerpt {
+  color: var(--color-dark);
+  margin-bottom: 1.5rem;
+}
+
+.read-more {
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.read-more:hover {
+  transform: translateX(5px);
+}
+
+.read-more i {
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.read-more:hover i {
+  transform: translateX(3px);
+}
+
 .pp-lead {
   color: var(--color-text);
 }
@@ -473,9 +665,6 @@ footer .social-icons a:hover {
 #insights {
   color: var(--color-background);
 }
-#insights p {
-  color: rgba(var(--color-background), 0.3);
-}
 #insights .blog-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -498,6 +687,152 @@ footer .social-icons a:hover {
   border: none;
 }
 
+/* Fullscreen Button */
+.fullscreen-btn {
+  background: linear-gradient(to right, rgb(36, 25, 45), rgb(77, 26, 25));
+  border: 1px solid var(--color-text);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  color: #fff;
+}
+
+.fullscreen-btn:hover {
+  background: linear-gradient(to right, rgb(77, 26, 25), rgb(36, 25, 45));
+  color: #fff;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.cta-button {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+  border: none;
+}
+
+.cta-button:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  transition: transform 0.2s ease; /* Optional: adds smooth animation */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.nav-buttons button {
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: var(--color-primary);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-buttons button:hover:not(:disabled) {
+  background-color: var(--color-info);
+  transform: scale(1.05);
+}
+
+.nav-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slider-wrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.slide-nav {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding-top: 0.2rem;
+}
+
+.slide-nav .slide-number {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--color-accent-hover);
+  /* Bootstrap's gray-600 */
+  transition: color 0.3s ease-in-out;
+}
+
+.slide-nav .slide-line {
+  height: 2px;
+  background-color: var(--color-accent);
+  /* Bootstrap's gray-600 */
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.5rem;
+  width: 3rem;
+  /* Default width when not active */
+}
+
+.slide-nav .slide-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: flex 0.65s cubic-bezier(0.215, 0.61, 0.355, 1), color 0.65s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.65s cubic-bezier(0.215, 0.61, 0.355, 1);
+  position: absolute;
+  /* top: 60px;  Adjust vertical position */
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  flex: 8;
+  /* Adjust width as needed */
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+.slide-nav .slide-text.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide-nav.active .slide-number,
+.slide-nav.active .slide-text {
+  color: #22d3ee;
+}
+
+.slide-nav.active .slide-line {
+  background-color: #22d3ee;
+  /* Bootstrap's cyan-400 */
+  width: 20rem;
+  /* Active width */
+}
+
+.new-badge {
+  background-color: #fde047;
+  /* Bootstrap's yellow-400 */
+  color: #000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9px;
+  font-size: 0.75rem;
+  vertical-align: top;
+  margin-left: 0.5rem;
+}
+
 html {
   min-height: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -511,7 +846,6 @@ html body {
   width: 100vw;
   background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
   color: var(--color-background);
-  font-family: "Golos Text", sans-serif;
 }
 html body .btn.btn-outline-dark,
 html body .form-control,
@@ -711,23 +1045,5 @@ html body .ytbg {
 *:before,
 *:after {
   box-sizing: inherit;
-  scrollbar-color: rgb(255, 55, 122) rgb(246, 228, 65);
-  /* Fallback for unsupported browsers */
-}
-*::-webkit-scrollbar,
-*:before::-webkit-scrollbar,
-*:after::-webkit-scrollbar {
-  width: 12px;
-}
-*::-webkit-scrollbar-track,
-*:before::-webkit-scrollbar-track,
-*:after::-webkit-scrollbar-track {
-  background: rgb(246, 228, 65);
-}
-*::-webkit-scrollbar-thumb,
-*:before::-webkit-scrollbar-thumb,
-*:after::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 55, 122);
-  border-radius: 10px;
-  border: 3px solid rgb(246, 228, 65);
+  scrollbar-color: var(--color-background) var(--color-text);
 }/*# sourceMappingURL=style.css.map */

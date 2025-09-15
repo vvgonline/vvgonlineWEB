@@ -1,0 +1,148 @@
+/* Fullscreen Button */
+
+.fullscreen-btn {
+  background: linear-gradient(to right, $start-color, $stop-color);
+  border: 1px solid var(--color-text);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  color: #fff;
+}
+
+.fullscreen-btn:hover {
+  background: linear-gradient(to right, $stop-color, $start-color);
+  color: #fff;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.cta-button {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+  border: none;
+}
+
+.cta-button:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  transition: transform 0.2s ease; /* Optional: adds smooth animation */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.nav-buttons button {
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: var(--color-primary);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-buttons button:hover:not(:disabled) {
+  background-color: var(--color-info);
+  transform: scale(1.05);
+}
+
+.nav-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slider-wrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.slide-nav {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding-top: 0.2rem;
+}
+
+.slide-nav .slide-number {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--color-accent-hover);
+  /* Bootstrap's gray-600 */
+  transition: color 0.3s ease-in-out;
+}
+
+.slide-nav .slide-line {
+  height: 2px;
+  background-color: var(--color-accent);
+  /* Bootstrap's gray-600 */
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.5rem;
+  width: 3rem;
+  /* Default width when not active */
+}
+
+.slide-nav .slide-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: flex 0.65s cubic-bezier(0.215, 0.61, 0.355, 1),
+    color 0.65s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.65s cubic-bezier(0.215, 0.61, 0.355, 1);
+  position: absolute;
+  /* top: 60px;  Adjust vertical position */
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  flex: 8;
+  /* Adjust width as needed */
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+.slide-nav .slide-text.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide-nav.active .slide-number,
+.slide-nav.active .slide-text {
+  color: #22d3ee;
+}
+
+.slide-nav.active .slide-line {
+  background-color: #22d3ee;
+  /* Bootstrap's cyan-400 */
+  width: 20rem;
+  /* Active width */
+}
+
+.new-badge {
+  background-color: #fde047;
+  /* Bootstrap's yellow-400 */
+  color: #000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9px;
+  font-size: 0.75rem;
+  vertical-align: top;
+  margin-left: 0.5rem;
+}

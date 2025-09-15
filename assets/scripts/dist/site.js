@@ -7,20 +7,25 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var _a;
-import { downloadVideo } from './downloadVideo';
-import { shareFacebook, shareTwitter, copyLink } from './share-button-script';
+import { downloadVideo } from './downloadVideo.js';
+// import { shareFacebook, shareTwitter, copyLink } from './share-button-script.js';
+import { initializeSlideNavigation, toggleFullscreen } from './presentation.js';
+// Initialize the slide navigation when the application starts
+initializeSlideNavigation();
+// Add event listener for fullscreen toggle button
+const fullscreenBtn = document.getElementById('fullscreenBtn');
+fullscreenBtn === null || fullscreenBtn === void 0 ? void 0 : fullscreenBtn.addEventListener('click', toggleFullscreen);
 console.log('Hello from site.ts!');
-//define subscribe button
+// Define subscribe button
 const btnSubscribeButton = document.getElementById('subscribeButton');
-//define input textbox
+// Define input textbox
 const emailTextBox = document.getElementById('email');
-//email validation
+// Email validation
 function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
-(_a = document.getElementById('subscribeButton')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => __awaiter(void 0, void 0, void 0, function* () {
+btnSubscribeButton === null || btnSubscribeButton === void 0 ? void 0 : btnSubscribeButton.addEventListener('click', () => __awaiter(void 0, void 0, void 0, function* () {
     // Validate email
     if (!isValidEmail((emailTextBox === null || emailTextBox === void 0 ? void 0 : emailTextBox.value.trim()) || '')) {
         alert('Please enter a valid email address.');
@@ -48,9 +53,16 @@ document.addEventListener('keydown', function (e) {
         e.preventDefault();
         downloadVideo('blob:https://learn.microsoft.com/41852f3e-1f0e-43cd-a57a-2742ff170a3c', 'video.mp4');
     }
+    if (e.key === 'Escape' && document.fullscreenElement) {
+        document.exitFullscreen();
+    }
+    // Add this new block to handle 'f' key press for fullscreen
+    if (e.key === 'f' || e.key === 'F') {
+        toggleFullscreen();
+    }
 });
 // Example usage
-shareFacebook(0);
-shareTwitter(0);
-copyLink(0);
+// shareFacebook(0);
+// shareTwitter(0);
+// copyLink(0);
 //# sourceMappingURL=site.js.map

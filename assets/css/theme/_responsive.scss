@@ -166,3 +166,60 @@
     font-size: 0.875rem;
   }
 }
+
+/* responsive styles */
+@media (max-width: 991.98px) {
+  .slide-nav .slide-text {
+    display: none;
+  }
+  .slide-nav.active .slide-line {
+    width: 10rem;
+    /* Adjusted active width for smaller screens */
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .fullscreen-btn {
+    top: 5px;
+    right: 5px;
+  }
+  .slider-wrapper {
+    padding-bottom: 2rem;
+  }
+  .logo-container {
+    padding-top: 2rem; // Adjust as needed
+    padding-bottom: 2rem; // Adjust as needed
+    text-align: center;
+  }
+  .slide-nav {
+    /* Adjust spacing and layout for smaller screens */
+    padding-top: 0;
+    margin-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+  }
+
+  .slide-nav .slide-text {
+    /* Hide the full text descriptions on mobile to save space */
+    display: none;
+  }
+
+  .slide-nav.active .slide-line {
+    /* Make the active line shorter on mobile */
+    width: 2rem;
+  }
+
+  .slide-nav.active .slide-number,
+  .slide-nav.active .slide-text {
+    /* Ensure colors remain active */
+    color: #22d3ee;
+  }
+
+  .slide-nav .slide-number {
+    /* Center the numbers */
+    text-align: center;
+    font-size: 14px;
+  }
+}
