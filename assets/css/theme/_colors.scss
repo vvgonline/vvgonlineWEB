@@ -140,3 +140,582 @@ $reddit-1: rgb(255, 96, 0);
 .prime-gray {
   color: $prime-5;
 }
+
+// ==========================================================================
+// COMPLETE COLOR SCHEME - Purple & Yellow Theme
+// ==========================================================================
+
+// Primary Colors
+// ==========================================================================
+$primary-purple-50: #f5f3ff;
+$primary-purple-100: #ede9fe;
+$primary-purple-200: #ddd6fe;
+$primary-purple-300: #c4b5fd;
+$primary-purple-400: #a78bfa;
+$primary-purple-500: #8b5cf6;
+$primary-purple-600: #667eea; // Main primary
+$primary-purple-700: #5b21b6;
+$primary-purple-800: #4c1d95;
+$primary-purple-900: #3c1361;
+
+// Secondary Purple Shades
+// ==========================================================================
+$secondary-purple-50: #faf5ff;
+$secondary-purple-100: #f3e8ff;
+$secondary-purple-200: #e9d5ff;
+$secondary-purple-300: #d8b4fe;
+$secondary-purple-400: #c084fc;
+$secondary-purple-500: #a855f7;
+$secondary-purple-600: #764ba2; // Main secondary
+$secondary-purple-700: #7c2d92;
+$secondary-purple-800: #701a75;
+$secondary-purple-900: #581c87;
+
+// Accent Yellow Shades
+// ==========================================================================
+$accent-yellow-50: #fffbeb;
+$accent-yellow-100: #fef3c7;
+$accent-yellow-200: #fde68a;
+$accent-yellow-300: #fcd34d;
+$accent-yellow-400: #fbbf24;
+$accent-yellow-500: #f59e0b;
+$accent-yellow-600: #ffd700; // Main accent
+$accent-yellow-700: #b45309;
+$accent-yellow-800: #92400e;
+$accent-yellow-900: #78350f;
+
+// Neutral Grays
+// ==========================================================================
+$neutral-white: #ffffff;
+$neutral-50: #fafafa;
+$neutral-100: #f5f5f5;
+$neutral-200: #e5e5e5;
+$neutral-300: #d4d4d4;
+$neutral-400: #a3a3a3;
+$neutral-500: #737373;
+$neutral-600: #525252;
+$neutral-700: #404040;
+$neutral-800: #262626;
+$neutral-900: #171717;
+$neutral-black: #0a0a0a;
+
+// Cool Grays (Blue undertones)
+// ==========================================================================
+$cool-gray-50: #f8fafc;
+$cool-gray-100: #f1f5f9;
+$cool-gray-200: #e2e8f0;
+$cool-gray-300: #cbd5e1;
+$cool-gray-400: #94a3b8;
+$cool-gray-500: #64748b;
+$cool-gray-600: #475569;
+$cool-gray-700: #334155;
+$cool-gray-800: #1e293b;
+$cool-gray-900: #0f172a;
+
+// Semantic Colors
+// ==========================================================================
+// Success (Green)
+$success-50: #f0fdf4;
+$success-100: #dcfce7;
+$success-200: #bbf7d0;
+$success-300: #86efac;
+$success-400: #4ade80;
+$success-500: #22c55e;
+$success-600: #16a34a;
+$success-700: #15803d;
+$success-800: #166534;
+$success-900: #14532d;
+
+// Warning (Orange)
+$warning-50: #fff7ed;
+$warning-100: #ffedd5;
+$warning-200: #fed7aa;
+$warning-300: #fdba74;
+$warning-400: #fb923c;
+$warning-500: #f97316;
+$warning-600: #ea580c;
+$warning-700: #c2410c;
+$warning-800: #9a3412;
+$warning-900: #7c2d12;
+
+// Error (Red)
+$error-50: #fef2f2;
+$error-100: #fee2e2;
+$error-200: #fecaca;
+$error-300: #fca5a5;
+$error-400: #f87171;
+$error-500: #ef4444;
+$error-600: #dc2626;
+$error-700: #b91c1c;
+$error-800: #991b1b;
+$error-900: #7f1d1d;
+
+// Info (Blue)
+$info-50: #eff6ff;
+$info-100: #dbeafe;
+$info-200: #bfdbfe;
+$info-300: #93c5fd;
+$info-400: #60a5fa;
+$info-500: #3b82f6;
+$info-600: #2563eb;
+$info-700: #1d4ed8;
+$info-800: #1e40af;
+$info-900: #1e3a8a;
+
+// ==========================================================================
+// CSS CUSTOM PROPERTIES
+// ==========================================================================
+:root {
+  // Primary Colors
+  --color-primary-50: #{$primary-purple-50};
+  --color-primary-100: #{$primary-purple-100};
+  --color-primary-200: #{$primary-purple-200};
+  --color-primary-300: #{$primary-purple-300};
+  --color-primary-400: #{$primary-purple-400};
+  --color-primary-500: #{$primary-purple-500};
+  --color-primary-600: #{$primary-purple-600};
+  --color-primary-700: #{$primary-purple-700};
+  --color-primary-800: #{$primary-purple-800};
+  --color-primary-900: #{$primary-purple-900};
+
+  // Secondary Colors
+  --color-secondary-50: #{$secondary-purple-50};
+  --color-secondary-100: #{$secondary-purple-100};
+  --color-secondary-200: #{$secondary-purple-200};
+  --color-secondary-300: #{$secondary-purple-300};
+  --color-secondary-400: #{$secondary-purple-400};
+  --color-secondary-500: #{$secondary-purple-500};
+  --color-secondary-600: #{$secondary-purple-600};
+  --color-secondary-700: #{$secondary-purple-700};
+  --color-secondary-800: #{$secondary-purple-800};
+  --color-secondary-900: #{$secondary-purple-900};
+
+  // Accent Colors
+  --color-accent-50: #{$accent-yellow-50};
+  --color-accent-100: #{$accent-yellow-100};
+  --color-accent-200: #{$accent-yellow-200};
+  --color-accent-300: #{$accent-yellow-300};
+  --color-accent-400: #{$accent-yellow-400};
+  --color-accent-500: #{$accent-yellow-500};
+  --color-accent-600: #{$accent-yellow-600};
+  --color-accent-700: #{$accent-yellow-700};
+  --color-accent-800: #{$accent-yellow-800};
+  --color-accent-900: #{$accent-yellow-900};
+
+  // Neutral Colors
+  --color-white: #{$neutral-white};
+  --color-neutral-50: #{$neutral-50};
+  --color-neutral-100: #{$neutral-100};
+  --color-neutral-200: #{$neutral-200};
+  --color-neutral-300: #{$neutral-300};
+  --color-neutral-400: #{$neutral-400};
+  --color-neutral-500: #{$neutral-500};
+  --color-neutral-600: #{$neutral-600};
+  --color-neutral-700: #{$neutral-700};
+  --color-neutral-800: #{$neutral-800};
+  --color-neutral-900: #{$neutral-900};
+  --color-black: #{$neutral-black};
+
+  // Semantic Colors
+  --color-success: #{$success-500};
+  --color-success-light: #{$success-100};
+  --color-success-dark: #{$success-700};
+
+  --color-warning: #{$warning-500};
+  --color-warning-light: #{$warning-100};
+  --color-warning-dark: #{$warning-700};
+
+  --color-error: #{$error-500};
+  --color-error-light: #{$error-100};
+  --color-error-dark: #{$error-700};
+
+  --color-info: #{$info-500};
+  --color-info-light: #{$info-100};
+  --color-info-dark: #{$info-700};
+
+  // Text Colors
+  --color-text-primary: #{$neutral-900};
+  --color-text-secondary: #{$neutral-600};
+  --color-text-muted: #{$neutral-400};
+  --color-text-inverse: #{$neutral-white};
+  --color-text-accent: #{$primary-purple-600};
+
+  // Background Colors
+  --color-bg-primary: #{$neutral-white};
+  --color-bg-secondary: #{$neutral-50};
+  --color-bg-tertiary: #{$neutral-100};
+  --color-bg-inverse: #{$neutral-900};
+  --color-bg-overlay: rgba(0, 0, 0, 0.5);
+
+  // Border Colors
+  --color-border-primary: #{$neutral-200};
+  --color-border-secondary: #{$neutral-300};
+  --color-border-focus: #{$primary-purple-500};
+  --color-border-error: #{$error-500};
+
+  // Shadow Colors
+  --color-shadow-sm: rgba(0, 0, 0, 0.05);
+  --color-shadow-md: rgba(0, 0, 0, 0.1);
+  --color-shadow-lg: rgba(0, 0, 0, 0.15);
+  --color-shadow-xl: rgba(0, 0, 0, 0.25);
+  --color-shadow-primary: rgba(102, 126, 234, 0.3);
+  --color-shadow-accent: rgba(255, 215, 0, 0.3);
+
+  // Glass Effects
+  --glass-bg-light: rgba(255, 255, 255, 0.95);
+  --glass-bg-medium: rgba(255, 255, 255, 0.8);
+  --glass-bg-strong: rgba(255, 255, 255, 0.6);
+  --glass-bg-dark: rgba(0, 0, 0, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+// ==========================================================================
+// DARK MODE COLORS
+// ==========================================================================
+@media (prefers-color-scheme: dark) {
+  :root {
+    // Override text colors for dark mode
+    --color-text-primary: #{$neutral-100};
+    --color-text-secondary: #{$neutral-400};
+    --color-text-muted: #{$neutral-500};
+    --color-text-inverse: #{$neutral-900};
+    --color-text-accent: #{$primary-purple-400};
+
+    // Override background colors for dark mode
+    --color-bg-primary: #{$neutral-900};
+    --color-bg-secondary: #{$neutral-800};
+    --color-bg-tertiary: #{$neutral-700};
+    --color-bg-inverse: #{$neutral-100};
+    --color-bg-overlay: rgba(255, 255, 255, 0.1);
+
+    // Override border colors for dark mode
+    --color-border-primary: #{$neutral-700};
+    --color-border-secondary: #{$neutral-600};
+
+    // Dark mode glass effects
+    --glass-bg-light: rgba(30, 30, 40, 0.9);
+    --glass-bg-medium: rgba(20, 20, 30, 0.8);
+    --glass-bg-strong: rgba(10, 10, 20, 0.7);
+    --glass-bg-dark: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+// ==========================================================================
+// GRADIENT DEFINITIONS
+// ==========================================================================
+$gradient-primary: linear-gradient(
+  135deg,
+  $primary-purple-600 0%,
+  $secondary-purple-600 100%
+);
+$gradient-primary-light: linear-gradient(
+  135deg,
+  $primary-purple-100 0%,
+  $secondary-purple-100 100%
+);
+$gradient-primary-dark: linear-gradient(
+  135deg,
+  $primary-purple-700 0%,
+  $secondary-purple-700 100%
+);
+
+$gradient-accent: linear-gradient(
+  135deg,
+  $accent-yellow-400 0%,
+  $accent-yellow-600 100%
+);
+$gradient-accent-light: linear-gradient(
+  135deg,
+  $accent-yellow-100 0%,
+  $accent-yellow-200 100%
+);
+
+$gradient-rainbow: linear-gradient(
+  135deg,
+  $primary-purple-600 0%,
+  $accent-yellow-600 50%,
+  $secondary-purple-600 100%
+);
+$gradient-sunset: linear-gradient(
+  135deg,
+  $primary-purple-600 0%,
+  $accent-yellow-600 100%
+);
+
+$gradient-glass: linear-gradient(
+  135deg,
+  rgba(255, 255, 255, 0.1) 0%,
+  rgba(255, 255, 255, 0.05) 100%
+);
+
+// CSS Custom Properties for Gradients
+:root {
+  --gradient-primary: #{$gradient-primary};
+  --gradient-primary-light: #{$gradient-primary-light};
+  --gradient-primary-dark: #{$gradient-primary-dark};
+  --gradient-accent: #{$gradient-accent};
+  --gradient-accent-light: #{$gradient-accent-light};
+  --gradient-rainbow: #{$gradient-rainbow};
+  --gradient-sunset: #{$gradient-sunset};
+  --gradient-glass: #{$gradient-glass};
+}
+
+// ==========================================================================
+// UTILITY CLASSES
+// ==========================================================================
+
+// Text Colors
+.text-primary {
+  color: var(--color-text-primary) !important;
+}
+.text-secondary {
+  color: var(--color-text-secondary) !important;
+}
+.text-muted {
+  color: var(--color-text-muted) !important;
+}
+.text-inverse {
+  color: var(--color-text-inverse) !important;
+}
+.text-accent {
+  color: var(--color-text-accent) !important;
+}
+.text-white {
+  color: var(--color-white) !important;
+}
+.text-success {
+  color: var(--color-success) !important;
+}
+.text-warning {
+  color: var(--color-warning) !important;
+}
+.text-error {
+  color: var(--color-error) !important;
+}
+.text-info {
+  color: var(--color-info) !important;
+}
+
+// Background Colors
+.bg-primary {
+  background-color: var(--color-bg-primary) !important;
+}
+.bg-secondary {
+  background-color: var(--color-bg-secondary) !important;
+}
+.bg-tertiary {
+  background-color: var(--color-bg-tertiary) !important;
+}
+.bg-inverse {
+  background-color: var(--color-bg-inverse) !important;
+}
+.bg-white {
+  background-color: var(--color-white) !important;
+}
+.bg-success {
+  background-color: var(--color-success) !important;
+}
+.bg-warning {
+  background-color: var(--color-warning) !important;
+}
+.bg-error {
+  background-color: var(--color-error) !important;
+}
+.bg-info {
+  background-color: var(--color-info) !important;
+}
+
+// Gradient Backgrounds
+.bg-gradient-primary {
+  background: var(--gradient-primary) !important;
+}
+.bg-gradient-primary-light {
+  background: var(--gradient-primary-light) !important;
+}
+.bg-gradient-primary-dark {
+  background: var(--gradient-primary-dark) !important;
+}
+.bg-gradient-accent {
+  background: var(--gradient-accent) !important;
+}
+.bg-gradient-rainbow {
+  background: var(--gradient-rainbow) !important;
+}
+.bg-gradient-sunset {
+  background: var(--gradient-sunset) !important;
+}
+
+// Glass Effects
+.glass-light {
+  background: var(--glass-bg-light) !important;
+  /* Vendor-prefixed syntax for Safari */
+  -webkit-backdrop-filter: blur(20px);
+  /* Standard syntax */
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border) !important;
+}
+
+.glass-medium {
+  background: var(--glass-bg-medium) !important;
+  /* Vendor-prefixed syntax for Safari */
+  -webkit-backdrop-filter: blur(15px);
+  /* Standard syntax */
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--glass-border) !important;
+}
+
+.glass-strong {
+  background: var(--glass-bg-strong) !important;
+  /* Vendor-prefixed syntax for Safari */
+  -webkit-backdrop-filter: blur(10px);
+  /* Standard syntax */
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border) !important;
+}
+
+// Border Colors
+.border-primary {
+  border-color: var(--color-border-primary) !important;
+}
+.border-secondary {
+  border-color: var(--color-border-secondary) !important;
+}
+.border-focus {
+  border-color: var(--color-border-focus) !important;
+}
+.border-error {
+  border-color: var(--color-border-error) !important;
+}
+.border-accent {
+  border-color: var(--color-accent-600) !important;
+}
+
+// Shadow Utilities
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 var(--color-shadow-sm) !important;
+}
+.shadow-md {
+  box-shadow: 0 4px 6px -1px var(--color-shadow-md) !important;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px var(--color-shadow-lg) !important;
+}
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px var(--color-shadow-xl) !important;
+}
+.shadow-primary {
+  box-shadow: 0 10px 30px var(--color-shadow-primary) !important;
+}
+.shadow-accent {
+  box-shadow: 0 10px 30px var(--color-shadow-accent) !important;
+}
+
+// ==========================================================================
+// COMPONENT-SPECIFIC COLOR SCHEMES
+// ==========================================================================
+
+// Button Colors
+$btn-colors: (
+  primary: (
+    bg: $primary-purple-600,
+    hover: $primary-purple-700,
+    text: $neutral-white,
+    shadow: rgba($primary-purple-600, 0.3),
+  ),
+  secondary: (
+    bg: $secondary-purple-600,
+    hover: $secondary-purple-700,
+    text: $neutral-white,
+    shadow: rgba($secondary-purple-600, 0.3),
+  ),
+  accent: (
+    bg: $accent-yellow-600,
+    hover: $accent-yellow-700,
+    text: $neutral-900,
+    shadow: rgba($accent-yellow-600, 0.3),
+  ),
+  success: (
+    bg: $success-500,
+    hover: $success-600,
+    text: $neutral-white,
+    shadow: rgba($success-500, 0.3),
+  ),
+  warning: (
+    bg: $warning-500,
+    hover: $warning-600,
+    text: $neutral-white,
+    shadow: rgba($warning-500, 0.3),
+  ),
+  error: (
+    bg: $error-500,
+    hover: $error-600,
+    text: $neutral-white,
+    shadow: rgba($error-500, 0.3),
+  ),
+);
+
+// Form Input Colors
+$input-colors: (
+  default: (
+    bg: $neutral-white,
+    border: $neutral-300,
+    focus: $primary-purple-500,
+    text: $neutral-900,
+  ),
+  error: (
+    bg: $error-50,
+    border: $error-300,
+    focus: $error-500,
+    text: $neutral-900,
+  ),
+  success: (
+    bg: $success-50,
+    border: $success-300,
+    focus: $success-500,
+    text: $neutral-900,
+  ),
+);
+
+// Card Colors
+$card-colors: (
+  default: (
+    bg: $neutral-white,
+    border: $neutral-200,
+    shadow: rgba($neutral-black, 0.08),
+  ),
+  primary: (
+    bg: $primary-purple-50,
+    border: $primary-purple-200,
+    shadow: rgba($primary-purple-600, 0.1),
+  ),
+  accent: (
+    bg: $accent-yellow-50,
+    border: $accent-yellow-200,
+    shadow: rgba($accent-yellow-600, 0.1),
+  ),
+);
+
+// ==========================================================================
+// ACCESSIBILITY HELPERS
+// ==========================================================================
+
+// High contrast mode support
+@media (prefers-contrast: high) {
+  :root {
+    --color-text-primary: #{$neutral-black};
+    --color-text-secondary: #{$neutral-700};
+    --color-bg-primary: #{$neutral-white};
+    --color-border-primary: #{$neutral-900};
+    --color-border-secondary: #{$neutral-700};
+  }
+}
+
+// Reduced transparency for better readability
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --glass-bg-light: #{$neutral-white};
+    --glass-bg-medium: #{$neutral-100};
+    --glass-bg-strong: #{$neutral-200};
+  }
+}

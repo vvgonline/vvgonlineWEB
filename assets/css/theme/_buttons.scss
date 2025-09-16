@@ -1,0 +1,306 @@
+// Theme Colors
+$primary-purple: #667eea;
+$secondary-purple: #764ba2;
+$accent-yellow: #ffd700;
+$white: #ffffff;
+$dark: #1a1a1a;
+$light-gray: #f8f9fa;
+$border-radius: 12px;
+$border-radius-lg: 16px;
+$border-radius-sm: 8px;
+
+// Button Mixins
+@mixin button-gradient($color1, $color2) {
+  background: linear-gradient(135deg, $color1 0%, $color2 100%);
+  background-size: 200% 200%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-position: 100% 0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba($color1, 0.3);
+  }
+}
+
+@mixin button-outline($color) {
+  border: 2px solid $color;
+  color: $color;
+  background: transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $color;
+    color: $white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba($color, 0.25);
+  }
+}
+
+@mixin button-glass($bg-color: rgba(255, 255, 255, 0.1)) {
+  background: $bg-color;
+  /* Vendor-prefixed syntax for Safari */
+  -webkit-backdrop-filter: blur(10px);
+  /* Standard syntax */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: $white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Primary Button (Purple Gradient)
+.btn-primary {
+  @include button-gradient($primary-purple, $secondary-purple);
+  color: $white;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  border-radius: $border-radius;
+  padding: 0.75rem 2rem;
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 0.2rem rgba($primary-purple, 0.25);
+  }
+
+  &:disabled,
+  &.disabled {
+    opacity: 0.6;
+    transform: none;
+  }
+
+  &:active,
+  &.active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba($primary-purple, 0.3);
+  }
+}
+
+// Secondary Button (Yellow Accent)
+.btn-secondary {
+  @include button-gradient($accent-yellow, darken($accent-yellow, 10%));
+  color: $dark;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  border-radius: $border-radius;
+  padding: 0.75rem 2rem;
+
+  &:hover {
+    color: $dark;
+  }
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 0.2rem rgba($accent-yellow, 0.25);
+  }
+}
+
+// Outline Buttons
+.btn-outline-primary {
+  @include button-outline($primary-purple);
+  border-radius: $border-radius;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+}
+
+.btn-outline-secondary {
+  @include button-outline($accent-yellow);
+  border-radius: $border-radius;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+
+  &:hover {
+    color: $dark;
+  }
+}
+
+// Glass Effect Buttons
+.btn-glass {
+  @include button-glass();
+  border-radius: $border-radius;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.15);
+  }
+}
+
+.btn-glass-primary {
+  @include button-glass(rgba($primary-purple, 0.2));
+  border-color: rgba($primary-purple, 0.3);
+}
+
+.btn-glass-yellow {
+  @include button-glass(rgba($accent-yellow, 0.2));
+  border-color: rgba($accent-yellow, 0.3);
+  color: $white;
+}
+
+// Button Sizes
+.btn-lg {
+  padding: 1rem 2.5rem;
+  font-size: 1.125rem;
+  border-radius: $border-radius-lg;
+
+  &.btn-icon {
+    padding: 1rem 1.25rem;
+  }
+}
+
+.btn-sm {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+  border-radius: $border-radius-sm;
+
+  &.btn-icon {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+// Icon Buttons
+.btn-icon {
+  padding: 0.75rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  svg,
+  i {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  &.btn-icon-only {
+    padding: 0.75rem;
+
+    svg,
+    i {
+      margin: 0;
+    }
+  }
+}
+
+// Floating Action Button
+.btn-fab {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba($primary-purple, 0.3);
+
+  &:hover {
+    box-shadow: 0 8px 25px rgba($primary-purple, 0.4);
+  }
+
+  svg,
+  i {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+// Gradient Text Button
+.btn-text-gradient {
+  background: linear-gradient(135deg, $primary-purple, $accent-yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    text-shadow: 0 2px 4px rgba($primary-purple, 0.2);
+  }
+}
+
+// Loading State
+.btn-loading {
+  position: relative;
+  color: transparent !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Button Groups
+.btn-group .btn {
+  &:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  &:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+// Dark Mode Support
+@media (prefers-color-scheme: dark) {
+  .btn-outline-primary,
+  .btn-outline-secondary {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-glass {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+// Accessibility
+.btn {
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $accent-yellow;
+    outline-offset: 2px;
+  }
+}
+
+// Reduced Motion
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none !important;
+
+    &:hover {
+      transform: none !important;
+    }
+  }
+}
