@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 800"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="leadership_pillars.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.03625"
+     inkscape:cx="599.75875"
+     inkscape:cy="400"
+     inkscape:window-width="2560"
+     inkscape:window-height="1007"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <defs
+     id="defs11">
+    <!-- Gradients -->
+    <linearGradient
+       id="purpleGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#667eea;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#764ba2;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="yellowGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#fbbf24;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffd700;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="pillar1Grad"
+       x1="543.68729"
+       y1="310.05292"
+       x2="543.68729"
+       y2="137.64254"
+       gradientTransform="scale(0.47627176,2.0996416)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#667eea;stop-opacity:0.9"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#a78bfa;stop-opacity:0.95"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="pillar2Grad"
+       x1="1131.5869"
+       y1="310.05292"
+       x2="1131.5869"
+       y2="137.64254"
+       gradientTransform="scale(0.47627176,2.0996416)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#764ba2;stop-opacity:0.9"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#c084fc;stop-opacity:0.95"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="pillar3Grad"
+       x1="1719.4866"
+       y1="310.05292"
+       x2="1719.4866"
+       y2="137.64254"
+       gradientTransform="scale(0.47627176,2.0996416)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#5b21b6;stop-opacity:0.9"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#8b5cf6;stop-opacity:0.95"
+         id="stop10" />
+    </linearGradient>
+    <!-- Filters -->
+    <filter
+       id="glow"
+       x="-0.012"
+       y="-0.32"
+       width="1.024"
+       height="1.64">
+      <feGaussianBlur
+         stdDeviation="4"
+         result="coloredBlur"
+         id="feGaussianBlur10" />
+      <feMerge
+         id="feMerge11">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode10" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode11" />
+      </feMerge>
+    </filter>
+    <style
+       id="style11">&#10;      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&amp;display=swap');&#10;      &#10;      .title-text {&#10;        font-family: 'IBM Plex Sans', sans-serif;&#10;        font-weight: 700;&#10;        font-size: 42px;&#10;        fill: #171717;&#10;        letter-spacing: -0.02em;&#10;      }&#10;      &#10;      .pillar-title {&#10;        font-family: 'IBM Plex Sans', sans-serif;&#10;        font-weight: 700;&#10;        font-size: 32px;&#10;        fill: #ffffff;&#10;        letter-spacing: -0.01em;&#10;      }&#10;      &#10;      .pillar-subtitle {&#10;        font-family: 'IBM Plex Sans', sans-serif;&#10;        font-weight: 400;&#10;        font-size: 16px;&#10;        fill: #f5f5f5;&#10;        opacity: 0.95;&#10;      }&#10;      &#10;      .foundation-text {&#10;        font-family: 'IBM Plex Sans', sans-serif;&#10;        font-weight: 600;&#10;        font-size: 24px;&#10;        fill: #667eea;&#10;        letter-spacing: 0.05em;&#10;      }&#10;    </style>
+  </defs>
+  <!-- Background -->
+  <!-- Decorative circles -->
+  <circle
+     cx="100"
+     cy="100"
+     r="60"
+     fill="#ede9fe"
+     opacity="0.4"
+     id="circle11" />
+  <circle
+     cx="1100"
+     cy="120"
+     r="80"
+     fill="#fef3c7"
+     opacity="0.3"
+     id="circle12" />
+  <circle
+     cx="950"
+     cy="700"
+     r="50"
+     fill="#ddd6fe"
+     opacity="0.4"
+     id="circle13" />
+  <!-- Title -->
+  <text
+     x="600"
+     y="80"
+     text-anchor="middle"
+     class="title-text"
+     id="text13"
+     style="fill:#f5f5fa">&#10;    Three Pillars of Leadership Communication&#10;  </text>
+  <!-- Decorative line under title -->
+  <line
+     x1="350"
+     y1="100"
+     x2="850"
+     y2="100"
+     stroke="url(#yellowGrad)"
+     stroke-width="3"
+     opacity="0.6"
+     id="line13"
+     style="fill:#f3a712;stroke:#f3a712" />
+  <!-- Foundation Platform (Top) -->
+  <path
+     d="M 200 250 L 1000 250 L 950 280 L 250 280 Z"
+     fill="url(#yellowGrad)"
+     opacity="0.9"
+     filter="url(#glow)"
+     id="path13" />
+  <text
+     x="600"
+     y="270"
+     text-anchor="middle"
+     class="foundation-text"
+     id="text14">&#10;    EFFECTIVE LEADERSHIP&#10;  </text>
+  <!-- Pillar 1: CLARITY -->
+  <g
+     id="g34">
+    <path
+       d="m 280,290 h 40 l 20,360 h -80 z"
+       fill="url(#pillar1Grad)"
+       stroke="#667eea"
+       stroke-width="2"
+       opacity="0.95"
+       id="path14"
+       style="fill:url(#pillar1Grad)" />
+    <ellipse
+       cx="300"
+       cy="290"
+       rx="25"
+       ry="8"
+       fill="#a78bfa"
+       opacity="0.9"
+       id="ellipse14" />
+    <g
+       id="g30"
+       transform="translate(0,6)">
+      <circle
+         cx="300"
+         cy="380"
+         r="35"
+         fill="rgba(255,255,255,0.2)"
+         stroke="#ffffff"
+         stroke-width="2"
+         id="circle14" />
+      <path
+         d="m 285,380 15,-15 15,15"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path15" />
+      <line
+         x1="300"
+         y1="365"
+         x2="300"
+         y2="395"
+         stroke="#ffffff"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line15" />
+    </g>
+    <g
+       id="g31">
+      <text
+         x="300"
+         y="485"
+         text-anchor="middle"
+         class="pillar-title"
+         id="text15"
+         style="fill:#000000;fill-opacity:1;stroke:#f5f5fa">CLARITY</text>
+      <text
+         x="300"
+         y="515"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text16">Cut Through</text>
+      <text
+         x="300"
+         y="535"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text17">the Noise</text>
+    </g>
+  </g>
+  <!-- Pillar 2: CONTEXT -->
+  <g
+     id="g35">
+    <path
+       d="m 560,290 h 40 l 20,360 h -80 z"
+       fill="url(#pillar2Grad)"
+       stroke="#764ba2"
+       stroke-width="2"
+       opacity="0.95"
+       id="path17"
+       style="fill:url(#pillar2Grad)" />
+    <ellipse
+       cx="580"
+       cy="290"
+       rx="25"
+       ry="8"
+       fill="#c084fc"
+       opacity="0.9"
+       id="ellipse17" />
+    <g
+       id="g1"
+       style="display:inline">
+      <rect
+         x="555"
+         y="361"
+         width="50"
+         height="50"
+         rx="5"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2.5"
+         id="rect17"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         id="g28"
+         transform="translate(-25,289)">
+        <line
+           x1="590"
+           y1="83"
+           x2="620"
+           y2="83"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="line17" />
+        <line
+           x1="590"
+           y1="97"
+           x2="620"
+           y2="97"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="line18" />
+        <line
+           x1="590"
+           y1="111"
+           x2="620"
+           y2="111"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="line19" />
+      </g>
+    </g>
+    <g
+       id="g32">
+      <text
+         x="580"
+         y="485"
+         text-anchor="middle"
+         class="pillar-title"
+         id="text19"
+         style="fill:#000000;fill-opacity:1;stroke:#f5f5fa">CONTEXT</text>
+      <text
+         x="580"
+         y="515"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text20">Strategic</text>
+      <text
+         x="580"
+         y="535"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text21">Framework</text>
+    </g>
+  </g>
+  <!-- Pillar 3: CHARACTER -->
+  <g
+     id="g36">
+    <path
+       d="m 840,290 h 40 l 20,360 h -80 z"
+       fill="url(#pillar3Grad)"
+       stroke="#5b21b6"
+       stroke-width="2"
+       opacity="0.95"
+       id="path21"
+       style="fill:url(#pillar3Grad)" />
+    <ellipse
+       cx="860"
+       cy="290"
+       rx="25"
+       ry="8"
+       fill="#8b5cf6"
+       opacity="0.9"
+       id="ellipse21" />
+    <g
+       id="g29"
+       transform="translate(0,3.5914915)">
+      <path
+         d="m 860,350 25,15 v 30 c 0,10 -10,17 -25,20 -15,-3 -25,-10 -25,-20 v -30 z"
+         fill="rgba(255,255,255,0.2)"
+         stroke="#ffffff"
+         stroke-width="2.5"
+         id="path22" />
+      <path
+         d="m 850,385 7,7 13,-17"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path23" />
+    </g>
+    <g
+       id="g33">
+      <text
+         x="860"
+         y="485"
+         text-anchor="middle"
+         class="pillar-title"
+         id="text23"
+         style="fill:#000000;stroke:#f5f5fa">CHARACTER</text>
+      <text
+         x="860"
+         y="515"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text24">Build Trust &amp;</text>
+      <text
+         x="860"
+         y="535"
+         text-anchor="middle"
+         class="pillar-subtitle"
+         id="text25">Resilience</text>
+    </g>
+  </g>
+  <!-- Foundation Base (Bottom) -->
+  <g
+     id="g26">
+    <path
+       d="M 220 650 L 940 650 L 980 690 L 180 690 Z"
+       fill="url(#purpleGrad)"
+       opacity="0.9"
+       filter="url(#glow)"
+       id="path25" />
+    <!-- Base decorative elements -->
+    <line
+       x1="220"
+       y1="650"
+       x2="940"
+       y2="650"
+       stroke="#ffd700"
+       stroke-width="2"
+       opacity="0.8"
+       id="line25" />
+    <line
+       x1="180"
+       y1="690"
+       x2="980"
+       y2="690"
+       stroke="#ffd700"
+       stroke-width="3"
+       opacity="0.7"
+       id="line26" />
+  </g>
+  <!-- Accent dots -->
+  <circle
+     cx="150"
+     cy="670"
+     r="8"
+     fill="#ffd700"
+     opacity="0.6"
+     id="circle26" />
+  <circle
+     cx="1050"
+     cy="670"
+     r="8"
+     fill="#ffd700"
+     opacity="0.6"
+     id="circle27" />
+  <circle
+     cx="600"
+     cy="720"
+     r="6"
+     fill="#a78bfa"
+     opacity="0.5"
+     id="circle28" />
+</svg>
