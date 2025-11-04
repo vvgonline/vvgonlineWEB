@@ -173,7 +173,7 @@
     display: none;
   }
   .slide-nav.active .slide-line {
-    width: 10rem;
+    width: 3rem !important;
     /* Adjusted active width for smaller screens */
     transition: all 0.3s ease-in-out;
   }
@@ -208,7 +208,7 @@
 
   .slide-nav.active .slide-line {
     /* Make the active line shorter on mobile */
-    width: 2rem;
+    width: 3rem !important;
   }
 
   .slide-nav.active .slide-number,

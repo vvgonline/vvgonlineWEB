@@ -112,7 +112,7 @@ export function initializeSlideNavigation(): void {
           <div class="col-md-6 col-lg-6 p-4 d-flex flex-column justify-content-center">
               <h1 class="display-4 fw-bold">${escapeHtml(data.title)}</h1>
               <p class="lead">${escapeHtml(data.description)}</p>
-              <a href="${escapeAttr(data.link)}" target="_blank" title="Learn more about ${escapeHtml(data.imgTitle)}" rel="noopener noreferrer" class="cta-button w-50">learn more</a>
+              <a href="${escapeAttr(data.link)}" target="_blank" title="Learn more about ${escapeHtml(data.imgTitle)}" rel="noopener noreferrer" class="cta-button text-dark">learn more</a>
               <div class="nav-buttons">
                   <button id="prevBtn" aria-label="Previous slide" type="button" title="Previous" ${prevBtn && prevBtn.disabled ? 'disabled' : ''}>
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
