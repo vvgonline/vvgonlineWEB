@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export function initializeSlideNavigation(): void {
     document.addEventListener('DOMContentLoaded', () => {
         // Slide navigation and content elements
@@ -13,55 +15,73 @@ export function initializeSlideNavigation(): void {
                 title: 'The Ocean (The Internet)',
                 description:
                     'The internet is an immense and ever-changing landscape, filled with countless websites, social media platforms, and digital content. Just as the sea is vast and deep, the internet is a boundless expanse where opportunities and challenges coexist. Navigating this ocean requires skill, strategy, and the right tools.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Ocean'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Ocean',
+                imgTitle: 'The Internet as an Ocean',
+                link: 'https://vvgonline.net/Blog/Digital-Assets-The-Real-Estate-of-the-Virtual-World.html'
             },
             {
                 title: 'Your Boat (Your Website)',
                 description:
                     'Your website is your boat, a vessel designed to carry you through the digital sea. It is the foundation of your online presence, a place where potential clients can learn about your products or services. However, just like an empty boat, a website without direction or purpose is merely a vessel adrift, waiting to be discovered.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Boat'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Boat',
+                imgTitle: 'Website as a Boat',
+                link: 'https://vvgonline.net/Blog/Digital-Assets-The-Real-Estate-of-the-Virtual-World.html'
             },
             {
                 title: '🧭 Navigation System (Digital Marketing)',
                 description:
                     'Digital marketing acts as the navigation system for your boat. It provides the direction and strategy needed to reach your target audience. This includes search engine optimization (SEO), content marketing, social media marketing, email marketing, and more. Without a clear navigation plan, your boat (website) may drift aimlessly, failing to reach its destination (clients).',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Navigation+System'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Navigation+System',
+                imgTitle: 'Digital Marketing as a Navigation System',
+                link: 'https://vvgonline.net/Blog/Digital-Marketing-Investment-Imperative.html'
             },
             {
                 title: 'Sails (Ad Campaigns)',
                 description:
                     'Ad campaigns are like the sails of your boat, harnessing the power of trends and current events to propel you forward. Just as sails capture the wind to move a boat, ad campaigns capture the attention of potential clients by leveraging current trends, popular keywords, and effective messaging. The effectiveness of your sails (ad campaigns) depends on how well they are designed and how well they catch the wind (trends).',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Sails'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Sails',
+                imgTitle: 'Ad Campaigns as Sails',
+                link: ''
             },
             {
                 title: 'The Wind (Trends)',
                 description:
                     'Trends are the wind that fills your sails. They are the ever-changing currents of popular topics, technologies, and consumer behaviors. Staying attuned to these trends allows your boat to move swiftly and efficiently through the digital sea. Ignoring trends can leave your sails limp, making it difficult to reach your destination.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Wind'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Wind',
+                imgTitle: 'Trends as the Wind',
+                link: ''
             },
             {
                 title: '🎣 Fishing Tools (Web Analytics)',
                 description:
                     'Web analytics provides the tools you need to pinpoint and capture your fish (clients). Just as a fisherman uses nets, lines, and hooks to catch fish, web analytics uses data and metrics to understand user behavior, track performance, and optimize your digital marketing efforts. Tools like Google Analytics, heatmaps, and conversion tracking help you identify what\'s working and what\'s not, allowing you to adjust your strategy accordingly.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Fishing+Tools'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=Fishing+Tools',
+                imgTitle: 'Web Analytics as Fishing Tools',
+                link: ''
             },
             {
                 title: 'The Crew (Your Team)',
                 description:
                     'Your team is the crew that operates the boat. They are the experts who manage your website, execute digital marketing strategies, run ad campaigns, and analyze data. A skilled and cohesive crew ensures that your boat runs smoothly and efficiently, maximizing your chances of catching fish.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Crew'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Crew',
+                imgTitle: 'Your Team as the Crew',
+                link: ''
             },
             {
                 title: '🐟 The Fish (Clients)',
                 description:
-                    'Your clients are the fish you are trying to catch. They are the end goal of your digital marketing efforts. Just as a fisherman seeks the right bait and techniques to catch different types of fish, you need to tailor your digital marketing strategies to attract and engage your target audience.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Fish'
+                    'Your clients are the fish you are trying to catch to catch. They are the end goal of your digital marketing efforts. Just as a fisherman seeks the right bait and techniques to catch different types of fish, you need to tailor your digital marketing strategies to attract and engage your target audience.',
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Fish',
+                imgTitle: 'Clients as Fish',
+                link: ''
             },
             {
                 title: '🛣️ The Journey',
                 description:
                     'The journey of your boat through the digital sea is ongoing. It requires constant vigilance, adaptation, and improvement. Just as a fisherman adjusts his techniques based on the conditions and the behaviour of the fish, you must continuously refine your digital marketing strategies to stay ahead in the ever-changing landscape of the internet.',
-                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Journey'
+                image: 'https://placehold.co/800x420/2c3e50/ecf0f1?text=The+Journey',
+                imgTitle: 'The Journey',
+                link: ''
             }
         ];
 
@@ -92,7 +112,7 @@ export function initializeSlideNavigation(): void {
           <div class="col-md-6 col-lg-6 p-4 d-flex flex-column justify-content-center">
               <h1 class="display-4 fw-bold">${escapeHtml(data.title)}</h1>
               <p class="lead">${escapeHtml(data.description)}</p>
-              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-button w-50">learn more</a>
+              <a href="${escapeAttr(data.link)}" target="_blank" title="Learn more about ${escapeHtml(data.imgTitle)}" rel="noopener noreferrer" class="cta-button w-50">learn more</a>
               <div class="nav-buttons">
                   <button id="prevBtn" aria-label="Previous slide" type="button" title="Previous" ${prevBtn && prevBtn.disabled ? 'disabled' : ''}>
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -109,7 +129,7 @@ export function initializeSlideNavigation(): void {
           </div>
           <div class="col-md-6 col-lg-6 p-4 d-flex align-items-center justify-content-center">
               <div class="media-placeholder">
-                  <img src="${escapeAttr(data.image)}" alt="Slide image" class="img-fluid rounded">
+                  <img src="${escapeAttr(data.image)}" alt="${escapeAttr(data.imgTitle)}" class="img-fluid rounded shadow-sm" loading="lazy" />
               </div>
           </div>
         `;
