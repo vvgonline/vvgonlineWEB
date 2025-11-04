@@ -63,7 +63,7 @@ export function initializeSlideNavigation(): void {
                 title: 'The Crew (Your Team)',
                 description:
                     'Your team is the crew that operates the boat. They are the experts who manage your website, execute digital marketing strategies, run ad campaigns, and analyze data. A skilled and cohesive crew ensures that your boat runs smoothly and efficiently, maximizing your chances of catching fish.',
-                image: 'https://raw.githubusercontent.com/vvgonline/vvgonlineWEB/refs/heads/main/assets/images/banners/website-the-boat-analogy-the-crew-your-team.png.png',
+                image: 'https://github.com/vvgonline/vvgonlineWEB/blob/main/assets/images/banners/website-the-boat-analogy-the-crew-your-team.png?raw=true',
                 imgTitle: 'Your Team as the Crew',
                 link: ''
             },
