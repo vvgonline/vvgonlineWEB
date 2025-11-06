@@ -1867,6 +1867,87 @@ footer .social-icons a:hover {
   font-weight: 400;
 }
 
+.blog-banner {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.comparison-card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+.comparison-card .card-header-custom {
+  padding: 1rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.comparison-card .card-header-custom h3 {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+.comparison-card .comparison-content {
+  display: flex;
+  padding: 1rem;
+}
+.comparison-card .comparison-content .side {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+.comparison-card .comparison-content .side .side-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.comparison-card .comparison-content .side .visual-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.comparison-card .comparison-content .side .description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  min-height: 60px;
+}
+.comparison-card .comparison-content .side .impact-badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+.comparison-card .comparison-content .common-side .impact-badge {
+  color: #fff;
+  background-color: #dc3545;
+}
+.comparison-card .comparison-content .uncommon-side .impact-badge {
+  color: #fff;
+  background-color: #28a745;
+}
+.comparison-card .comparison-content .vs-divider {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20px;
+}
+
 .btn-primary {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-size: 200% 200%;
