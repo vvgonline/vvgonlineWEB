@@ -21,22 +21,22 @@ $banner-image-path: "/assets/images/banners/Blog-Banner.jpg";
     backdrop-filter: blur(4px);
     border-radius: 12px;
     h1 {
-      background-color: rgba(0, 0, 0, 0.75);
+      background-color: rgba(0, 0, 0, 0.85);
       font-size: 3rem;
       line-height: 1.2;
       color: var(--color-accent);
       margin-bottom: 20px;
     }
     p {
-      //   background-color: rgba(0, 0, 0, 0.85);
-      font-size: 1.125rem;
+      background-color: rgba(0, 0, 0, 0.75);
+      font-size: 1rem;
       line-height: 1.6;
     }
     .blog-banner__date {
       display: block;
       color: var(--color-accent-hover);
       font-size: 1.2rem;
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 0.5em 1em;
       border-radius: 8px;
       margin-bottom: 1em;
