@@ -1,8 +1,68 @@
-// Media Queries for different screen sizes
-// Mobile devices (portrait)
+// =============================================================================
+// Responsive Design Media Queries
+// =============================================================================
+// This file contains all the media queries used to make the website responsive
+// across different screen sizes, from small mobile devices to large 4K screens.
+// The styles are organized by component and then by screen size for clarity.
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// General Responsive Styles
+// -----------------------------------------------------------------------------
+// These are broad style adjustments that apply to multiple elements
+// across different screen sizes.
+// -----------------------------------------------------------------------------
+
+/*
+ * Adjustments for smaller screens (less than 992px wide).
+ * This is typically for tablets and large mobile phones.
+ */
+@media (max-width: 991.98px) {
+  // For the slide navigation component, hide the text to save space.
+  .slide-nav .slide-text {
+    display: none;
+  }
+
+  // When a slide navigation item is active, adjust its width.
+  .slide-nav.active .slide-line {
+    width: 3rem !important; // Use !important to ensure this style is applied.
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/*
+ * Adjustments for medium-sized screens (less than 768px wide).
+ * This is typically for mobile phones in landscape or portrait mode.
+ */
+@media (max-width: 767.98px) {
+  // Stack the navigation items vertically and align them to the right.
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+
+    .nav-item {
+      text-align: right;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Component-Specific Responsive Styles
+// -----------------------------------------------------------------------------
+// These styles target specific components of the website, such as the hero
+// section, blog banners, and sliders.
+// -----------------------------------------------------------------------------
+
+// =============================================================================
+// Hero Section
+// =============================================================================
+
+/*
+ * Hero section on small mobile devices (portrait view, max-width 480px).
+ */
 @media screen and (max-width: 480px) {
   .hero {
-    height: 100vh !important;
+    height: 100vh !important; // Make the hero section cover the full viewport height.
     padding: 5px !important;
 
     #hero-video-background {
@@ -20,21 +80,17 @@
       padding: 0 10px !important;
     }
   }
-  .blog-banner h1 {
-    font-size: 1.5rem;
-  }
-  .blog-banner p {
-    font-size: 0.875rem;
-  }
 }
 
-// Mobile devices (landscape)
+/*
+ * Hero section on small mobile devices (landscape view, max-height 480px).
+ */
 @media screen and (max-height: 480px) and (orientation: landscape) {
   .hero {
     height: 100vh !important;
 
     #hero-video-background {
-      width: 100vw !important;
+      width: 100vw !important; // Make the video cover the full viewport width.
       height: auto !important;
     }
 
@@ -49,9 +105,12 @@
   }
 }
 
-// Tablets (portrait and landscape)
+/*
+ * Hero section on tablets (from 481px to 1024px wide).
+ */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   .hero {
+    // Adjust height to account for the safe area on devices with notches.
     height: calc(100vh - env(safe-area-inset-bottom)) !important;
 
     #hero-video-background {
@@ -70,7 +129,9 @@
   }
 }
 
-// Large screens and desktops
+/*
+ * Hero section on large screens and desktops (wider than 1025px).
+ */
 @media screen and (min-width: 1025px) {
   .hero {
     height: calc(100vh - env(safe-area-inset-bottom)) !important;
@@ -92,7 +153,9 @@
   }
 }
 
-// 4K and ultra-wide screens
+/*
+ * Hero section on 4K and ultra-wide screens (wider than 2560px).
+ */
 @media screen and (min-width: 2560px) {
   .hero {
     #hero-video-background {
@@ -110,116 +173,154 @@
   }
 }
 
-// Support for devices with notches (iPhone X and newer)
+// =============================================================================
+// Page Title
+// =============================================================================
+
+/*
+ * Page title on tablets (less than 1024px wide).
+ */
+@media screen and (max-width: 1024px) {
+  .page-title {
+    font-size: 3rem !important;
+  }
+}
+
+/*
+ * Page title on mobile devices (less than 768px wide).
+ */
+@media screen and (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem !important;
+  }
+}
+
+/*
+ * Page title on small mobile devices (less than 480px wide).
+ */
+@media screen and (max-width: 480px) {
+  .page-title {
+    font-size: 2rem !important;
+  }
+}
+
+// =============================================================================
+// Blog Banner
+// =============================================================================
+
+/*
+ * Blog banner on small screens (less than 576px wide).
+ */
+@media (max-width: 576px) {
+  .blog-banner {
+    height: 404px; // Set a fixed height for the banner.
+
+    h1 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+/*
+ * Blog banner on very small screens (less than 360px wide).
+ */
+@media (max-width: 360px) {
+  .blog-banner {
+    height: 404px;
+
+    &__content {
+      h1 {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// Slider Component
+// =============================================================================
+
+/*
+ * Slider adjustments for smaller screens (less than 768px wide).
+ */
+@media (max-width: 768px) {
+  // Reposition the fullscreen button.
+  .fullscreen-btn {
+    top: 5px;
+    right: 5px;
+  }
+
+  // Adjust padding for the slider wrapper.
+  .slider-wrapper {
+    padding-bottom: 2rem;
+  }
+
+  // Center the logo container and add padding.
+  .logo-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  // Adjust slide navigation for smaller screens.
+  .slide-nav {
+    padding-top: 0;
+    margin-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+
+    // Hide the text descriptions on mobile to save space.
+    .slide-text {
+      display: none;
+    }
+
+    // Make the active line shorter on mobile.
+    &.active .slide-line {
+      width: 3rem !important;
+    }
+
+    // Ensure the active colors are applied.
+    &.active .slide-number,
+    &.active .slide-text {
+      color: #22d3ee;
+    }
+
+    // Center the slide numbers.
+    .slide-number {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Feature Support Queries
+// -----------------------------------------------------------------------------
+// These queries check if a browser supports a specific CSS feature and apply
+// styles accordingly. This is useful for modern CSS properties that are not
+// universally supported.
+// -----------------------------------------------------------------------------
+
+/*
+ * Support for devices with notches (e.g., iPhone X and newer).
+ * The `env(safe-area-inset-*)` variables provide the size of the safe area,
+ * which is the part of the screen that is not obscured by a notch or other
+
+ * hardware features.
+ */
 @supports (padding: max(0px)) {
   .hero {
     padding-left: max(10px, env(safe-area-inset-left));
     padding-right: max(10px, env(safe-area-inset-right));
     padding-top: max(10px, env(safe-area-inset-top));
     padding-bottom: max(10px, env(safe-area-inset-bottom));
-  }
-}
-
-@media (max-width: 767.98px) {
-  .navbar-nav {
-    flex-direction: column;
-    align-items: flex-end;
-
-    .nav-item {
-      text-align: right;
-    }
-  }
-  .blog-banner__content {
-    h1 {
-      font-size: 2rem;
-      line-height: 1rem;
-    }
-    p {
-      font-size: 1rem;
-      line-height: 24px;
-    }
-  }
-}
-
-@media (max-width: 360px) {
-  .blog-banner {
-    height: 404px;
-  }
-  .blog-banner__content h1 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .blog-banner__content p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .blog-banner {
-    height: 404px;
-  }
-  .blog-banner__content h1 {
-    font-size: 1.5rem;
-  }
-  .blog-banner__content p {
-    font-size: 0.875rem;
-  }
-}
-
-/* responsive styles */
-@media (max-width: 991.98px) {
-  .slide-nav .slide-text {
-    display: none;
-  }
-  .slide-nav.active .slide-line {
-    width: 3rem !important;
-    /* Adjusted active width for smaller screens */
-    transition: all 0.3s ease-in-out;
-  }
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-  .fullscreen-btn {
-    top: 5px;
-    right: 5px;
-  }
-  .slider-wrapper {
-    padding-bottom: 2rem;
-  }
-  .logo-container {
-    padding-top: 2rem; // Adjust as needed
-    padding-bottom: 2rem; // Adjust as needed
-    text-align: center;
-  }
-  .slide-nav {
-    /* Adjust spacing and layout for smaller screens */
-    padding-top: 0;
-    margin-right: 0.5rem;
-    padding-bottom: 0.5rem;
-    overflow: hidden;
-  }
-
-  .slide-nav .slide-text {
-    /* Hide the full text descriptions on mobile to save space */
-    display: none;
-  }
-
-  .slide-nav.active .slide-line {
-    /* Make the active line shorter on mobile */
-    width: 3rem !important;
-  }
-
-  .slide-nav.active .slide-number,
-  .slide-nav.active .slide-text {
-    /* Ensure colors remain active */
-    color: #22d3ee;
-  }
-
-  .slide-nav .slide-number {
-    /* Center the numbers */
-    text-align: center;
-    font-size: 14px;
   }
 }

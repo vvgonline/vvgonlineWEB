@@ -1,10 +1,31 @@
-//import scss files
+// =============================================================================
+// Default Styles
+// =============================================================================
+// This file serves as the main stylesheet, importing all other SCSS partials
+// and defining the default styles for the entire website. The styles are
+// organized into logical sections for better readability and maintenance.
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Imports
+// -----------------------------------------------------------------------------
+// All SCSS partials are imported here. This allows us to split our styles
+// into smaller, manageable files. The order of imports is important, as
+// later files can override styles from earlier ones.
+// -----------------------------------------------------------------------------
+
+// Theme partials
 @import "./colors";
 @import "./fonts";
 @import "./responsive";
 @import "./animation";
+@import "./buttons";
+
+// Layout partials
 @import "../layout/footer";
 @import "../layout/nav";
+
+// Page-specific partials
 @import "../Pages/blog";
 @import "../Pages/privacy";
 @import "../Pages/index";
@@ -13,199 +34,221 @@
 @import "../Pages/hero";
 @import "../Pages/service";
 @import "../Pages/do-not-normalize-common-things";
-@import "./buttons";
+
+// -----------------------------------------------------------------------------
 // Global Styles
+// -----------------------------------------------------------------------------
+// These styles apply to the entire document and define the basic look and feel.
+// -----------------------------------------------------------------------------
+
+// The `html` element is the root of the document.
 html {
-  min-height: 100%;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-box-sizing: border-box;
+  min-height: 100%; // Ensure the html element takes up at least the full height of the viewport.
+  -webkit-tap-highlight-color: transparent; // Remove the highlight color when tapping on links in mobile browsers.
+  -webkit-box-sizing: border-box; // Use the border-box box model for all elements.
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  //body
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    // background: linear-gradient(
-    //   45deg,
-    //   var(--color-primary),
-    //   var(--color-secondary)
-    // );
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: var(--color-background);
+}
 
-    a,
-    button {
-      text-transform: uppercase;
-      text-decoration: none;
-    }
+// The `body` element contains all the content of the page.
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw; // Set the body width to 100% of the viewport width.
+  background: linear-gradient(135deg, #667eea, #764ba2); // A fallback background gradient.
+  color: var(--color-background); // Set the default text color.
 
-    //#region about flex grid 2 column
-    .about {
-      .row {
-        --bs-gutter-x: 0;
-        display: flex;
-        //align-items: stretch;
-      }
-
-      .col,
-      .col-sm,
-      .col-lg-6 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .col-sm img {
-        flex-grow: 1;
-        object-fit: cover;
-      }
-
-      display: flex;
-      flex-direction: column; /* Stack elements vertically */
-      align-items: center; /* Centers horizontally */
-      //padding: 1% 0;
-      //padding-right: 15%;
-
-      .about__major-text {
-        font-weight: 550;
-      }
-
-      .vvg-online-what-we-do-row {
-        background-color: #fdfbe4;
-        color: var(--color-text);
-      }
-
-      .vvg-online-our-services-are-must-row {
-        background-color: #597ba8;
-        color: var(--color-background);
-      }
-
-      .column {
-        flex: 50%;
-        padding: 0 15px;
-        align-items: flex-start;
-      }
-
-      .about__text {
-        padding: 0 15px;
-        text-align: center;
-      }
-
-      .about__img {
-        padding: 0 15px;
-        text-align: center;
-      }
-    }
-    //#endregion about flex grid 2 column
-    //#region how-we-do-it-with-team flex grid 2 column 70-30
-    .how-we-do-it-with-team {
-      display: flex;
-      flex-direction: row; /* Stack elements horizontally */
-      align-items: flex-start;
-      padding: 1% 0;
-
-      .how-we-do-it-with-team__major-text {
-        font-size: 16px;
-        font-weight: 700;
-      }
-
-      .column-1 {
-        flex: 70%;
-        padding: 0 15px;
-        align-items: flex-start;
-      }
-
-      .column-2 {
-        flex: 30%;
-        padding: 0 15px;
-        align-items: flex-start;
-
-        .team-member-name {
-          font-size: 16px;
-          font-weight: 700;
-          display: flex;
-          align-items: center;
-          color: var(--color-text);
-          background-color: var(--color-accent);
-          padding: 5px 12px;
-          border-bottom: var(--color-text) 2px solid;
-
-          img {
-            height: 50px;
-            width: 50px;
-            margin-right: 10px;
-            border-radius: 50%;
-            align-self: center;
-          }
-
-          .team-member-name__text {
-            align-self: center;
-
-            small {
-              font-size: 12px;
-              font-weight: 400;
-            }
-          }
-        }
-
-        .team-member-skills {
-          padding: 5px 12px;
-        }
-      }
-    }
-    //#endregion how-we-do-it-with-team flex grid 2 column 70-30
-    //#region clients
-    .client-banner {
-      background-color: var(--color-text);
-
-      img {
-        margin: 0 auto;
-      }
-    }
-    //#endregion clients
-    //#region insights
-    .card {
-      overflow: hidden; /* Ensures the image stays within the card bounds */
-      border-radius: 0;
-
-      .card-title {
-        font-size: 24px;
-      }
-
-      .latest-insights-card-text {
-        text-transform: none;
-      }
-
-      .card-img-top {
-        transition: transform 0.3s ease-in-out;
-        overflow: hidden;
-
-        &:hover {
-          transform: scale(1.1);
-          clip-path: inset(
-            0
-          ); /* Ensures the image stays within the card bounds */
-        }
-      }
-    }
-    //#endregion insights
-    .ytbg {
-      background-image: url(../images/svg/youtube.svg),
-        linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
+  // Default styles for links and buttons.
+  a,
+  button {
+    text-transform: uppercase;
+    text-decoration: none;
   }
 }
+
+// Universal box-sizing and scrollbar styles.
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
+  -webkit-box-sizing: inherit; // Inherit the box-sizing from the html element.
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-  scrollbar-color: var(--color-background) var(--color-text);
+  scrollbar-color: var(--color-background) var(--color-text); // Style the scrollbar for Firefox.
+}
+
+// -----------------------------------------------------------------------------
+// Generic & Utility Classes
+// -----------------------------------------------------------------------------
+// These are helper classes that can be applied to any element for a specific
+// visual effect.
+// -----------------------------------------------------------------------------
+
+// A utility class to set the background color to the primary accent color.
+.bg-primary {
+  background-color: var(--color-accent) !important; // Use !important to ensure this style is applied.
+}
+
+// The main title for a page.
+.page-title {
+  font-size: 4rem; // Set a large font size for emphasis.
+  font-weight: 900; // Use a very bold font weight.
+  text-align: center; // Center the title horizontally.
+}
+
+// -----------------------------------------------------------------------------
+// Component Styles
+// -----------------------------------------------------------------------------
+// These styles are for specific, reusable components of the website.
+// -----------------------------------------------------------------------------
+
+// The 'About' section, typically a two-column layout.
+.about {
+  display: flex;
+  flex-direction: column; // Stack elements vertically by default.
+  align-items: center; // Center the content horizontally.
+
+  .row {
+    --bs-gutter-x: 0; // Remove the horizontal gutter from Bootstrap's row.
+    display: flex;
+  }
+
+  .col,
+  .col-sm,
+  .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col-sm img {
+    flex-grow: 1;
+    object-fit: cover;
+  }
+
+  .about__major-text {
+    font-weight: 550;
+  }
+
+  // Specific row styles within the 'About' section.
+  .vvg-online-what-we-do-row {
+    background-color: #fdfbe4;
+    color: var(--color-text);
+  }
+
+  .vvg-online-our-services-are-must-row {
+    background-color: #597ba8;
+    color: var(--color-background);
+  }
+
+  .column {
+    flex: 50%; // Each column takes up 50% of the width.
+    padding: 0 15px;
+    align-items: flex-start;
+  }
+
+  .about__text,
+  .about__img {
+    padding: 0 15px;
+    text-align: center;
+  }
+}
+
+// The 'How We Do It' section, featuring a 70/30 split layout.
+.how-we-do-it-with-team {
+  display: flex;
+  flex-direction: row; // Arrange elements in a row.
+  align-items: flex-start;
+  padding: 1% 0;
+
+  .how-we-do-it-with-team__major-text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .column-1 {
+    flex: 70%; // This column takes up 70% of the width.
+    padding: 0 15px;
+    align-items: flex-start;
+  }
+
+  .column-2 {
+    flex: 30%; // This column takes up 30% of the width.
+    padding: 0 15px;
+    align-items: flex-start;
+
+    .team-member-name {
+      font-size: 16px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      color: var(--color-text);
+      background-color: var(--color-accent);
+      padding: 5px 12px;
+      border-bottom: var(--color-text) 2px solid;
+
+      img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        border-radius: 50%;
+        align-self: center;
+      }
+
+      .team-member-name__text {
+        align-self: center;
+
+        small {
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .team-member-skills {
+      padding: 5px 12px;
+    }
+  }
+}
+
+// The client banner, used to display client logos.
+.client-banner {
+  background-color: var(--color-text);
+
+  img {
+    margin: 0 auto; // Center the image horizontally.
+  }
+}
+
+// Styles for cards, used in sections like 'Latest Insights'.
+.card {
+  overflow: hidden; // Hide any content that overflows the card's boundaries.
+  border-radius: 0; // Use sharp corners for the cards.
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .latest-insights-card-text {
+    text-transform: none; // Override the default uppercase text transformation.
+  }
+
+  .card-img-top {
+    transition: transform 0.3s ease-in-out; // Animate the image on hover.
+    overflow: hidden;
+
+    &:hover {
+      transform: scale(1.1); // Zoom in on the image on hover.
+    }
+  }
+}
+
+// A background with a YouTube logo and a gradient overlay.
+.ytbg {
+  background-image: url(../images/svg/youtube.svg),
+    linear-gradient(0deg, rgba(255, 55, 122, 0.25), rgba(0, 0, 0, 0.15));
+  background-repeat: no-repeat;
+  background-attachment: fixed; // The background image stays in place when scrolling.
+  background-size: cover; // Scale the background image to cover the entire element.
 }
