@@ -1,5 +1,9 @@
 import { link } from "fs";
 
+/**
+ * A function that initializes slide navigation.
+ */
+
 export function initializeSlideNavigation(): void {
     document.addEventListener('DOMContentLoaded', () => {
         // Slide navigation and content elements
