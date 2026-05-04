@@ -1,0 +1,27 @@
+[
+  {
+    "hex": "0x01: TRIGGER",
+    "title": "Identify the real problem",
+    "description": "We start with a sharp trigger: a growth stall, a new opportunity, or an operational bottleneck that actually matters."
+  },
+  {
+    "hex": "0x02: DIAGNOSE",
+    "title": "Map constraints and signals",
+    "description": "We combine data, conversations, and on-ground context to understand what is blocking progress right now."
+  },
+  {
+    "hex": "0x03: DESIGN",
+    "title": "Design the operating play",
+    "description": "We translate diagnosis into a concrete operating model, workflows, and digital interventions that your team can run."
+  },
+  {
+    "hex": "0x04: EXECUTE",
+    "title": "Run the transformation",
+    "description": "We support execution with clear rituals, dashboards, and decision points instead of generic slideware."
+  },
+  {
+    "hex": "0x05: MEASURE",
+    "title": "Instrument KPIs & feedback",
+    "description": "We wire KPIs, experiments, and feedback loops so you can see if the new model is actually working."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "strategy-innovation",
+    "number": "01.",
+    "title": "Strategy & Innovation",
+    "description": "Develop tailored strategies and roadmaps that align with your business goals and drive innovation.",
+    "highlighted": true
+  },
+  {
+    "id": "digital-transformation",
+    "number": "02.",
+    "title": "Digital Transformation",
+    "description": "Leverage technology to implement and sustain transformations that create lasting value.",
+    "highlighted": false
+  },
+  {
+    "id": "capability-building",
+    "number": "03.",
+    "title": "Capability Building",
+    "description": "Strengthen your team's skills and resources so change is not just implemented, but sustained.",
+    "highlighted": false
+  }
+]

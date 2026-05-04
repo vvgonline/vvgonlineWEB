@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "digital-assets-the-real-estate-of-the-virtual-world",
+    "title": "Digital Assets: The Real Estate of the Virtual World",
+    "tag": "Technology",
+    "readTime": "15 MIN READ",
+    "date": "2025-04-10",
+    "excerpt": "Why digital assets behave like prime real estate in an always-on, borderless market.",
+    "image": "./assets/images/banners/Digital-Assets-The-Real-Estate-of-the-Virtual-World.png"
+  },
+  {
+    "slug": "operating-model-design",
+    "title": "Operating Model Design",
+    "tag": "Business",
+    "readTime": "12 MIN READ",
+    "date": "2025-04-17",
+    "excerpt": "How a deliberate operating model turns strategy from a deck into a daily way of working.",
+    "image": "./assets/images/banners/operating-model-design.svg"
+  },
+  {
+    "slug": "key-performance-indicators-a-vvg-online-approach",
+    "title": "Key Performance Indicators (KPIs)",
+    "tag": "Analytics",
+    "readTime": "8 MIN READ",
+    "date": "2025-05-20",
+    "excerpt": "KPIs as decision rails, not vanity metrics — a practical lens from VVG ONLINE.",
+    "image": "./assets/images/banners/Key-Performance-Indicators.svg"
+  },
+  {
+    "slug": "digital-marketing-investment-imperative",
+    "title": "The Digital Marketing Investment Imperative",
+    "tag": "Marketing",
+    "readTime": "18 MIN READ",
+    "date": "2025-08-28",
+    "excerpt": "Why under-investing in digital marketing is no longer a neutral choice for growth brands.",
+    "image": "./assets/images/banners/Digital-Marketing-Investment-Imperative.png"
+  },
+  {
+    "slug": "gst-rate-deductions-for-e-commerce",
+    "title": "GST Rate Deductions for E-commerce",
+    "tag": "E-commerce",
+    "readTime": "10 MIN READ",
+    "date": "2025-09-04",
+    "excerpt": "A simple guide to GST rate deductions for Indian e-commerce operators.",
+    "image": "./assets/images/banners/gst-reductions.svg"
+  },
+  {
+    "slug": "communication-mastery-for-digital-business-success",
+    "title": "Communication Mastery for Digital Business Success",
+    "tag": "Business",
+    "readTime": "18 MIN READ",
+    "date": "2025-10-13",
+    "excerpt": "How communication hygiene compounds into trust, speed, and better digital outcomes.",
+    "image": "./assets/images/banners/Communication-Mastery-for-Digital-Business-Success.svg"
+  },
+  {
+    "slug": "do-not-normalize-common-things",
+    "title": "Do Not Normalize Common Things",
+    "tag": "Business",
+    "readTime": "10 MIN READ",
+    "date": "2025-11-06",
+    "excerpt": "Common is not normal. A note on the small compromises that quietly destroy leverage.",
+    "image": "./assets/images/Twitter-cards/do-not-normalize-common-things-2.svg"
+  }
+]
